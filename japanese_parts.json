@@ -3,7 +3,6 @@
  * This filter is based on Yuki's Blog parts filters by Yuki2718 and
  * Yuki's Blogroll filters by Yuki2718
  */
-
 [
   {
     "trigger":{
@@ -1535,6 +1534,14 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nanjallstars\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?neko\\-search\\.com\\/blogparts\\.php"
     },
     "action":{
       "type":"block"
@@ -5670,10 +5677,37 @@
       "load-context":[
         "child-frame"
       ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eromanga\\-cafe\\.com\\/imoba\\."
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eromanga\\-cafe\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eromanga-cafe.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-4"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eromanga-cafe.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-7"
     }
   },
   {
@@ -9528,7 +9562,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#footline, #hokanokiji, #kijisaikabu, .headrss, .linkh, .naka_rss, .rtcm, [class^=footrss], [class^=\"shitarss_\"], [id^=\"shitarss_title_\"]"
+      "selector":"#footline, #hokanokiji, #kijisaikabu, .headrss, .linkh, .naka_rss, .rtcm, [class^=footrss], [class^=shitarss_], [id^=\"shitarss_title_\"]"
     }
   },
   {
@@ -9636,7 +9670,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#container > #cssmenu ~ .main-container > .main-column-inner > div[style^=\"width:720px;\"], #container > #cssmenu ~ .right-container > .right-column-inner > .plugin-popular_articles_with_image + .plugin-memo:nth-child(3), .article-body-inner > #more > [id^=\"blz_\"] ~ div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
+      "selector":"#container > #cssmenu ~ .main-container > .main-column-inner > div[style^=\"width:720px;\"], #container > #cssmenu ~ .right-container > .right-column-inner > .plugin-popular_articles_with_image + .plugin-memo:nth-child(3), .article-body-inner > #more > [id^=\"blz_\"] ~ div[style=\"margin:0px;padding:0px;\"][align=center]"
     }
   },
   {
@@ -9684,7 +9718,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#content.hfeed > div[style=\"margin:0px;padding:0px;\"][align=\"center\"]:first-of-type, .article-body-inner > .t_h + div[style=\"margin:0px;padding:0px;\"][align=\"center\"], .entry-content.article-body > div[style^=\"margin-top\"] + div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
+      "selector":"#content.hfeed > div[style=\"margin:0px;padding:0px;\"][align=\"center\"]:first-of-type, .article-body-inner > .t_h + div[style=\"margin:0px;padding:0px;\"][align=center], .entry-content.article-body > div[style^=margin-top] + div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
     }
   },
   {
@@ -9841,18 +9875,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".RSS05"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".article-body-more > div[style=\"border:1px solid #1c7db3;margin:0px 0 5px;\"]"
     }
   },
   {
@@ -10033,6 +10055,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".rsslist"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".t_b[style=\"margin-bottom:60px;margin-top:25px;\"] + br + div[style=\"border:1px solid #1c7db3;margin:0px 0 5px;\"]"
     }
   },
   {
@@ -10235,6 +10269,7 @@
       "url-filter":".*",
       "if-domain":[
         "*burusoku-vip.com",
+        "*erakokyu.net",
         "*gekiyaku.com",
         "*kojikisokuhou.com",
         "*kosodatech.blog133.fc2.com",
@@ -10810,6 +10845,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".plugin-memo"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*erakokyu.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss_feed"
     }
   },
   {
@@ -20397,33 +20444,10 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ero\\-comic\\-hunter\\.net\\/sp_rss_iframe\\.html"
+      "url-filter":"\\/sp_rss_iframe\\.html"
     },
     "action":{
       "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "load-context":[
-        "child-frame"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eromanga\\-cafe\\.com\\/eromangacafe\\.left\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*eromanga-cafe.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".l-footerTop > h2.ranking_ttl:last-of-type"
     }
   },
   {
@@ -20524,6 +20548,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".boxi800"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eromanga-cafe.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".l-footerTop > h2.ranking_ttl:last-of-type"
     }
   },
   {
