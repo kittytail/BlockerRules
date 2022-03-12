@@ -4535,7 +4535,6 @@
         "gadgetlife2ch.blomaga.jp",
         "gensen2ch.com",
         "gtoys.blog.fc2.com",
-        "h1g.jp",
         "hdouga.com",
         "ibarakinews.jp",
         "obutu.com",
@@ -8327,6 +8326,7 @@
         "*buzzral.com",
         "*chikakb.ldblog.jp",
         "*bybybicycle.blog.jp",
+        "*chihosoku.com",
         "*chomagireko.blog.jp",
         "*chomangasokuho.blog.jp",
         "*curationewsharp.blog.jp",
@@ -8335,6 +8335,7 @@
         "*dareyorijyouhoutunews.blog.jp",
         "*db-gohan.blog.jp",
         "*dechisoku.com",
+        "*dondonwork.com",
         "*doujin-rpgfan.com",
         "*ebitsu.net",
         "*ekurere3.com",
@@ -8347,6 +8348,7 @@
         "*fate-kouryakumaster.blog.jp",
         "*fireembs.blog.jp",
         "*gacha.blog.jp",
+        "*gamecha.info",
         "*gamehig.com",
         "*gamejksokuhou.com",
         "*gazoua2meru.livedoor.blog",
@@ -8368,6 +8370,7 @@
         "*jiwachan.net",
         "*kasegeru.blog.jp",
         "*katasumisokuhou.blog.jp",
+        "*katei2.net",
         "*kazokuchannel.doorblog.jp",
         "*kijoden.com",
         "*kijonikki.net",
@@ -8377,6 +8380,7 @@
         "*kokoyakyumatomesokuho.blog.jp",
         "*koumuin-matome.blog.jp",
         "*labradorsokuho.net",
+        "*makkah-hotels.net",
         "*maki7.dreamlog.jp",
         "*mashlife.doorblog.jp",
         "*matmebae.net",
@@ -8390,12 +8394,14 @@
         "*moemoeanime.blog.jp",
         "*money-life.doorblog.jp",
         "*nandemo-nadeshiko.blog.jp",
+        "*nandemomatomedan.com",
         "*nanj-push.blog.jp",
         "*nanj-short.net",
         "*nanj-world.blog.jp",
         "*nanjchallenge.net",
         "*narisoku.blog.jp",
         "*newsweb.blog.jp",
+        "*nius.doorblog.jp",
         "*nizigami.com",
         "*nokuo.blog.jp",
         "*okanenews24.com",
@@ -8413,7 +8419,6 @@
         "*pokemonunite.blog.jp",
         "*rakukan.net",
         "*romeodensetsu.com",
-        "*romiohan.com",
         "*ronsoku.com",
         "*samuraisoccer.doorblog.jp",
         "*sematome.com",
@@ -8421,6 +8426,7 @@
         "*shironeko-guild.blog.jp",
         "*shumi-nikki.xyz",
         "*skematomemon.com",
+        "*snackworld-sokuhou.com",
         "*sontaku.info",
         "*sutekinakijo.com",
         "*syurabarabanba.blog.jp",
@@ -8428,7 +8434,6 @@
         "*tachiyomitoday.com",
         "*taorun.xyz",
         "*timely.blog.jp",
-        "*torendoimasyun.blog.jp",
         "*tsubamesoku.blog.jp",
         "*uwakich.com",
         "*valorantchannel.livedoor.blog",
@@ -8438,7 +8443,9 @@
         "*visual-matome.com",
         "*vrtuber-news.com",
         "*vtuber-densoku.blog.jp",
+        "*wiiups.com",
         "*xn--ss-ci4aa8ub2251exr3e.com",
+        "*xn--u9jtima5oq00m1x4e.com",
         "*yabesoku.blog.jp",
         "*yofukasi-susume.xxxblog.jp",
         "*yurukuyaru.com",
@@ -11379,6 +11386,20 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*gamecha.info",
+        "*hinomoto99.com",
+        "*maki7.dreamlog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".message-board-outer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*gamedaradara.doorblog.jp",
         "*keyaki.tech"
       ]
@@ -12168,19 +12189,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".himajin-headline"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*hinomoto99.com",
-        "*maki7.dreamlog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".message-board-outer"
     }
   },
   {
@@ -15702,6 +15710,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nius.doorblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Bp2ArchiveOne"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nizigami.com"
       ]
     },
@@ -16104,18 +16124,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#custom_html-2"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*otonarisoku.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":"#main-contents > #comment-title"
     }
   },
@@ -16177,6 +16185,19 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[style=\"height:360px; overflow:hidden;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*otonarisoku.com",
+        "*vanilla-rock.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-2"
     }
   },
   {
@@ -17991,6 +18012,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#rssrole"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*xn--gmq92kd2rm1kx34a.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-10"
     }
   },
   {
@@ -20452,6 +20485,17 @@
   },
   {
     "trigger":{
+      "load-context":[
+        "child-frame"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ero\\-mangalife\\.com\\/eromangalife\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hosyusokuhou\\.jp\\/rss\\/"
     },
     "action":{
@@ -20540,6 +20584,8 @@
       "url-filter":".*",
       "if-domain":[
         "*ero-comic-hunter.net",
+        "*ero-manga-platinum.net",
+        "*ero-mangasokuhou.com",
         "*eromanga-cafe.com",
         "*eromanga-sevendays.net",
         "*moeero-library.com"
@@ -20596,6 +20642,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".rss-widget"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ge-mag.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".module--free-area"
     }
   },
   {
