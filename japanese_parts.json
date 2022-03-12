@@ -3,7 +3,6 @@
  * This filter is based on Yuki's Blog parts filters by Yuki2718 and
  * Yuki's Blogroll filters by Yuki2718
  */
-
 [
   {
     "trigger":{
@@ -1535,6 +1534,14 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nanjallstars\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?neko\\-search\\.com\\/blogparts\\.php"
     },
     "action":{
       "type":"block"
@@ -4528,7 +4535,6 @@
         "gadgetlife2ch.blomaga.jp",
         "gensen2ch.com",
         "gtoys.blog.fc2.com",
-        "h1g.jp",
         "hdouga.com",
         "ibarakinews.jp",
         "obutu.com",
@@ -5670,10 +5676,37 @@
       "load-context":[
         "child-frame"
       ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eromanga\\-cafe\\.com\\/imoba\\."
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eromanga\\-cafe\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eromanga-cafe.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-4"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eromanga-cafe.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-7"
     }
   },
   {
@@ -8293,6 +8326,7 @@
         "*buzzral.com",
         "*chikakb.ldblog.jp",
         "*bybybicycle.blog.jp",
+        "*chihosoku.com",
         "*chomagireko.blog.jp",
         "*chomangasokuho.blog.jp",
         "*curationewsharp.blog.jp",
@@ -8301,6 +8335,7 @@
         "*dareyorijyouhoutunews.blog.jp",
         "*db-gohan.blog.jp",
         "*dechisoku.com",
+        "*dondonwork.com",
         "*doujin-rpgfan.com",
         "*ebitsu.net",
         "*ekurere3.com",
@@ -8313,6 +8348,7 @@
         "*fate-kouryakumaster.blog.jp",
         "*fireembs.blog.jp",
         "*gacha.blog.jp",
+        "*gamecha.info",
         "*gamehig.com",
         "*gamejksokuhou.com",
         "*gazoua2meru.livedoor.blog",
@@ -8334,6 +8370,7 @@
         "*jiwachan.net",
         "*kasegeru.blog.jp",
         "*katasumisokuhou.blog.jp",
+        "*katei2.net",
         "*kazokuchannel.doorblog.jp",
         "*kijoden.com",
         "*kijonikki.net",
@@ -8343,6 +8380,7 @@
         "*kokoyakyumatomesokuho.blog.jp",
         "*koumuin-matome.blog.jp",
         "*labradorsokuho.net",
+        "*makkah-hotels.net",
         "*maki7.dreamlog.jp",
         "*mashlife.doorblog.jp",
         "*matmebae.net",
@@ -8356,12 +8394,14 @@
         "*moemoeanime.blog.jp",
         "*money-life.doorblog.jp",
         "*nandemo-nadeshiko.blog.jp",
+        "*nandemomatomedan.com",
         "*nanj-push.blog.jp",
         "*nanj-short.net",
         "*nanj-world.blog.jp",
         "*nanjchallenge.net",
         "*narisoku.blog.jp",
         "*newsweb.blog.jp",
+        "*nius.doorblog.jp",
         "*nizigami.com",
         "*nokuo.blog.jp",
         "*okanenews24.com",
@@ -8379,7 +8419,6 @@
         "*pokemonunite.blog.jp",
         "*rakukan.net",
         "*romeodensetsu.com",
-        "*romiohan.com",
         "*ronsoku.com",
         "*samuraisoccer.doorblog.jp",
         "*sematome.com",
@@ -8387,6 +8426,7 @@
         "*shironeko-guild.blog.jp",
         "*shumi-nikki.xyz",
         "*skematomemon.com",
+        "*snackworld-sokuhou.com",
         "*sontaku.info",
         "*sutekinakijo.com",
         "*syurabarabanba.blog.jp",
@@ -8394,7 +8434,6 @@
         "*tachiyomitoday.com",
         "*taorun.xyz",
         "*timely.blog.jp",
-        "*torendoimasyun.blog.jp",
         "*tsubamesoku.blog.jp",
         "*uwakich.com",
         "*valorantchannel.livedoor.blog",
@@ -8404,7 +8443,9 @@
         "*visual-matome.com",
         "*vrtuber-news.com",
         "*vtuber-densoku.blog.jp",
+        "*wiiups.com",
         "*xn--ss-ci4aa8ub2251exr3e.com",
+        "*xn--u9jtima5oq00m1x4e.com",
         "*yabesoku.blog.jp",
         "*yofukasi-susume.xxxblog.jp",
         "*yurukuyaru.com",
@@ -9528,7 +9569,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#footline, #hokanokiji, #kijisaikabu, .headrss, .linkh, .naka_rss, .rtcm, [class^=footrss], [class^=\"shitarss_\"], [id^=\"shitarss_title_\"]"
+      "selector":"#footline, #hokanokiji, #kijisaikabu, .headrss, .linkh, .naka_rss, .rtcm, [class^=footrss], [class^=shitarss_], [id^=\"shitarss_title_\"]"
     }
   },
   {
@@ -9636,7 +9677,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#container > #cssmenu ~ .main-container > .main-column-inner > div[style^=\"width:720px;\"], #container > #cssmenu ~ .right-container > .right-column-inner > .plugin-popular_articles_with_image + .plugin-memo:nth-child(3), .article-body-inner > #more > [id^=\"blz_\"] ~ div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
+      "selector":"#container > #cssmenu ~ .main-container > .main-column-inner > div[style^=\"width:720px;\"], #container > #cssmenu ~ .right-container > .right-column-inner > .plugin-popular_articles_with_image + .plugin-memo:nth-child(3), .article-body-inner > #more > [id^=\"blz_\"] ~ div[style=\"margin:0px;padding:0px;\"][align=center]"
     }
   },
   {
@@ -9684,7 +9725,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#content.hfeed > div[style=\"margin:0px;padding:0px;\"][align=\"center\"]:first-of-type, .article-body-inner > .t_h + div[style=\"margin:0px;padding:0px;\"][align=\"center\"], .entry-content.article-body > div[style^=\"margin-top\"] + div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
+      "selector":"#content.hfeed > div[style=\"margin:0px;padding:0px;\"][align=\"center\"]:first-of-type, .article-body-inner > .t_h + div[style=\"margin:0px;padding:0px;\"][align=center], .entry-content.article-body > div[style^=margin-top] + div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
     }
   },
   {
@@ -9841,18 +9882,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".RSS05"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".article-body-more > div[style=\"border:1px solid #1c7db3;margin:0px 0 5px;\"]"
     }
   },
   {
@@ -10033,6 +10062,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".rsslist"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".t_b[style=\"margin-bottom:60px;margin-top:25px;\"] + br + div[style=\"border:1px solid #1c7db3;margin:0px 0 5px;\"]"
     }
   },
   {
@@ -10235,6 +10276,7 @@
       "url-filter":".*",
       "if-domain":[
         "*burusoku-vip.com",
+        "*erakokyu.net",
         "*gekiyaku.com",
         "*kojikisokuhou.com",
         "*kosodatech.blog133.fc2.com",
@@ -10816,6 +10858,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*erakokyu.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss_feed"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eroerogazo.com"
       ]
     },
@@ -11326,6 +11380,20 @@
     "action":{
       "type":"css-display-none",
       "selector":".entry2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gamecha.info",
+        "*hinomoto99.com",
+        "*maki7.dreamlog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".message-board-outer"
     }
   },
   {
@@ -12121,19 +12189,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".himajin-headline"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*hinomoto99.com",
-        "*maki7.dreamlog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".message-board-outer"
     }
   },
   {
@@ -15655,6 +15710,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nius.doorblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Bp2ArchiveOne"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nizigami.com"
       ]
     },
@@ -16057,18 +16124,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#custom_html-2"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*otonarisoku.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":"#main-contents > #comment-title"
     }
   },
@@ -16130,6 +16185,19 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[style=\"height:360px; overflow:hidden;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*otonarisoku.com",
+        "*vanilla-rock.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-2"
     }
   },
   {
@@ -17944,6 +18012,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#rssrole"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*xn--gmq92kd2rm1kx34a.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-10"
     }
   },
   {
@@ -20397,7 +20477,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ero\\-comic\\-hunter\\.net\\/sp_rss_iframe\\.html"
+      "url-filter":"\\/sp_rss_iframe\\.html"
     },
     "action":{
       "type":"block"
@@ -20408,22 +20488,10 @@
       "load-context":[
         "child-frame"
       ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eromanga\\-cafe\\.com\\/eromangacafe\\.left\\."
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ero\\-mangalife\\.com\\/eromangalife\\."
     },
     "action":{
       "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*eromanga-cafe.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".l-footerTop > h2.ranking_ttl:last-of-type"
     }
   },
   {
@@ -20516,6 +20584,8 @@
       "url-filter":".*",
       "if-domain":[
         "*ero-comic-hunter.net",
+        "*ero-manga-platinum.net",
+        "*ero-mangasokuhou.com",
         "*eromanga-cafe.com",
         "*eromanga-sevendays.net",
         "*moeero-library.com"
@@ -20524,6 +20594,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".boxi800"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eromanga-cafe.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".l-footerTop > h2.ranking_ttl:last-of-type"
     }
   },
   {
@@ -20560,6 +20642,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".rss-widget"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ge-mag.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".module--free-area"
     }
   },
   {
