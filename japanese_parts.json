@@ -533,6 +533,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.com\\/plugins\\/news\\/topics\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.jp\\/.*\\/popular_articles\\."
     },
     "action":{
@@ -1553,6 +1561,14 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?netcc\\.rgr\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?news\\.livedoor\\.com\\/generate_js\\/dqnplus\\/default\\.js"
     },
     "action":{
       "type":"block"
@@ -2772,12 +2788,48 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-popular_articles"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-popular_articles_with_image"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dagasiyasanngaiku.blog.fc2.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".sidemenu_body:first-child"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*g-n-ipponmichi.xxxblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".left-container > .plugin-memo:last-child"
     }
   },
   {
@@ -4138,7 +4190,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/rss\\.js$"
+      "url-filter":"\\/rss\\.js[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -4520,14 +4572,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?doujinlist\\.com\\/rss\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "if-domain":[
         "blog.livedoor.jp",
         "crx7601.com",
@@ -4577,6 +4621,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hanamura\\.shop[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?img\\-c\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -4663,6 +4718,213 @@
     },
     "action":{
       "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#toprss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#widget-under-related-entries"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#widget-under-sns-buttons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper1"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper3"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper4"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper5"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper6"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper8"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper9"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper3"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper4"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper_2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper_3"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper_4"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_wrapper_honbun"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-recent_comments"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-rss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[id^=\"ldblog_related_articles\"]"
     }
   },
   {
@@ -5380,6 +5642,45 @@
         "first-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bipblog\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.jp\\/kekkongo\\/left\\.html"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.jp\\/kekkongo\\/right\\.html"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#content > div[style=\"margin:0px;padding:0px;\"][align=\"center\"] > table[style=\"border-collapse: collapse;border:1px solid #6B8E23;background-color:#FFFFFF;text-align:left;\"][height=\"11px\"]"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "bm.2chblog.jp"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.jp\\/plugin\\/popular_articles_with_image_plugin\\.js"
     },
     "action":{
       "type":"block"
@@ -7550,20 +7851,6 @@
       "load-type":[
         "first-party"
       ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?onecall2ch\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "load-context":[
-        "child-frame"
-      ],
-      "load-type":[
-        "first-party"
-      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?otanew\\.jp[\\/:&?]?"
     },
     "action":{
@@ -8026,78 +8313,6 @@
   },
   {
     "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#toprss"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#widget-under-related-entries"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#widget-under-sns-buttons"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-recent_comments"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-rss"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"[class^=\"blogroll-wrapper\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"[class^=\"blogroll_wrapper\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"[id^=\"ldblog_related_articles\"]"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*0taku.livedoor.biz"
@@ -8186,18 +8401,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*2ch-matomenews.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".switch"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
+        "*2ch-ero-report.blog.jp",
         "*2ch-uwaki.com",
         "*2chmatome.bloggeek.jp",
         "*2monkeys.jp",
@@ -8223,6 +8427,7 @@
         "*chihosoku.com",
         "*chomagireko.blog.jp",
         "*chomangasokuho.blog.jp",
+        "*chunisoku.com",
         "*curationewsharp.blog.jp",
         "*curioso.blog.jp",
         "*dareda.net",
@@ -8234,6 +8439,7 @@
         "*ebitsu.net",
         "*ekurere3.com",
         "*ekuzodeerhand.blog.jp",
+        "*eroitaiken.blog.jp",
         "*everydayissunday.livedoor.blog",
         "*fate-go-grandorder.blog.jp",
         "*fate-go.blog.jp",
@@ -8241,6 +8447,7 @@
         "*fate-grandorder-go.blog.jp",
         "*fate-kouryakumaster.blog.jp",
         "*fireembs.blog.jp",
+        "*g-n-ipponmichi.xxxblog.jp",
         "*gacha.blog.jp",
         "*gamecha.info",
         "*gamehig.com",
@@ -8250,6 +8457,7 @@
         "*geinoutopics-plus.blog.jp",
         "*gensen2ch.com",
         "*gunji.blog.jp",
+        "*gurasen.com",
         "*hanshintigers1.blog.jp",
         "*heart-net.xyz",
         "*heartlife-matome.com",
@@ -8274,6 +8482,7 @@
         "*kokoyakyumatomesokuho.blog.jp",
         "*koumuin-matome.blog.jp",
         "*labradorsokuho.net",
+        "*magalog.doorblog.jp",
         "*makkah-hotels.net",
         "*maki7.dreamlog.jp",
         "*mashlife.doorblog.jp",
@@ -8286,6 +8495,7 @@
         "*mirishita.2chblog.jp",
         "*moe-vip.com",
         "*moemoeanime.blog.jp",
+        "*moetataiken.com",
         "*money-life.doorblog.jp",
         "*nandemo-nadeshiko.blog.jp",
         "*nandemomatomedan.com",
@@ -8349,6 +8559,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".rss-blogroll"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*2ch-matomenews.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".insertLink"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*2ch-matomenews.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".switch"
     }
   },
   {
@@ -8909,6 +9143,42 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*anacap.doorblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-list-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*anacap.doorblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".column-inner-2 > center > table[border=\"1\"]:first-child"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*anacap.doorblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"anacap-roll\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*androidken.blog.fc2.com"
       ]
     },
@@ -9396,7 +9666,6 @@
       "url-filter":".*",
       "if-domain":[
         "*bigbangchannel.net",
-        "*blog.livedoor.jp",
         "*matometre.net",
         "*majimanjisokuhou.com",
         "*moeclo.ldblog.jp",
@@ -9547,7 +9816,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#footline, #hokanokiji, #kijisaikabu, .headrss, .linkh, .naka_rss, .rtcm, [class^=footrss], [class^=shitarss_], [id^=\"shitarss_title_\"]"
+      "selector":"#footline, #hokanokiji, #kijisaikabu, .headrss, .naka_rss, div[class^=\"footrss\"], div[class^=\"shitarss_\"], div[id^=\"shitarss_title_\"]"
     }
   },
   {
@@ -9560,30 +9829,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#RSSbox"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#article-options:last-child > .rss-blogroll:first-child"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#articles-outer > .top-right:style(margin-top: 0!important;)"
     }
   },
   {
@@ -9631,7 +9876,19 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#container > div[style^=\"width:1105px;height:300px;overflow:auto;background-color:#ffffff;\"], .article-body > div[style^=\"width:685px;height:540px;overflow:auto;background-color:#fafad2\"], .article-body-inner > div[style^=\"width:685px;height:460px;overflow:auto;background-color:#FFEEFF;\"], .article-outer-3 > div[style^=\"width:758px;height:460px;overflow:auto;background-color:#fafad2;\"], .column-inner-2 div[style^=\"width:758px;height:500px;overflow:auto;background-color:#FFEEFF;\"]"
+      "selector":"#container > div[style$=\"scrollbar-track-color:#ffffff;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#container > div[style^=\"width:1105px;height:270px;overflow:auto;background-color:#ffffff;\"], .article-body > div[style^=\"width:685px;height:540px;overflow:auto;background-color:#fafad2\"], .article-body-inner > div[style^=\"width:685px;height:460px;overflow:auto;background-color:#FFEEFF;\"], .article-outer-3 > div[style^=\"width:758px;height:460px;overflow:auto;background-color:#fafad2;\"], .column-inner-2 div[style^=\"width:758px;height:500px;overflow:auto;background-color:#FFEEFF;\"]"
     }
   },
   {
@@ -9655,7 +9912,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#container > #cssmenu ~ .main-container > .main-column-inner > div[style^=\"width:720px;\"], #container > #cssmenu ~ .right-container > .right-column-inner > .plugin-popular_articles_with_image + .plugin-memo:nth-child(3), .article-body-inner > #more > [id^=\"blz_\"] ~ div[style=\"margin:0px;padding:0px;\"][align=center]"
+      "selector":"#container > #cssmenu ~ .main-container > .main-column-inner > div[style^=\"width:720px;\"]"
     }
   },
   {
@@ -9667,7 +9924,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#container > .rss-blogroll:first-child"
+      "selector":"#content > font[size=\"1\"] + center > div[style^=\"margin:0px;\"][style$=\"background-color:#FFFFFF;\"]:only-child"
     }
   },
   {
@@ -9679,31 +9936,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#containerWrap > #container:only-child > div[class=\"blog-title-outer\"]:first-child + #content.hfeed"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#content > center > div[style$=\"ine-height:1.3;width:820px;background-color:#FFFFFF;\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#content.hfeed > div[style=\"margin:0px;padding:0px;\"][align=\"center\"]:first-of-type, .article-body-inner > .t_h + div[style=\"margin:0px;padding:0px;\"][align=center], .entry-content.article-body > div[style^=margin-top] + div[style=\"margin:0px;padding:0px;\"][align=\"center\"]"
+      "selector":"#content.hfeed > div[style=\"margin:0px;padding:0px;\"][align=\"center\"]:first-of-type"
     }
   },
   {
@@ -9739,18 +9972,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#main > div[style=\"padding:0 8px 10px 0;\"] + div.box01"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":"#main > #headline"
     }
   },
@@ -9763,7 +9984,43 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":"#main > .column-inner > .column-inner-2 > div[style^=\"width:758px;height:450px;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":"#main > .top-box + p[style=\"background-color:#FFFFFF;border:1px solid #999999;padding:7px;margin-bottom:10px;clear:both;\"], #main > .top-box + p[style=\"background-color:#FFFFFF;border:1px solid #999999;padding:7px;margin-bottom:10px;clear:both;\"] + #sub"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#main > div.column-inner > div.column-inner-2 > div[style=\"height:440px; overflow: auto; text-align:left; \"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#main > div[style=\"padding:0 8px 10px 0;\"] + div.box01"
     }
   },
   {
@@ -9835,18 +10092,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#single-footer-buzz, #single-rss-01"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":"#wrapper > #main + div#side[style^=\"position: fixed\"]:style(position:static!important)"
     }
   },
@@ -9859,7 +10104,31 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".RSS04 + div[style^=\"width:720px;height:160px\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".RSS05"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.livedoor.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".article-body2 > div > div[style=\"margin:0px;padding:0px;line-height:1.4;width:100%;background-color:#ddf4e1;\"]"
     }
   },
   {
@@ -9884,18 +10153,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".article-outer-3 > .entry-content > .google-2ad-b + h3 + .read-area-footer.social + h3, .article-outer-3 > .entry-content > .read-area-footer.social + h3 + .bottom-rss-pick + h3"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rssbox"
     }
   },
   {
@@ -9967,18 +10224,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".column-inner-2 > .headline"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":".column-inner-2 > table[summary=\"<%blog_name>\"][width=\"728\"]"
     }
   },
@@ -9991,7 +10236,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".main-container > .rss-blogroll"
+      "selector":".linkh, .rtcm"
     }
   },
   {
@@ -10016,30 +10261,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".osusumemokyumoji2, .rss3rd, .rssbottom3, .rsskijityu2, .rsstop, .tabmoji, .tabmoji2"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rss-outer-kakoi, .rss-outer-kakoi-under, .side-rss1"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rsslist"
     }
   },
   {
@@ -10088,31 +10309,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"toprss\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[style=\"margin:0px;padding:0px;line-height:1.4;width:100%;background-color:#ddf4e1;\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.livedoor.jp",
-        "*giantskyojin2chmatome.blog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".popular"
     }
   },
   {
@@ -10935,6 +11131,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*eromanga-castle.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[style^=\"overflow:auto;height:500px\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eromangacafe.com"
       ]
     },
@@ -11601,6 +11809,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".post > .singleh4"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*giantskyojin2chmatome.blog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".popular"
     }
   },
   {
@@ -12641,6 +12861,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".titleRssBottom"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*imas-cg.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".topRss"
     }
   },
   {
@@ -14297,6 +14529,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*matacoco.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin1bo"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*matmebae.net",
         "*nanj-short.net"
       ]
@@ -14946,6 +15190,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#custom_html-15"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*morikinoko.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".headline-wrap"
     }
   },
   {
@@ -17059,6 +17315,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*squallchannel.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#article_single > b > span[style=\"color: rgb(0, 0, 255);\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*squallchannel.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#article_single > span[style=\"font-size: medium; color: rgb(0, 153, 0);\"] > b"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*srwmatome.blog.jp"
       ]
     },
@@ -17167,6 +17447,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*suresuta.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*suresuta.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rssbox"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sutekinakijo.com"
       ]
     },
@@ -17245,6 +17549,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".headPage"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*tales-matomeria.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-channel"
     }
   },
   {
@@ -17557,6 +17873,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#relevantPost"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*vippers.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".headerImgRss"
     }
   },
   {
@@ -18932,6 +19260,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nyankobiyori.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#mainrss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*ol777tokyo.blog41.fc2.com"
       ]
     },
@@ -20061,6 +20401,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nyankobiyori.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"^#mainrss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*ol777tokyo.blog41.fc2.com"
       ]
     },
@@ -20572,23 +20924,15 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*doujin-dolci.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#enhancedtextwidget-5"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
+        "*dojinwatch.com",
         "*doujincafe.com",
         "*ero-comic-hunter.net",
         "*ero-manga-platinum.net",
+        "*ero-mangalife.com",
         "*ero-mangasokuhou.com",
+        "*erodoujinshi-world.com",
         "*eromanga-cafe.com",
+        "*eromanga-castle.com",
         "*eromanga-sevendays.net",
         "*moeero-library.com"
       ]
@@ -20596,6 +20940,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".boxi800"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*doujin-dolci.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#enhancedtextwidget-5"
     }
   },
   {
