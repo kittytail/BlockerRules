@@ -3039,6 +3039,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bookoffonline\\.co\\.jp\\/files\\/inc_img\\/.*\\-pc716_80\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bookoffonline.co.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footer-banner-fixed-area"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bookwalker\\.jp\\/bob\\/img\\/couponbanner2\\."
     },
     "action":{
@@ -3081,6 +3101,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".tp-backdrop"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bbc.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".tp-modal"
     }
   },
   {
@@ -6963,6 +6995,23 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*123apps.com",
+        "*extract.me",
+        "*mp3cut.net",
+        "*online-audio-converter.com",
+        "*online-video-cutter.com",
+        "*pdf.io"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#allapps-extension-popup"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*5ch.net"
       ]
     },
@@ -7315,42 +7364,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"html[style=\"overflow: hidden;\"]:style(overflow: auto!important;)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*bbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".tp-backdrop"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*bbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".tp-modal"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*bbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"body.tp-modal-open:style(overflow: auto !important;)"
     }
   },
   {
@@ -8297,22 +8310,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*extract.me",
-        "*mp3cut.net",
-        "*online-audio-converter.com",
-        "*online-video-cutter.com",
-        "*pdf.io"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#allapps-extension-popup"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*ezgif.com"
       ]
     },
@@ -9190,6 +9187,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*lego.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"body:style(overflow: auto !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lego.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[data-test=\"age-gate-overlay\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*lifehacker.com"
       ]
     },
@@ -9340,6 +9361,54 @@
     "action":{
       "type":"css-display-none",
       "selector":".rating-container"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*medibang.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".asModal__announce"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*medibang.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".mdbnContestList__footerMenu"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*medibang.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".stickyBanner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*medibang.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"body.modal-open:style(overflow: auto !important;)"
     }
   },
   {
@@ -10340,6 +10409,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#fixedbaner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*sakigake.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footer-coupon"
     }
   },
   {
@@ -11609,6 +11690,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*youtube4kdownloader.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#fixed-addon-banner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*zerohedge.com"
       ]
     },
@@ -12462,6 +12555,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".m-vote-banner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nipponrentacar.co.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".noticeArea"
     }
   },
   {
@@ -13379,14 +13484,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.tinect\\.jp\\/wp\\-content\\/themes\\/books\\-apps\\-pc\\/images\\/right\\-mailmagazine\\-reg\\.png"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?business\\-infinity\\.jp\\/wp\\-content\\/uploads\\/2017\\/08\\/business\\-infinity\\-mailmagazine9\\.gif"
     },
     "action":{
       "type":"block"
@@ -16941,6 +17038,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dime\\.jp\\/assets\\/img\\/present\\/bnr_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?duckduckgo\\.com\\/assets\\/onboarding\\/bathroomguy\\/1\\-monster\\-v2\\-\\-pre\\-animation\\.svg"
     },
     "action":{
@@ -18770,6 +18875,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?zexy\\.net\\/s\\/contents\\/adjust\\/RMP_.*\\/img_banner_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*zexy.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".campain-banner--fixed"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*cityheaven.net"
@@ -18961,6 +19086,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ai\\-staff\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "unless-domain":[
         "jivosite.ru"
       ],
@@ -19106,6 +19242,7 @@
         "*al.ly",
         "*arhplyrics.in",
         "*aylink.co",
+        "*bclikeqt.com",
         "*coinunit.ashortstory.in",
         "*cpmlink.net",
         "*diglink.blogspot.com",
@@ -19165,6 +19302,7 @@
         "*chooyomi.com",
         "*federleqa.icu",
         "*financeflix.in",
+        "*flightsim.to",
         "*forex-trnd.com",
         "*imgalor.xyz",
         "*imgbbd.buzz",
@@ -19588,6 +19726,19 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*apps2app.com",
+        "*appsmodz.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(rc, hidden, button)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*appsmodz.com",
         "*mac-torrent-download.net",
         "*note1s.com"
@@ -19596,18 +19747,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(ra, disabled, button)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*appsmodz.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"+js(rc, hidden, button)"
     }
   },
   {
