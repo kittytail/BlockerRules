@@ -321,17 +321,6 @@
   },
   {
     "trigger":{
-      "load-type":[
-        "third-party"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bisyoujyo00\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\-gourmet\\.com\\/parts\\/banner\\/"
     },
     "action":{
@@ -507,17 +496,6 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.fx\\-on\\.com\\/parts\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "load-type":[
-        "third-party"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.l\\-guide\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -833,6 +811,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?buttons\\.googlesyndication\\.com\\/fusion\\/add\\.gif"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?chance\\.com\\/imgs\\/link\\/"
     },
     "action":{
@@ -861,22 +847,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clap\\.fc2\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clearness\\.skr\\.jp\\/varia\\/img\\/banner_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clip\\.livedoor\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -955,14 +925,6 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dietnavi\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dorubako\\.jp\\/img\\/friend\\/"
     },
     "action":{
       "type":"block"
@@ -1071,14 +1033,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fuzokuinfo\\.com\\/sfranking\\/banner\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gamble\\.chu\\.jp\\/img\\/banner_"
     },
     "action":{
       "type":"block"
@@ -1402,14 +1356,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?legend\\.holy\\.jp\\/bimg\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -1599,14 +1545,6 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nube\\.sakura\\.ne\\.jp[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?num\\.bookmarks\\.yahoo\\.co\\.jp[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -2085,14 +2023,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?twin\\.ne\\.jp\\/~kirakira\\/search\\/ranklink\\/img\\/banner\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -2485,26 +2415,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?zoomery\\.org\\/image\\/banner_01\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?230net\\.com\\/img\\/banner_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "load-type":[
-        "third-party"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bigstarinc\\.co\\.jp[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -3256,14 +3167,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hammer\\.80code\\.com\\/img\\/banner\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hayanuki\\.net\\/search\\/img\\/hs_banner"
     },
     "action":{
@@ -3447,14 +3350,6 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nudegallerys\\.net[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?onani\\.select\\-h\\.net\\/img\\/onani\\."
     },
     "action":{
       "type":"block"
@@ -3673,17 +3568,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?torakichi\\.halhal\\.net\\/img\\/bn\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "load-type":[
-        "third-party"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tukasa\\.yakan\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -8998,7 +8882,8 @@
       "if-domain":[
         "*akankore.doorblog.jp",
         "*beelzeboulxxx.com",
-        "*gossip1.net"
+        "*gossip1.net",
+        "*kisslog2.com"
       ]
     },
     "action":{
@@ -13996,6 +13881,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kisslog2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ranking-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kitizawa.com"
       ]
     },
@@ -15756,7 +15653,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".widget_execphp.widget-under-article"
+      "selector":".headrsspc"
     }
   },
   {
@@ -15768,20 +15665,31 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[style=\"text-align:center;margin-top:10px;margin-bottom:10px;\"] + .t_h[style=\"border-bottom: solid 5px #9b1c38;\"]"
+      "selector":".headrsssppc"
     }
   },
   {
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*newsoku.blog",
-        "*overjoyed.info"
+        "*newsoku.blog"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".header-widget"
+      "selector":".rss_scroll_sp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*newsoku.blog"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".widget_execphp.widget-under-article"
     }
   },
   {
@@ -16305,6 +16213,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*origin873.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-area"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*orufemorufenz.com"
       ]
     },
@@ -16456,6 +16376,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".popular-list"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*overjoyed.info"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".header-widget"
     }
   },
   {
@@ -17837,6 +17769,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".row-footer + br ~ br"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*usi32.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-outer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*usi32.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-outer_bottom"
     }
   },
   {
@@ -21096,6 +21052,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".post-single > div.entryblock.sp_only"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*newsoku.blog"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".headrsssp"
     }
   },
   {
