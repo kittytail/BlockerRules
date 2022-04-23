@@ -162,40 +162,6 @@
   },
   {
     "trigger":{
-      "if-domain":[
-        "cookpad.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cpcdn\\.com\\/assets\\/extensions\\/halloween2021_spweb_lead\\/halloween2021_modal_top_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "if-domain":[
-        "cookpad.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cpcdn\\.com\\/assets\\/extensions\\/halloween2021_spweb_lead\\/modal\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*cookpad.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#halloween2021_modal"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*blog.livedoor.com"
@@ -509,6 +475,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/webPushNotifications\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/webpush\\."
     },
     "action":{
@@ -789,6 +763,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?noticious\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?notifpush\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -4638,6 +4623,26 @@
     "action":{
       "type":"css-display-none",
       "selector":"#popup"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hoken\\-room\\.jp\\/asset\\/pet\\/pet_modal_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hoken-room.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#modal-content1"
     }
   },
   {
@@ -8743,6 +8748,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*hoken-room.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#pet_banner_div"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*honichi.com"
       ]
     },
@@ -8965,6 +8982,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#notify-translate-tutorial-local"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*jbpress.ismedia.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".m-popup"
     }
   },
   {
@@ -9893,6 +9922,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#popup-box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*okwave.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".following_buttons"
     }
   },
   {
@@ -11714,6 +11755,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*zexybaby.zexy.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#fixed_btn"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*zoom-support.nissho-ele.co.jp"
       ]
     },
@@ -12169,6 +12222,46 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "image"
+      ],
+      "if-domain":[
+        "cookpad.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cpcdn\\.com\\/assets\\/extensions\\/.*_spweb_lead\\/.*_modal_top_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "style-sheet"
+      ],
+      "if-domain":[
+        "cookpad.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cpcdn\\.com\\/assets\\/extensions\\/.*_spweb_lead\\/modal\\-"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cookpad.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"aside[id$=\"_modal\"][data-key]"
+    }
+  },
+  {
+    "trigger":{
       "if-domain":[
         "dpoint.jp"
       ],
@@ -12423,6 +12516,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#popupModal"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hoken.zexy.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".formbtn.reserve"
     }
   },
   {
@@ -15311,6 +15416,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nli\\-research\\.co\\.jp\\/files\\/user\\/images\\/sp\\/common\\/icon_mailM\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*cnn.co.jp"
@@ -15981,19 +16094,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*event.rakuten.co.jp",
-        "*srdk.rakuten.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#rexSurveyRoot > aside > form > .Nps"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*excite.co.jp"
       ]
     },
@@ -16330,6 +16430,19 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*rakuten.co.jp",
+        "*srdk.rakuten.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rexSurveyRoot"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*style.nikkei.com"
       ]
     },
@@ -16396,18 +16509,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".realestateSlink"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*travel.rakuten.co.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#rexSurveyRoot > div:only-child > div:only-child"
     }
   },
   {
@@ -17515,6 +17616,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?navitime\\.co\\.jp\\/.*\\/account\\/walk\\/proplus_myspot_banner\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?netanswerplus\\.saisoncard\\.co\\.jp\\/WebPc\\/pages\\/images\\/person\\/login\\/.*_520_230_CS_"
     },
     "action":{
@@ -18067,6 +18176,17 @@
   {
     "trigger":{
       "if-domain":[
+        "finance.yahoo.co.jp"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yimg\\.jp\\/images\\/finance\\/.*\\/bnr\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
         "weather.yahoo.co.jp"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yimg\\.jp\\/images\\/yjtop\\-common\\/extension\\/promo\\/"
@@ -18217,6 +18337,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#ticker-area"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*finance.yahoo.co.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"section[id^=\"pr_sub\"]"
     }
   },
   {
@@ -18511,6 +18643,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*dengekionline.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".gNews_banner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dw.diamond.ne.jp"
       ]
     },
@@ -18625,6 +18769,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"^div[id^=contents1000] > div[id^=contents1000]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dengekionline.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"^.gNews_banner"
     }
   },
   {
@@ -18975,6 +19131,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"^.header-campaign-bnr"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ryukyushimpo.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".topic-ticker_box-topics"
     }
   },
   {
@@ -19846,7 +20014,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bitefaucet.com"
+        "*bitefaucet.com",
+        "*dramaworldhd.co"
       ]
     },
     "action":{
@@ -19871,7 +20040,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*codecomets.com"
+        "*codecomets.com",
+        "*techxpulse.com"
       ]
     },
     "action":{
@@ -19883,7 +20053,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*codecomets.com"
+        "*codecomets.com",
+        "*techxpulse.com"
       ]
     },
     "action":{
@@ -20687,6 +20858,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*techxpulse.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#msgblock:style(display: block !important)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*techyreviewx.com"
       ]
     },
@@ -20778,6 +20961,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(set, countDownDate, 0)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*updown.link"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-stb, startDownload, 8000)"
     }
   },
   {
@@ -20924,6 +21119,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-sib, clearInterval)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*work.ink"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(set, linkOpenTime, 10000)"
     }
   },
   {
@@ -21751,6 +21958,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(ra, checked, #chrExtCheckbox)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hpplus.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(set, $.cookie, trueFunc)"
     }
   },
   {
