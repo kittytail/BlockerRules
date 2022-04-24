@@ -680,6 +680,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blogimg\\.jp\\/kidandan\\/imgs\\/0\\/1\\/0183f89a\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -1033,6 +1041,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fuzokuinfo\\.com\\/sfranking\\/banner\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fx\\-on\\.com\\/parts\\/systemtrade_parts\\.php"
     },
     "action":{
       "type":"block"
@@ -2015,6 +2031,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tradingview\\.com\\/external\\-embedding\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tugikuru\\.jp\\/colink"
     },
     "action":{
@@ -2753,6 +2777,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"footer > div:last-of-type"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nana-trading.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-5"
     }
   },
   {
@@ -4547,10 +4583,29 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rssfetcher\\.blogsys\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rss\\-loader\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rss\\.tc[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -4591,6 +4646,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?widget\\.erogbox\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?wp\\.com\\/rss\\.tc\\/images\\/rsstcicon\\.gif"
     },
     "action":{
       "type":"block"
@@ -5808,13 +5871,29 @@
   },
   {
     "trigger":{
-      "load-context":[
-        "child-frame"
+      "resource-type":[
+        "script"
       ],
       "load-type":[
         "first-party"
       ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eegg\\.fun\\/rssline.*"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eegg\\.fun\\/js\\/exfd.*\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eegg\\.fun\\/js\\/sougo_list\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eegg\\.fun\\/rssline\\.html"
     },
     "action":{
       "type":"block"
@@ -8323,6 +8402,7 @@
         "*ebitsu.net",
         "*ekurere3.com",
         "*ekuzodeerhand.blog.jp",
+        "*erogurosokuhou.com",
         "*eroitaiken.blog.jp",
         "*everydayissunday.livedoor.blog",
         "*fate-go-grandorder.blog.jp",
@@ -8337,6 +8417,8 @@
         "*gamehig.com",
         "*gamejksokuhou.com",
         "*gazoua2meru.livedoor.blog",
+        "*ge-sewa-news.blog.jp",
+        "*geikiwami.com",
         "*geinoujin.dreamlog.jp",
         "*geinoutopics-plus.blog.jp",
         "*gensen2ch.com",
@@ -8346,6 +8428,7 @@
         "*heart-net.xyz",
         "*heartlife-matome.com",
         "*hero-news.com",
+        "*himatsubu.jp",
         "*hiraganakeyaki.blog.jp",
         "*honsoku.com",
         "*hoshujapan.jp",
@@ -8434,6 +8517,7 @@
         "*wiiups.com",
         "*xn--ss-ci4aa8ub2251exr3e.com",
         "*xn--u9jtima5oq00m1x4e.com",
+        "*xn--xckua1p.com",
         "*yabesoku.blog.jp",
         "*yofukasi-susume.xxxblog.jp",
         "*yurukuyaru.com",
@@ -9348,6 +9432,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".first-article > .article-sub-category"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*av-baron.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".dfad"
     }
   },
   {
@@ -12769,18 +12865,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#rsshead"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*inazumanews2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":"#sub:style(margin-top: 0!important;)"
     }
   },
@@ -12818,6 +12902,19 @@
     "action":{
       "type":"css-display-none",
       "selector":".rsslinkre"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*inazumanews2.com",
+        "*kagekidan.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rsshead"
     }
   },
   {
@@ -13371,6 +13468,42 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kagekidan.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#feed2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kagekidan.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#feedmiddle"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kagekidan.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".left-container:style(margin-top: 0 !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kanasoku.info"
       ]
     },
@@ -13595,6 +13728,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*keyakizaka46matomenews.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-6"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*keyakizaka46matomerabo.com"
       ]
     },
@@ -13655,7 +13800,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kichimama.com"
+        "*kichimama.com",
+        "*uwasakijo.net"
       ]
     },
     "action":{
@@ -13668,7 +13814,8 @@
       "url-filter":".*",
       "if-domain":[
         "*kichimama.com",
-        "*shuraba.net"
+        "*shuraba.net",
+        "*uwasakijo.net"
       ]
     },
     "action":{
@@ -14212,6 +14359,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#garssttl"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lovinyou.site"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-2"
     }
   },
   {
@@ -18508,6 +18667,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*av-baron.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#footer-widgets"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*av-baron.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-9"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*baraero.com"
       ]
     },
@@ -19642,6 +19825,30 @@
     "action":{
       "type":"css-display-none",
       "selector":"^[id^=galink]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*av-baron.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"^#footer-widgets"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*av-baron.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"^#text-9"
     }
   },
   {
@@ -20880,6 +21087,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*dojin-pandemic.com",
         "*dojinwatch.com",
         "*doujincafe.com",
         "*ero-comic-hunter.net",
@@ -21028,6 +21236,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"blogroll_Smartphone\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kisslog2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-6"
     }
   },
   {
