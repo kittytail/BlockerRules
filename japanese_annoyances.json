@@ -510,6 +510,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "url-filter":"\\/webnotification\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/wp\\-content\\/plugins\\/push\\-notification\\/.*"
     },
     "action":{
@@ -647,6 +658,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?feedify\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fkondate\\.com[\\/:&?]?"
     },
     "action":{
@@ -763,6 +785,14 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?noticious\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?notification\\.tubecup\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -1673,6 +1703,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*cfg.smt.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".hdr_bcpmes"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cookpad.com"
       ]
     },
@@ -2089,6 +2131,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".js_bookmark"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*id.smt.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".header_posting"
     }
   },
   {
@@ -2984,6 +3038,50 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?biz\\.nuro\\.jp\\/assets\\/images\\/column\\/modal_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*biz.nuro.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".is-fixed:style(overflow: auto !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*biz.nuro.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".m-modal"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*biz.nuro.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".m-modal-bg"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.fancl\\.co\\.jp\\/common\\/img\\/bgmodal_"
     },
     "action":{
@@ -3012,6 +3110,26 @@
     "action":{
       "type":"css-display-none",
       "selector":"#modal-overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bodyarchi\\.com\\/images\\/top\\/floating\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bodyarchi.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#topfloatingBnr"
     }
   },
   {
@@ -3890,6 +4008,94 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dmarket\\.docomo\\.ne\\.jp\\/myd\\/common\\/img\\/img_myd_common_tutorial\\.jpg\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#modalOverlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#tutorialModal"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modalLock:style(overflow: auto !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dmarket\\.docomo\\.ne\\.jp\\/top\\/00_portal\\/layout_b\\/img\\/welcome\\-overlay_short\\.jpg\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#container[style^=\"position: fixed\"]:style(position: static !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#firstArea.welcome-cover"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".jqmOverlay"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?douga\\.geo\\-online\\.co\\.jp\\/cmn\\/js\\/campaign_misc\\."
     },
     "action":{
@@ -4097,6 +4303,32 @@
     "action":{
       "type":"css-display-none",
       "selector":"#flipdesk-trigger"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "image"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fonepaw\\.com\\/pages\\/.*\\/promotion_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*fonepaw.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".widget + div[class*=\"promotion\"]"
     }
   },
   {
@@ -4907,6 +5139,26 @@
     "action":{
       "type":"css-display-none",
       "selector":".float_area"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kuji\\.dmarket\\.docomo\\.ne\\.jp\\/assets\\/images\\/admin\\/floating_banner\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kuji.dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#floating-banner"
     }
   },
   {
@@ -6626,14 +6878,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tripla\\.jp\\/wp\\-content\\/uploads\\/.*\\/shiryoudownload\\.png"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tsuiran\\.jp\\/js\\/vendor\\/jquery\\.layerBoard\\.js"
     },
     "action":{
@@ -8048,6 +8292,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*diehardtales.com",
+        "*note.calbee.jp",
+        "*note.com",
+        "*note.jp",
+        "*note.kagg.jp",
+        "*note.linemusic.jp",
+        "*note.yamap.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".m-animationBalloon.m-likeNoLogin"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*digitalocean.com"
       ]
     },
@@ -8066,6 +8328,54 @@
     "action":{
       "type":"css-display-none",
       "selector":".is-footer.login-overlay__wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".healthCareStepsBlockOverlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modalHealthCareContainer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dmarket.docomo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"html[style=\"overflow: hidden;\"]:style(overflow: auto !important;)"
     }
   },
   {
@@ -8339,6 +8649,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*facebook.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(aeld, scroll, showPopup)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*fandom.com"
       ]
     },
@@ -8465,6 +8787,42 @@
     "action":{
       "type":"css-display-none",
       "selector":".is-bottom.notices"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*freepeople.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(aeld, /mousewheel|wheel/, [native code])"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*freepeople.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(rc, is-preventing-body-scroll, body, stay)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*freepeople.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".o-pwa-modal-overlay"
     }
   },
   {
@@ -8724,7 +9082,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*hipdf.com"
+        "*hipdf.com",
+        "*x2download.com"
       ]
     },
     "action":{
@@ -8862,6 +9221,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#modal_bg"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*informer.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#wi-plugin-corner"
     }
   },
   {
@@ -9066,6 +9437,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#bFloatArea"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kabu.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footBtnFixed"
     }
   },
   {
@@ -9810,18 +10193,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"html[style]:style(margin-right: 0!important;overflow: auto!important;)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*note.*"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".m-likeNoLogin"
     }
   },
   {
@@ -10619,6 +10990,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".elSticky > .elBanner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*simchange.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".l-floatCta"
     }
   },
   {
@@ -12383,6 +12766,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shufoo\\.net\\/s\\/img\\/banner\\/fuwa_fukidashi\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*s.shufoo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#okiniiri-fuwatto-banner"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*outlook.live.com"
@@ -12504,6 +12907,19 @@
     "action":{
       "type":"css-display-none",
       "selector":"^.magModal__bottomSpace--small.appealMultiDownloadSmallModalWrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dldlinks.com",
+        "*dldshare.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(aopr, age_gate_params)"
     }
   },
   {
@@ -12954,6 +13370,54 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*swarmapp.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#modalDialogBox"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*swarmapp.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#modalOverlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*swarmapp.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"body.withVisibleModal #wrapper:style(position: static !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*yellowhat.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".floatingCommon"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*yourmystar.jp"
       ]
     },
@@ -13335,6 +13799,21 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\.reachplc\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "unless-domain":[
+        "howtosucceed.at",
+        "riavrn.ru"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mailerlite\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -13880,14 +14359,6 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?joinsubtext\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?journey\\.wired\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -15584,6 +16055,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cdn\\.reamaze\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "unless-domain":[
         "wpb.shueisha.co.jp"
       ],
@@ -15873,6 +16355,17 @@
         "www.nicovideo.jp"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nicoad\\.nicovideo\\.jp\\/v1\\/nicoad\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "wired.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?player\\.cnevids\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -16783,6 +17276,17 @@
     "action":{
       "type":"css-display-none",
       "selector":"#pi-amp-article-recommend"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?usefomo\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
     }
   },
   {
@@ -17711,6 +18215,14 @@
         "first-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?originalnews\\.nico\\/wp\\-content\\/uploads\\/.*\\/ntop_banner.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?oshiete\\.xgoo\\.jp\\/images\\/common\\/grade_daccount_"
     },
     "action":{
       "type":"block"
@@ -19020,6 +19532,58 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shufoo\\.net\\/s\\/contents\\/images\\/top\\/nyoki\\/bnr_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*s.shufoo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".nyoki"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*s.shufoo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#wrap[style^=\"margin-top\"]:style(margin-top: 0 !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shufoo\\.net\\/contents\\/upperBanner_chirashi\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*s.shufoo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".upperBnr"
+    }
+  },
+  {
+    "trigger":{
       "if-domain":[
         "wowma.jp"
       ],
@@ -19298,6 +19862,17 @@
   },
   {
     "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tripla\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "image"
       ],
@@ -19459,65 +20034,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-stb, countDown)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*1apple.xyz",
-        "*cararegistrasi.com",
-        "*chooyomi.com",
-        "*federleqa.icu",
-        "*financeflix.in",
-        "*flightsim.to",
-        "*forex-trnd.com",
-        "*imgalor.xyz",
-        "*imgbbd.buzz",
-        "*imgirx.xyz",
-        "*imgjut.buzz",
-        "*imgkaka.xyz",
-        "*imgkane.buzz",
-        "*imgkia.*",
-        "*imgklx.xyz",
-        "*imgkoc.buzz",
-        "*imgkoka.buzz",
-        "*imgkorle.buzz",
-        "*imgkuiw.xyz",
-        "*imglina.xyz",
-        "*imglkju.buzz",
-        "*imglqw.buzz",
-        "*imgmeno.buzz",
-        "*imgqte.buzz",
-        "*imgtrw.buzz",
-        "*imguiwe.buzz",
-        "*imgveni.xyz",
-        "*imgwang.buzz",
-        "*imgweika.buzz",
-        "*imgwer.buzz",
-        "*imgwex.buzz",
-        "*imgxvd.buzz",
-        "*imgyng.buzz",
-        "*imgyvdw.buzz",
-        "*imgzer.net",
-        "*imslp.org",
-        "*kekolangti.com",
-        "*michaelemad.com",
-        "*nemenlake.icu",
-        "*opalekr.icu",
-        "*pikupalate.com",
-        "*rtkenale.icu",
-        "*studyranks.in",
-        "*technoflip.in",
-        "*techware.online",
-        "*theicongenerator.com",
-        "*world-trips.net",
-        "*zentum.club"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"+js(nano-sib, timer)"
     }
   },
   {
@@ -19933,9 +20449,34 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*appvn.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#info:style(display: block !important)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*appvn.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".downloadtitle"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*azmath.info",
         "*downfile.site",
         "*downphanmem.com",
+        "*memangbau.com",
         "*trangchu.news"
       ]
     },
@@ -20034,6 +20575,64 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(set, count, 0)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cararegistrasi.com",
+        "*chooyomi.com",
+        "*federleqa.icu",
+        "*financeflix.in",
+        "*flightsim.to",
+        "*forex-trnd.com",
+        "*imgalor.xyz",
+        "*imgbbd.buzz",
+        "*imgirx.xyz",
+        "*imgjut.buzz",
+        "*imgkaka.xyz",
+        "*imgkane.buzz",
+        "*imgkia.*",
+        "*imgklx.xyz",
+        "*imgkoc.buzz",
+        "*imgkoka.buzz",
+        "*imgkorle.buzz",
+        "*imgkuiw.xyz",
+        "*imglina.xyz",
+        "*imglkju.buzz",
+        "*imglqw.buzz",
+        "*imgmeno.buzz",
+        "*imgqte.buzz",
+        "*imgtrw.buzz",
+        "*imguiwe.buzz",
+        "*imgveni.xyz",
+        "*imgwang.buzz",
+        "*imgweika.buzz",
+        "*imgwer.buzz",
+        "*imgwex.buzz",
+        "*imgxvd.buzz",
+        "*imgyng.buzz",
+        "*imgyvdw.buzz",
+        "*imgzer.net",
+        "*imslp.org",
+        "*kekolangti.com",
+        "*michaelemad.com",
+        "*nemenlake.icu",
+        "*opalekr.icu",
+        "*pikupalate.com",
+        "*rtkenale.icu",
+        "*studyranks.in",
+        "*technoflip.in",
+        "*techware.online",
+        "*theicongenerator.com",
+        "*world-trips.net",
+        "*zentum.club"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-sib, timer)"
     }
   },
   {
@@ -20274,6 +20873,21 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(set, sec, 0)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*imgadult.com",
+        "*imgdrive.net",
+        "*imgtaxi.com",
+        "*imgwallet.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-stb, redirect, 4000)"
     }
   },
   {
@@ -20533,6 +21147,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*newforex.online"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#devozon-snp:style(display: block !important)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*newforex.online"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"[id^=\"devozon-wait\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nexusmods.com"
       ]
     },
@@ -20599,6 +21237,20 @@
     "action":{
       "type":"css-display-none",
       "selector":"#timer-download-list:style(display: block!important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*pkpics.club",
+        "*trendyoum.com",
+        "*xubster.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#countdown"
     }
   },
   {
@@ -20882,6 +21534,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tecmundo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#yuidea-btn-before"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*tecmundo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#yuidea-btn:style(display: block !important)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*thetechywizard.com"
       ]
     },
@@ -20924,19 +21600,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-sib, waitTime, 1200)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*trendyoum.com",
-        "*xubster.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#countdown"
     }
   },
   {
