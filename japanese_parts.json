@@ -2711,6 +2711,47 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*2chblog.jp",
+        "*blog.jp",
+        "*blog.livedoor.jp",
+        "*bloggeek.jp",
+        "*blogism.jp",
+        "*blogo.jp",
+        "*blogstation.jp",
+        "*blogto.jp",
+        "*cafeblog.jp",
+        "*corpblog.jp",
+        "*diary.to",
+        "*doorblog.jp",
+        "*dreamlog.jp",
+        "*gger.jp",
+        "*golog.jp",
+        "*ldblog.jp",
+        "*liblo.jp",
+        "*livedoor.biz",
+        "*livedoor.blog",
+        "*myjournal.jp",
+        "*mynikki.jp",
+        "*officeblog.jp",
+        "*officialblog.jp",
+        "*publog.jp",
+        "*storeblog.jp",
+        "*teamblog.jp",
+        "*techblog.jp",
+        "*weblog.to",
+        "*xxxblog.jp",
+        "*youblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin_popular_slider"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*blog.fuga.jp"
       ]
     },
@@ -7966,6 +8007,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shingekikyojin\\.doorblog\\.jp\\/rss\\-shin01\\.html"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-context":[
         "child-frame"
       ],
@@ -8365,6 +8414,7 @@
       "url-filter":".*",
       "if-domain":[
         "*2ch-ero-report.blog.jp",
+        "*2ch-market-report-broadcast.doorblog.jp",
         "*2ch-uwaki.com",
         "*2chmatome.bloggeek.jp",
         "*2monkeys.jp",
@@ -8374,7 +8424,10 @@
         "*addchannel.net",
         "*aiteesokuhou.blog.jp",
         "*akb48rompen.com",
+        "*akbakb0048.doorblog.jp",
+        "*akege.blog.jp",
         "*animesoku.com",
+        "*antena-matome.net",
         "*audioon.blog.jp",
         "*azurlane.doorblog.jp",
         "*babymetaltimes.com",
@@ -8384,10 +8437,12 @@
         "*blog.game084.com",
         "*blue-archive.doorblog.jp",
         "*bm.2chblog.jp",
+        "*buybuykorea.doorblog.jp",
         "*buzzral.com",
         "*chikakb.ldblog.jp",
         "*bybybicycle.blog.jp",
         "*chihosoku.com",
+        "*chikakb.ldblog.jp",
         "*chomagireko.blog.jp",
         "*chomangasokuho.blog.jp",
         "*chunisoku.com",
@@ -8397,20 +8452,25 @@
         "*dareyorijyouhoutunews.blog.jp",
         "*db-gohan.blog.jp",
         "*dechisoku.com",
+        "*densetsunokijo.net",
         "*dondonwork.com",
         "*doujin-rpgfan.com",
         "*ebitsu.net",
+        "*egm.doorblog.jp",
         "*ekurere3.com",
         "*ekuzodeerhand.blog.jp",
         "*erogurosokuhou.com",
         "*eroitaiken.blog.jp",
+        "*esoku.doorblog.jp",
         "*everydayissunday.livedoor.blog",
         "*fate-go-grandorder.blog.jp",
         "*fate-go.blog.jp",
         "*fate-gok.blog.jp",
         "*fate-grandorder-go.blog.jp",
         "*fate-kouryakumaster.blog.jp",
+        "*ffsoku.blog.jp",
         "*fireembs.blog.jp",
+        "*fscop.jp",
         "*g-n-ipponmichi.xxxblog.jp",
         "*gacha.blog.jp",
         "*gamecha.info",
@@ -8421,9 +8481,12 @@
         "*geikiwami.com",
         "*geinoujin.dreamlog.jp",
         "*geinoutopics-plus.blog.jp",
+        "*gekiyasutoka.com",
         "*gensen2ch.com",
+        "*girls2chmatome.net",
         "*gunji.blog.jp",
         "*gurasen.com",
+        "*h-chanter.jp",
         "*hanshintigers1.blog.jp",
         "*heart-net.xyz",
         "*heartlife-matome.com",
@@ -8434,28 +8497,39 @@
         "*hoshujapan.jp",
         "*hrocks6969.xyz",
         "*ideal2ch.livedoor.biz",
+        "*idolgekijyo.doorblog.jp",
         "*internet-game-lounge.blog.jp",
         "*jisaka.com",
         "*jiwachan.net",
+        "*kagerou.biz",
+        "*kancolledc.blog.jp",
         "*kasegeru.blog.jp",
         "*katasumisokuhou.blog.jp",
         "*katei2.net",
         "*kazokuchannel.doorblog.jp",
+        "*kenkou-clip.com",
+        "*kichimama.net",
         "*kijoden.com",
         "*kijonikki.net",
+        "*kijyokatu.com",
+        "*kijyotown.net",
         "*kijyotsubu.net",
         "*kininaruero7.blog.jp",
         "*kinpira-san.com",
         "*kokoyakyumatomesokuho.blog.jp",
+        "*korisaka.doorblog.jp",
         "*koumuin-matome.blog.jp",
+        "*kusainews.com",
         "*labradorsokuho.net",
         "*magalog.doorblog.jp",
         "*makkah-hotels.net",
         "*maki7.dreamlog.jp",
         "*mashlife.doorblog.jp",
         "*matmebae.net",
+        "*matomehime.com",
         "*matomelotte.com",
         "*matomemo-ch.net",
+        "*mbmato.doorblog.jp",
         "*mh-xr-matome.blog.jp",
         "*mhsoken.blog.jp",
         "*mindhack2ch.com",
@@ -8463,18 +8537,27 @@
         "*moe-vip.com",
         "*moemoeanime.blog.jp",
         "*moetataiken.com",
+        "*momoclomatomex.com",
+        "*momoclozamurai.xxxblog.jp",
+        "*mon-st.blog.jp",
         "*money-life.doorblog.jp",
+        "*monster-strike.blog.jp",
+        "*monsuto.biz",
+        "*n-bespo.jp",
         "*nandemo-nadeshiko.blog.jp",
         "*nandemomatomedan.com",
         "*nanj-push.blog.jp",
         "*nanj-short.net",
         "*nanj-world.blog.jp",
         "*nanjchallenge.net",
+        "*nansyon.net",
         "*narisoku.blog.jp",
         "*newsweb.blog.jp",
         "*nius.doorblog.jp",
         "*nizigami.com",
         "*nokuo.blog.jp",
+        "*nudeplus.jp",
+        "*nyankosokuho.com",
         "*okanenews24.com",
         "*onosakaemiri.blog.jp",
         "*oomonoyoutubersokuhou.blogo.jp",
@@ -8483,22 +8566,30 @@
         "*pachinko-next.blog.jp",
         "*pachinkolist.com",
         "*paranormal-ch.com",
+        "*pathtimeblog.com",
         "*pawawa.sokuho.org",
         "*pinap.blog.jp",
+        "*poke-mon.blog.jp",
         "*pokemon-goh.doorblog.jp",
         "*pokemongo-kouryakumatome.net",
         "*pokemonunite.blog.jp",
+        "*pomepuu.net",
         "*rakukan.net",
         "*romeodensetsu.com",
         "*ronsoku.com",
         "*samuraisoccer.doorblog.jp",
+        "*satannohousoku.blog.jp",
         "*sematome.com",
         "*setouchi48g.ldblog.jp",
+        "*shanalalufica.net",
+        "*shingekikyojin.doorblog.jp",
         "*shironeko-guild.blog.jp",
         "*shumi-nikki.xyz",
+        "*singekinokyojin.ldblog.jp",
         "*skematomemon.com",
         "*snackworld-sokuhou.com",
         "*sontaku.info",
+        "*sukashuraba.net",
         "*sutekinakijo.com",
         "*syurabarabanba.blog.jp",
         "*tabelog88.blog",
@@ -8509,17 +8600,20 @@
         "*uwakich.com",
         "*valorantchannel.livedoor.blog",
         "*vipperlog.com",
-        "*vipstyle.tokyo",
         "*virtualyoutuber-matome.blog.jp",
         "*visual-matome.com",
         "*vrtuber-news.com",
         "*vtuber-densoku.blog.jp",
         "*wiiups.com",
+        "*xn--o9j0bk1l6d1bnv1as45bb2j.com",
         "*xn--ss-ci4aa8ub2251exr3e.com",
         "*xn--u9jtima5oq00m1x4e.com",
         "*xn--xckua1p.com",
         "*yabesoku.blog.jp",
         "*yofukasi-susume.xxxblog.jp",
+        "*youkai-komasoku.com",
+        "*youkaiwatch-nyansoku.com",
+        "*youneta.com",
         "*yurukuyaru.com",
         "*zetusoku.net"
       ]
@@ -9235,54 +9329,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[id^=\"top_center\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*apasoku.doorblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#main .column-inner-2 > br:first-child"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*apasoku.doorblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".box1"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*apasoku.doorblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".box2"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*apasoku.doorblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-popular_articles_with_image + .plugin-memo"
     }
   },
   {
@@ -12820,16 +12866,30 @@
       "url-filter":".*",
       "if-domain":[
         "*ikuji-news.com",
-        "*kekkonch.com",
         "*kichimama.com",
-        "*kijobibouroku.com",
-        "*kijojikenbo.com",
-        "*shuraba.net"
+        "*kimagure-kijyo.com",
+        "*uwasakijo.net"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#ifram"
+      "selector":".ifram"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ikuji-news.com",
+        "*kichimama.com",
+        "*kimagure-kijyo.com",
+        "*shuraba.net",
+        "*uwasakijo.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".pickup"
     }
   },
   {
@@ -12909,7 +12969,9 @@
       "url-filter":".*",
       "if-domain":[
         "*inazumanews2.com",
-        "*kagekidan.net"
+        "*kagekidan.net",
+        "*kitimama.jp",
+        "*shurabanote.com"
       ]
     },
     "action":{
@@ -13468,31 +13530,23 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kagekidan.net"
+        "*kagekidan.net",
+        "*kitimama.jp",
+        "*shurabanote.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#feed2"
+      "selector":"div[id^=\"feed\"]"
     }
   },
   {
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kagekidan.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#feedmiddle"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*kagekidan.net"
+        "*kagekidan.net",
+        "*kitimama.jp",
+        "*shurabanote.com"
       ]
     },
     "action":{
@@ -13680,6 +13734,22 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kekkonch.com",
+        "*kichimama.com",
+        "*kijobibouroku.com",
+        "*kijojikenbo.com",
+        "*shuraba.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#ifram"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kensho-matome.info"
       ]
     },
@@ -13794,33 +13864,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#content > table:nth-child(2)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*kichimama.com",
-        "*uwasakijo.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ifram"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*kichimama.com",
-        "*shuraba.net",
-        "*uwasakijo.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".pickup"
     }
   },
   {
@@ -15679,6 +15722,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#widget-blogroll"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news-channel.doorblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footerRss"
     }
   },
   {
@@ -21254,6 +21309,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*lifeantenna.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".highlight-entry"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*moeimg.net"
       ]
     },
@@ -21332,6 +21399,30 @@
     "action":{
       "type":"css-display-none",
       "selector":"center > div[style$=\"border:1px dotted #000000;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*scienceplus2ch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#lite_link"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*scienceplus2ch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".popular_article_pick_up"
     }
   },
   {
