@@ -8645,6 +8645,7 @@
         "*tabelog88.blog",
         "*tachiyomitoday.com",
         "*taorun.xyz",
+        "*theaterdays.xyz",
         "*timely.blog.jp",
         "*toralucky.fun",
         "*trend-maruwakari.com",
@@ -9384,6 +9385,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[id^=\"top_center\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*anigenai.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rss-roll-01"
     }
   },
   {
@@ -16290,6 +16303,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nyaasokuvip.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-top-blog"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*o3ch.com"
       ]
     },
@@ -21185,6 +21210,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*anigenai.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".smrss-body"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*blog.livedoor.jp"
       ]
     },
@@ -21430,6 +21467,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".ad01"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nyaasokuvip.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".kotei-headline-shot"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nyaasokuvip.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".kotei-link-shot"
     }
   },
   {
