@@ -4929,6 +4929,18 @@
   },
   {
     "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*umamusume-umapyoi.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll-wrapper"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -8499,6 +8511,7 @@
         "*fate-gok.blog.jp",
         "*fate-grandorder-go.blog.jp",
         "*fate-kouryakumaster.blog.jp",
+        "*femimatsu.com",
         "*ffsoku.blog.jp",
         "*fireembs.blog.jp",
         "*fishing-sokuhou.com",
@@ -8538,6 +8551,7 @@
         "*jisaka.com",
         "*jiwachan.net",
         "*kagerou.biz",
+        "*kakutoumania-sokuhou.xyz",
         "*kancolledc.blog.jp",
         "*kasegeru.blog.jp",
         "*katasumisokuhou.blog.jp",
@@ -8569,6 +8583,7 @@
         "*matomehime.com",
         "*matomelotte.com",
         "*matomemo-ch.net",
+        "*matomesoku.jp",
         "*mbmato.doorblog.jp",
         "*mh-xr-matome.blog.jp",
         "*mhsoken.blog.jp",
