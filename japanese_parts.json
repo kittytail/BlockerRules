@@ -929,6 +929,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dora\\-world\\.com\\/bp_doraclock\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dqplus\\.net\\/img\\/banner\\/"
     },
     "action":{
@@ -14651,6 +14659,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*manga1blog.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".pcrssbox-2clm"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*mangajunky.net"
       ]
     },
@@ -21434,6 +21454,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".highlight-entry"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*manga1blog.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[id*=\"rss\"]"
     }
   },
   {
