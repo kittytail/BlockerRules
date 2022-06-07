@@ -557,6 +557,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/wp\\-content\\/plugins\\/shogakukan\\-push\\-service\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -1185,6 +1193,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sckxppzdm\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shogakukan\\-push\\-service\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -2032,6 +2051,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".notification-sidebar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*search.brave.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".callout.svelte-10n95qb"
     }
   },
   {
@@ -4883,6 +4914,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gpado\\.jp\\/static\\/img\\/top\\/bannerpop_lottery_gpado\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gpado.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#lottery-popup"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?grcs\\.co\\.jp\\/hubfs\\/top\\/banner\\/top_srmt_wp_link\\.svg"
     },
     "action":{
@@ -4942,6 +4993,38 @@
     "action":{
       "type":"css-display-none",
       "selector":".on-air"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hbx\\.com\\/build\\/shop\\/images\\/hbx\\/subscription\\-dialog\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hbx.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#headlessui-dialog-2:has(img[src*=\"/subscription-dialog/\"])"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hbx.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"html[style^=\"overflow: hidden\"]:style(overflow: auto !important;padding-right: unset !important;)"
     }
   },
   {
@@ -8510,6 +8593,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*clubdam.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".l-page-bottom__cv"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cnn.com"
       ]
     },
@@ -8552,6 +8647,30 @@
     "action":{
       "type":"css-display-none",
       "selector":"#register-popup-bottom"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*coolors.co"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#generator-tutorial-intro"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*coolors.co"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"body.route-generate:style(overflow: auto !important; position: initial !important;)"
     }
   },
   {
@@ -10024,6 +10143,19 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*karelcapek.co.jp",
+        "*tech-camp.in"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#js-popup"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kayak.*"
       ]
     },
@@ -10294,6 +10426,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".vue-portal-target"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*mangagohan.me"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#wpd-bubble-wrapper"
     }
   },
   {
@@ -11798,18 +11942,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".cvFLg_wrap"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*tech-camp.in"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#js-popup"
     }
   },
   {
@@ -14078,6 +14210,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*townwork.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".js-chatApplyBanner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*yellowhat.jp"
       ]
     },
@@ -15001,7 +15145,18 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?honda\\.co\\.jp[\\/:&?]?.*\\/banner\\-02\\.png$"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?honda\\.co\\.jp[\\/:&?]?.*\\/banner\\-02\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "domonet.jp"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?idcfcloud\\.net\\/dn_items\\/bnr\\/20201209_mail\\.jpg"
     },
     "action":{
       "type":"block"
@@ -15851,6 +16006,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*croissant-online.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".mod-subscribemailmagazine"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dailyshincho.jp"
       ]
     },
@@ -15893,6 +16060,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#mc4wp_form_widget-1"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*expressvpn.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wrap-subscribe"
     }
   },
   {
@@ -16312,7 +16491,20 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".promo-box"
+      "selector":".promo-link"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*newsweek.com",
+        "*pcgamer.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".newsletter-signup"
     }
   },
   {
@@ -16350,18 +16542,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".MAG_web_anon_new-journey-rollout"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*pcgamer.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".newsletter-signup"
     }
   },
   {
@@ -17426,6 +17606,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".banner-area-entry + h3.category-title"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bepal.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modBlockAdsOsusume"
     }
   },
   {
@@ -19915,6 +20107,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*crank-in.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".headline_edit_recommend"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*deezer.com"
       ]
     },
@@ -19963,6 +20167,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*englishcentral.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".promo-info-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*felia.373news.com"
       ]
     },
@@ -19993,6 +20209,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#cnt > #appbar + div[class][data-gid][jsaction][style=\"height: 190px;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hypebeast.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".shopping-break-container"
     }
   },
   {
@@ -20838,6 +21066,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".m-banner-download-app-top-fixed"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*m.crank-in.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".latest_news > li > article:has(> a[href] > .ci_list_all > .ci_list_all_discription-area > p > .insert_pr)"
     }
   },
   {
@@ -21804,7 +22044,8 @@
       "url-filter":".*",
       "if-domain":[
         "*bitefaucet.com",
-        "*dramaworldhd.co"
+        "*dramaworldhd.co",
+        "*edummm.xyz"
       ]
     },
     "action":{
@@ -21906,6 +22147,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-sib, timer)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cashearn.cc"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-sib, #timer)"
     }
   },
   {
@@ -22086,6 +22339,19 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(set, time, 0)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*files.im",
+        "*zeefiles.*"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-stb, tick)"
     }
   },
   {
@@ -23076,6 +23342,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*wowroms.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-sib, second)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*xubster.com"
       ]
     },
@@ -23106,18 +23384,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-sib, (i-1))"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*zeefiles.*"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"+js(nano-stb, tick)"
     }
   },
   {
@@ -24334,22 +24600,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"^.yarpp-related"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"alcare\\.co\\.jp#%#\\/\\/scriptlet('set\\-cookie', 'AGREE', '1')"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"alcare\\.co\\.jp#%#\\/\\/scriptlet('remove\\-cookie', 'PRE_URL')"
-    },
-    "action":{
-      "type":"block"
     }
   },
   {
