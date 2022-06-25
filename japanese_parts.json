@@ -6916,6 +6916,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kasegeru\\.blog\\.jp\\/iframe_kijisita\\.html"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "script"
       ],
@@ -9930,10 +9938,12 @@
         "*kuzu-soku.com",
         "*kizyonouwaki.com",
         "*lifewars.net",
+        "*matomeblade.com",
         "*nnews1.com",
         "*oniyomech.livedoor.biz",
         "*otakomu.jp",
         "*sk2ch.net",
+        "*tanu-soku.com",
         "*vip.blomaga.jp"
       ]
     },
@@ -14164,6 +14174,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kijosoku.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".column-inner-2 > div[style^=\"border-style:dotted;border-color:#00BFFF;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kijoume.net"
       ]
     },
@@ -15500,7 +15522,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*moemoeanime.blog.jp"
+        "*moemoeanime.blog.jp",
+        "*suzusoku.blog.jp"
       ]
     },
     "action":{
@@ -17156,42 +17179,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".basehtml3"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*pokemon-matome.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".basehtml8"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*pokemon-matome.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".basehtml_side"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*pokemon-matome.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":".bbslink2"
     }
   },
@@ -17205,6 +17192,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".inner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*pokemon-matome.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"basehtml\"]"
     }
   },
   {
@@ -17440,6 +17439,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*ranmato.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-9"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*rastaneko-blog.com"
       ]
     },
@@ -17626,6 +17637,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".footer-rss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*revuestarlightre.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-recent_comments + .plugin-memo3"
     }
   },
   {
@@ -18610,6 +18633,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"[class^=\"rss_wrapper\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*warotanikki.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".code-block"
     }
   },
   {
@@ -20105,6 +20140,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tyoieronews.blog.jp",
         "*vipsister23.com"
       ]
     },
@@ -21306,6 +21342,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tyoieronews.blog.jp",
         "*vipsister23.com"
       ]
     },
