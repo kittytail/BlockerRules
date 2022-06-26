@@ -1052,6 +1052,9 @@
   },
   {
     "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pushcode\\.jp[\\/:&?]?"
     },
     "action":{
@@ -4590,52 +4593,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".widget + div[class*=\"promotion\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?forbesjapan\\.media\\/goodbye_banners\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "media"
-      ],
-      "if-domain":[
-        "forbesjapan.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?forbesjapan\\.media\\/movie\\/SG_promotion\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*forbesjapan.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#boxer-overlay"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*forbesjapan.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".pop2"
     }
   },
   {
@@ -9390,6 +9347,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*financialexpress.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#id_newsletter_subscription_popup"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*findpro.jp"
       ]
     },
@@ -12664,6 +12633,42 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*view-next.benesse.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".remodal-is-locked:style(overflow: auto !important; touch-action: auto !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*view-next.benesse.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".remodal-overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*view-next.benesse.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".remodal-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*vox.com"
       ]
     },
@@ -13831,6 +13836,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*applion.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn_fix_app"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*b.hatena.ne.jp"
       ]
     },
@@ -14461,7 +14478,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#rtsp_recommend_az"
+      "selector":".l-header__banner"
     }
   },
   {
@@ -15987,6 +16004,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*38news.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sideContentHeading"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*agenda-note.com"
       ]
     },
@@ -16263,7 +16292,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*cnn.com"
+        "*cnn.com",
+        "*sakisiru.jp"
       ]
     },
     "action":{
@@ -16353,6 +16383,31 @@
     "action":{
       "type":"css-display-none",
       "selector":".wrap-subscribe"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*financialexpress.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#id_newsletter_subscription"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*financialpost.com",
+        "*thebridge.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".newsletter-widget"
     }
   },
   {
@@ -17027,18 +17082,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#mc-embedded-subscribe-form"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*thebridge.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".newsletter-widget"
     }
   },
   {
@@ -18143,18 +18186,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#ISALCT"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*itmedia.co.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#cx_article"
     }
   },
   {
@@ -19409,6 +19440,14 @@
         "first-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?foxnews\\.com[\\/:&?]?.*\\/fox\\-news\\/nation\\-promo\\/nation_promo_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gamebiz\\.jp\\/media\\/97313759\\-b923\\-49a3\\-ac97\\-d929f7cfa82e\\.jpg"
     },
     "action":{
       "type":"block"
@@ -22915,7 +22954,14 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*highload.to"
+        "*highload.to",
+        "*shavetape.*",
+        "*strcloud.*",
+        "*streamadblockplus.*",
+        "*streamta.*",
+        "*streamtape.*",
+        "*strtape.*",
+        "*strtapeadblock.*"
       ]
     },
     "action":{
