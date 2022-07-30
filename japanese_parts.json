@@ -9948,6 +9948,18 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":"#idNCHrss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*beastmodeblock.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".rssg1"
     }
   },
@@ -12705,6 +12717,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".rss_scroll"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*helloprojects.seesaa.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".text > a[href^=\"http://moudamepo.com/pick.cgi\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*helloprojects.seesaa.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".text > a[href^=\"https://headline.mtfj.net\"]"
     }
   },
   {
@@ -19798,30 +19834,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ginjimasu.blog39.fc2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#more > a[href^=\"http://\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ginjimasu.blog39.fc2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#sidemenu2 > .sidemenu_body:first-child"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*hdouga.com"
       ]
     },
@@ -19858,7 +19870,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*heartlandgost.blog.fc2.com"
+        "*heartlandgost.com"
       ]
     },
     "action":{
@@ -19870,7 +19882,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*heartlandgost.blog.fc2.com"
+        "*heartlandgost.com"
       ]
     },
     "action":{
@@ -20975,30 +20987,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ginjimasu.blog39.fc2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"^#more > a[href^=\"http://\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ginjimasu.blog39.fc2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"^#sidemenu2 > .sidemenu_body:first-child"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*hdouga.com"
       ]
     },
@@ -21035,7 +21023,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*heartlandgost.blog.fc2.com"
+        "*heartlandgost.com"
       ]
     },
     "action":{
@@ -21047,7 +21035,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*heartlandgost.blog.fc2.com"
+        "*heartlandgost.com"
       ]
     },
     "action":{

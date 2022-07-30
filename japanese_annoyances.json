@@ -523,6 +523,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/pushwoosh\\-service\\-worker\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/pushy\\-ver\\.js"
     },
     "action":{
@@ -7795,6 +7803,38 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?web\\-kanji\\.com\\/images\\/cta\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*web-kanji.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".floatbar-cta"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*web-kanji.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".float-animation-cta"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "image"
       ],
@@ -8027,6 +8067,29 @@
     "action":{
       "type":"css-display-none",
       "selector":".bannerFrame"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "paypayfleamarket.yahoo.co.jp"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yimg\\.jp\\/images\\/paypayfleamarket\\/salespromo\\/.*\\/bnr_300_200\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*paypayfleamarket.yahoo.co.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#fltbnr"
     }
   },
   {
@@ -10188,18 +10251,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*hachimanga.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#wpd-bubble-wrapper"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*hai2mail.jp"
       ]
     },
@@ -10230,6 +10281,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".helpfulness-bar-outer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hentai-sharing.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#wpd-bubble-wrapper"
     }
   },
   {
@@ -10341,6 +10404,42 @@
     "action":{
       "type":"css-display-none",
       "selector":".js-skip-content"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*houzz.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modal-open:style(overflow: auto !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*houzz.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modal-vc"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*houzz.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"html[style^=\"overflow-y: hidden\"]:style(overflow-y: auto !important;)"
     }
   },
   {
@@ -12158,6 +12257,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"BreakingNews-pill-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rikon-law.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".c-mailmaga-floatbtn"
     }
   },
   {
@@ -14594,6 +14705,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".js-fixedGuideCta"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*carview.yahoo.co.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".idpfLP"
     }
   },
   {
@@ -17820,6 +17943,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nordvpn.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".SubscribeSection"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nta.co.jp"
       ]
     },
@@ -18199,6 +18334,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".eb-inst.eb-bottom-right"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*vietnamairlines.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".subcribe"
     }
   },
   {
@@ -22274,6 +22421,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*crevo.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sideBlock_CV"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dengekionline.com"
       ]
     },
@@ -22412,6 +22571,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"^.td_block_social_counter ~ .td_block_2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*crevo.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"^.sideBlock_CV"
     }
   },
   {
@@ -22576,6 +22747,14 @@
     "action":{
       "type":"css-display-none",
       "selector":".tiktok_banner_box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fc2\\.com\\/video\\/css\\/u\\/pm\\/img\\/SP_bnr_"
+    },
+    "action":{
+      "type":"block"
     }
   },
   {
@@ -22784,6 +22963,17 @@
     "action":{
       "type":"css-display-none",
       "selector":".TimelineTargeting__link"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "roadway.yahoo.co.jp"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yimg\\.jp\\/images\\/transit\\/promo\\/banner\\/bnr_promoTransInfo_300x60_02\\.png"
+    },
+    "action":{
+      "type":"block"
     }
   },
   {
@@ -23960,7 +24150,9 @@
         "*forex-trnd.com",
         "*imgalor.xyz",
         "*imgbbd.buzz",
+        "*imgbew.buzz",
         "*imgewe.buzz",
+        "*imgeza.buzz",
         "*imgiut.buzz",
         "*imgizw.buzz",
         "*imgizx.buzz",
@@ -23982,6 +24174,7 @@
         "*imgqte.buzz",
         "*imgtrw.buzz",
         "*imguiwe.buzz",
+        "*imguo.buzz",
         "*imgux.buzz",
         "*imguytx.buzz",
         "*imguz.buzz",
@@ -23995,9 +24188,11 @@
         "*imgxaqq.buzz",
         "*imgxbe.buzz",
         "*imgxvd.buzz",
+        "*imgxxxx.buzz",
         "*imgyng.buzz",
         "*imgyvdw.buzz",
         "*imgzer.net",
+        "*imgzzzz.buzz",
         "*imslp.org",
         "*michaelemad.com",
         "*studyranks.in",
@@ -24103,6 +24298,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-sib, , 1200, 0)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*disheye.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-sib, count, *)"
     }
   },
   {
@@ -24860,6 +25067,42 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(nano-sib, countdown)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*recipesdelite.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#btnhide"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*recipesdelite.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#btnshow:style(display: block !important;)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*recipesdelite.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"+js(nano-sib, inner)"
     }
   },
   {
@@ -26464,6 +26707,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"+js(ra, checked, #chrExtCheckbox)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gindaco.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".chakra-fade[style=\"opacity: 1;\"]"
     }
   },
   {
