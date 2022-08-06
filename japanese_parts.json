@@ -194,22 +194,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ap\\.teacup\\.com\\/common\\/.*\\/ap_clap\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ap\\.teacup\\.com\\/common\\/img\\/rss_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -2637,143 +2621,6 @@
   },
   {
     "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*20kaido.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-memo:nth-of-type(3)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*20kaido.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-memo:nth-of-type(4)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*2chblog.jp",
-        "*blog.jp",
-        "*blog.livedoor.jp",
-        "*bloggeek.jp",
-        "*blogism.jp",
-        "*blogo.jp",
-        "*blogstation.jp",
-        "*blogto.jp",
-        "*cafeblog.jp",
-        "*corpblog.jp",
-        "*diary.to",
-        "*doorblog.jp",
-        "*dreamlog.jp",
-        "*gger.jp",
-        "*golog.jp",
-        "*ldblog.jp",
-        "*liblo.jp",
-        "*livedoor.biz",
-        "*livedoor.blog",
-        "*myjournal.jp",
-        "*mynikki.jp",
-        "*officeblog.jp",
-        "*officialblog.jp",
-        "*publog.jp",
-        "*storeblog.jp",
-        "*teamblog.jp",
-        "*techblog.jp",
-        "*weblog.to",
-        "*xxxblog.jp",
-        "*youblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin_popular_slider"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blog.fuga.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sidebar-1 > .widget_custom_html"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*dagasiyasanngaiku.blog.fc2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sidemenu_body:first-child"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*g-n-ipponmichi.xxxblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".left-container > .plugin-memo:last-child"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ginnga.blog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"footer > div:last-of-type"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*nana-trading.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#text-5"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*news30over.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-memo:last-child"
-    }
-  },
-  {
-    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -3644,10 +3491,187 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?renaimaster\\.club\\/wp\\-content\\/uploads\\/2018\\/06\\/01\\-12\\.jpg"
+      "url-filter":".*",
+      "if-domain":[
+        "*20kaido.com"
+      ]
     },
     "action":{
-      "type":"block"
+      "type":"css-display-none",
+      "selector":".plugin-memo:nth-of-type(3)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*20kaido.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-memo:nth-of-type(4)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*2chblog.jp",
+        "*blog.jp",
+        "*blog.livedoor.jp",
+        "*bloggeek.jp",
+        "*blogism.jp",
+        "*blogo.jp",
+        "*blogstation.jp",
+        "*blogto.jp",
+        "*cafeblog.jp",
+        "*corpblog.jp",
+        "*diary.to",
+        "*doorblog.jp",
+        "*dreamlog.jp",
+        "*gger.jp",
+        "*golog.jp",
+        "*ldblog.jp",
+        "*liblo.jp",
+        "*livedoor.biz",
+        "*livedoor.blog",
+        "*myjournal.jp",
+        "*mynikki.jp",
+        "*officeblog.jp",
+        "*officialblog.jp",
+        "*publog.jp",
+        "*storeblog.jp",
+        "*teamblog.jp",
+        "*techblog.jp",
+        "*weblog.to",
+        "*xxxblog.jp",
+        "*youblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin_popular_slider"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blog.fuga.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sidebar-1 > .widget_custom_html"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dagasiyasanngaiku.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sidemenu_body:first-child"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*deliciousicecoffee.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".mainEntryBody > span[style=\"color:#ff0000\"]:first-child > span[style=\"font-size:large;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*deliciousicecoffee.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"a[href^=\"//blog.with2.net/link/\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*deliciousicecoffee.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"a[href^=\"https://blogranking.fc2.com/in.php\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*g-n-ipponmichi.xxxblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".left-container > .plugin-memo:last-child"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ginnga.blog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"footer > div:last-of-type"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*krownews.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".side-menu:first-of-type"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nana-trading.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-5"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news30over.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-memo:last-child"
     }
   },
   {
@@ -6901,7 +6925,8 @@
         "child-frame"
       ],
       "if-domain":[
-        "helloprojects.seesaa.net"
+        "helloprojects.seesaa.net",
+        "juicejiuce.seesaa.net"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?juicejiuce\\.up\\.seesaa\\.net[\\/:&?]?"
     },
@@ -9475,7 +9500,6 @@
       "if-domain":[
         "*androidken.blog.fc2.com",
         "*bandai11.blog.fc2.com",
-        "*barukanlog.blog31.fc2.com",
         "*erogletv.blog.2nt.com",
         "*hitoikigame.com",
         "*hunter31.blog.2nt.com",
@@ -9656,7 +9680,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".s-side:nth-last-of-type(-n+2)"
+      "selector":".blogroll-channel2"
     }
   },
   {
@@ -9861,6 +9885,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".bottom_ad"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*barukanlog.blog31.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin3_outline:nth-of-type(-n+2)"
     }
   },
   {
@@ -11978,7 +12014,8 @@
       "url-filter":".*",
       "if-domain":[
         "*gamedaradara.doorblog.jp",
-        "*keyaki.tech"
+        "*keyaki.tech",
+        "*russianbeauties.jp"
       ]
     },
     "action":{
@@ -13857,6 +13894,32 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*juicejiuce.seesaa.net",
+        "*okuribitoniki.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".framebox.mt10"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*juicejiuce.seesaa.net",
+        "*okuribitoniki.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".link-wrp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*jumpmatome2ch.biz"
       ]
     },
@@ -14048,6 +14111,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#center > .page_navi"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kandatasokuho.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".right-box-2"
     }
   },
   {
@@ -16710,6 +16785,31 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nofootynolife.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry_body > div[style$=\"background-color: #33cc66; font-size:20px;border-radius: 10px;box-shadow: 5px 5px 5px #AAA;width: 400px;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nofootynolife.blog.fc2.com",
+        "*siokan5000.blog.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blogroll_content1"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nogizaka-46bunno1.blog.jp"
       ]
     },
@@ -18039,18 +18139,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".blogroll_content ~ br"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*siokan5000.blog.fc2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".blogroll_content1"
     }
   },
   {
