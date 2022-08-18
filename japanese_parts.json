@@ -2099,14 +2099,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?widget\\.ranklet\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?widgets\\.wp\\.com\\/likes\\/"
     },
     "action":{
@@ -7759,6 +7751,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mv\\-mindhack2ch\\.up\\.seesaa\\.net\\/common\\/image_feed\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-context":[
         "child-frame"
       ],
@@ -8260,14 +8260,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tr\\.twipple\\.jp\\/common\\/img\\/news_icons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "load-context":[
         "child-frame"
       ],
@@ -8567,7 +8559,6 @@
         "*blue-archive.doorblog.jp",
         "*bm.2chblog.jp",
         "*buybuykorea.doorblog.jp",
-        "*buzzral.com",
         "*bybybicycle.blog.jp",
         "*chihosoku.com",
         "*chikakb.ldblog.jp",
@@ -8603,6 +8594,7 @@
         "*fate-grandorder-go.blog.jp",
         "*fate-kouryakumaster.blog.jp",
         "*femimatsu.com",
+        "*ff14hikasensokuhou.com",
         "*ffsoku.blog.jp",
         "*fighters-kingdom.blog.jp",
         "*fireembs.blog.jp",
@@ -11409,6 +11401,20 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*drdinl.com",
+        "*negisoku.com",
+        "*sonicch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rss-box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eguinews.com"
       ]
     },
@@ -13079,6 +13085,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sample1"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*hoshujapan.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"blogroll-topbelow\"]"
     }
   },
   {
@@ -14969,6 +14987,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*lamsect.blog112.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#main_line > br + div.content"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lamsect.blog112.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".antena"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*leaked.jp"
       ]
     },
@@ -16165,18 +16207,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#main .column-inner-2 > [href^=\"https://e-gaming.\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*negisoku.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#rss-box"
     }
   },
   {
@@ -18157,6 +18187,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*sonicch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#tangan_box2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*squallchannel.com"
       ]
     },
@@ -19628,18 +19670,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#my_sidebar_widget"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*drdinl.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#rss-box"
     }
   },
   {
@@ -21948,6 +21978,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*celery-marine.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rss-SP-bottom2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dojin-pandemic.com",
         "*dojinwatch.com",
         "*doujincafe.com",
@@ -22145,6 +22187,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[id*=\"rss\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*mindhack2ch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-article"
     }
   },
   {
