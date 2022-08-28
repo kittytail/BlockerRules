@@ -4858,6 +4858,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*19-sokuhou.com",
         "*blog.fc2.com"
       ]
     },
@@ -5660,6 +5661,20 @@
         "bm.2chblog.jp"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.jp\\/plugin\\/popular_articles_with_image_plugin\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-context":[
+        "child-frame"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blog\\.livedoor\\.jp\\/robosoku\\/"
     },
     "action":{
       "type":"block"
@@ -8737,6 +8752,7 @@
         "*pomepuu.net",
         "*porolympic.tokyo",
         "*rakukan.net",
+        "*roboanime.com",
         "*romeodensetsu.com",
         "*ronsoku.com",
         "*sakasaka10.blog.jp",
@@ -21972,18 +21988,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#article_head_v2 + #lite_link"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*celery-marine.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#rss-SP-bottom2"
     }
   },
   {
