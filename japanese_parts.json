@@ -833,14 +833,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ct\\.potora\\.jp\\/images\\/information\\/link\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d\\.hatena\\.ne\\.jp\\/images\\/b_append\\."
     },
     "action":{
@@ -1407,17 +1399,6 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?moppy\\.jp[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "load-context":[
-        "child-frame"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?music\\.earth\\-words\\.net\\/music\\/"
     },
     "action":{
       "type":"block"
@@ -3628,6 +3609,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"footer > div:last-of-type"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*knowledgesokuhou.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".plugin-memo"
     }
   },
   {
@@ -6558,6 +6551,32 @@
   },
   {
     "trigger":{
+      "load-context":[
+        "child-frame"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gazounabi\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gazounabi.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blog-roll"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ginnga\\.blog\\.jp\\/antenna\\.html"
     },
     "action":{
@@ -7462,10 +7481,34 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?minkch\\.com\\/users\\/out\\/siterankpick_"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?minkch\\.com\\/users\\/out\\/ranking_imgs\\/"
     },
     "action":{
       "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*minkch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#execphp-5"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*minkch.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".click-drawing-container + div.yarpp-related"
     }
   },
   {
@@ -8596,7 +8639,6 @@
         "*doujinsokuhou45.com",
         "*ebitsu.net",
         "*egm.doorblog.jp",
-        "*ekurere3.com",
         "*ekuzodeerhand.blog.jp",
         "*entame.fun",
         "*erogurosokuhou.com",
@@ -11437,19 +11479,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[id^=\"_tangan_\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ekurere3.com",
-        "*knowledgesokuhou.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".plugin-memo"
     }
   },
   {
@@ -15045,6 +15074,54 @@
     "action":{
       "type":"css-display-none",
       "selector":"#garssttl"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lovelive-petitsoku.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#content-top-in"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lovelive-petitsoku.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-3"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lovelive-petitsoku.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-3"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lovelive-petitsoku.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wp_rss_retriever_item_wrapper"
     }
   },
   {
@@ -20280,18 +20357,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nyan7.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".myrssitem1"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*nyankobiyori.com"
       ]
     },
@@ -21440,18 +21505,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"^.plugin-memo"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*nyan7.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"^.myrssitem1"
     }
   },
   {
