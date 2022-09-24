@@ -9958,7 +9958,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".sidemenu_body:nth-child(-n+2), .sidemenu_body:nth-last-child(-n+3)"
+      "selector":".sidemenu_body:nth-last-child(-n+3)"
     }
   },
   {
@@ -14253,6 +14253,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*katuru2ch.blog12.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[id^=\"more\"] > p:has(> b > a[href^=\"http://katuru.com/rss/\"])"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kazokuchannel.doorblog.jp"
       ]
     },
@@ -17335,18 +17347,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".header-blogroll"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*otonarisoku.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":".header-rss"
     }
   },
@@ -17359,7 +17359,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".header2-blogroll"
+      "selector":"div[class$=\"blogroll\"]"
     }
   },
   {
@@ -17372,6 +17372,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[style=\"height:200px; overflow:hidden;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*otonarisoku.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[style=\"height:280px; overflow:hidden;\"]"
     }
   },
   {
@@ -17397,6 +17409,30 @@
     "action":{
       "type":"css-display-none",
       "selector":"#custom_html-2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*otonary.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#article-bot-rss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*otonary.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".master-post-advert > p > b"
     }
   },
   {
@@ -22029,6 +22065,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".smrss-body"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*katuru2ch.blog12.fc2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sougo_rss_div"
     }
   },
   {

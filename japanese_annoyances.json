@@ -13058,6 +13058,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*peraichi.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#footer-created"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*pharma.mynavi.jp"
       ]
     },
@@ -17215,7 +17227,8 @@
       ],
       "unless-domain":[
         "howtosucceed.at",
-        "riavrn.ru"
+        "riavrn.ru",
+        "masterborn.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mailerlite\\.com[\\/:&?]?"
     },
@@ -18822,6 +18835,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*asahi.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[x-component-name=\"LeadNewsLetter\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*asia.nikkei.com"
       ]
     },
@@ -19198,6 +19223,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*foreignaffairs.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#newsletter-sign-up-message"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*foreignaffairs.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".paywall"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*fullfact.org"
       ]
     },
@@ -19312,6 +19361,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"section[class^=\"LinkBannerWrapper\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*historytoday.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#signup-popup"
     }
   },
   {
@@ -19878,6 +19939,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".mailmagazine-box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*pubsonline.informs.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ib-green-bg > div.row.separator[data-widget-def=\"ux3-layout-widget\"]"
     }
   },
   {
@@ -20982,6 +21055,7 @@
   {
     "trigger":{
       "unless-domain":[
+        "hochi.news",
         "kahoku.news"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?popin\\.cc\\/popin_discovery5\\-"
@@ -20993,6 +21067,7 @@
   {
     "trigger":{
       "unless-domain":[
+        "hochi.news",
         "kahoku.news",
         "medical.jiji.com"
       ],
@@ -22595,7 +22670,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?biz\\.chunichi\\.co\\.jp\\/common\\/images\\/bnr\\-trial\\.jpg"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?biz\\.chunichi\\.co\\.jp\\/common\\/images\\/bnr\\-trial"
     },
     "action":{
       "type":"block"
@@ -25457,6 +25532,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rank\\-king\\.jp\\/item\\/image\\/original\\/7943247\\.jpg"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ranking.goo.ne.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".banner"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?recochoku\\.jp\\/rc\\-p1\\/recommendpopup\\/"
     },
     "action":{
@@ -26858,6 +26953,7 @@
         "*imgxhfr.buzz",
         "*imgxvd.buzz",
         "*imgxxxx.buzz",
+        "*imgxza.buzz",
         "*imgyng.buzz",
         "*imgyvdw.buzz",
         "*imgzzzz.buzz",
@@ -30420,6 +30516,17 @@
         "tarzanweb.jp"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?csm\\.cxpublic\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "sanity.io"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?js\\.driftt\\.com[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
