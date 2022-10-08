@@ -9019,6 +9019,7 @@
         "*akb48matomemory.com",
         "*aramame.net",
         "*checkmate-blog.com",
+        "*daretoku-eromanga.info",
         "*girlsvip-matome.com",
         "*gahalog.2chblog.jp",
         "*hattatu-matome.ldblog.jp",
@@ -11280,6 +11281,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".left-container >.plugin-memo:last-child"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*daretoku-eromanga.info"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sidewinder"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*daretoku-eromanga.info"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sidewinder-2"
     }
   },
   {
@@ -15073,7 +15098,19 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[style=\"width: 100%;height: 312px;margin:0px 0 5px 0px;overflow:hidden;border: 1px solid #e6e6e6;\"]"
+      "selector":".dfad"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*leaked.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[style^=\"width: 100%;height: 312px;margin:0px 0\"]"
     }
   },
   {
@@ -22089,6 +22126,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#article_head_v2 + #lite_link"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*daretoku-eromanga.info"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".out_m"
     }
   },
   {
