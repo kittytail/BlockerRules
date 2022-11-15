@@ -9009,6 +9009,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*2chblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-pickup"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*2chblog.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rss-pickup-title"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*2chcopipe.blog.2nt.com"
       ]
     },
@@ -9063,7 +9087,6 @@
         "*checkmate-blog.com",
         "*daretoku-eromanga.info",
         "*girlsvip-matome.com",
-        "*gahalog.2chblog.jp",
         "*hattatu-matome.ldblog.jp",
         "*kemochan.com",
         "*keyaki.tech",
@@ -9673,7 +9696,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"#main-box > div[style^=\"border : 2px solid gray;\"]"
+      "selector":"div[id^=\"top_center\"]"
     }
   },
   {
@@ -9685,7 +9708,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[id^=\"top_center\"]"
+      "selector":"div[style^=\"border : 2px solid gray;height:245px; width:825px;\"]"
     }
   },
   {
@@ -9729,6 +9752,7 @@
       "url-filter":".*",
       "if-domain":[
         "*animalch.net",
+        "*gahalog.2chblog.jp",
         "*usi32.com"
       ]
     },
@@ -11565,6 +11589,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*episodesex.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rsslist"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*erakokyu.net"
       ]
     },
@@ -11827,6 +11863,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".top-rss-under"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*fashion-news.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-content > h3:has(> span[style=\"color: #ff5e00;\"])"
     }
   },
   {
@@ -14105,6 +14153,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".rss03"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*jumpmatome2ch.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rss-top"
     }
   },
   {
@@ -17483,30 +17543,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*oryouri.2chblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rss-pickup"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*oryouri.2chblog.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rss-pickup-title"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*otameshivip.com"
       ]
     },
@@ -20462,7 +20498,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kings77702.blog114.fc2.com"
+        "*kings77702.blog.2nt.com"
       ]
     },
     "action":{
@@ -21628,7 +21664,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kings77702.blog114.fc2.com"
+        "*kings77702.blog.2nt.com"
       ]
     },
     "action":{
@@ -22373,6 +22409,7 @@
         "*doujincafe.com",
         "*ero-comic-hunter.net",
         "*ero-manga-platinum.net",
+        "*ero-mangacafe.com",
         "*ero-mangalife.com",
         "*ero-mangasokuhou.com",
         "*erodoujinshi-world.com",
