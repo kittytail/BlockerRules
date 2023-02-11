@@ -32,6 +32,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/omapi.fangraphs.com"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*sukima.me"
