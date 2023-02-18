@@ -23,11 +23,33 @@
   },
   {
     "trigger":{
-      "url-filter":"stackoverflow.com"
+      "url-filter":".*",
+      "if-domain":[
+        "stackoverflow.com",
+        "askubuntu.com"
+      ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".js-consent-banner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"s.tabelog.com"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#js-webtoapp-floating-banner-overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"s.tabelog.com"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#js-webtoapp-floating-banner"
     }
   },
   {
