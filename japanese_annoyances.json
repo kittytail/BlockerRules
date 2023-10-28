@@ -32548,14 +32548,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/btnTwitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/button1\\-share\\."
     },
     "action":{
@@ -32565,22 +32557,6 @@
   {
     "trigger":{
       "url-filter":"\\/button_custom_twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/button_facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/button_pinterest\\."
     },
     "action":{
       "type":"block"
@@ -88961,15 +88937,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".hide-social"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":".hideSocial"
     }
   },
@@ -134735,6 +134702,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".story__share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".story__social"
     }
   },
@@ -144644,6 +144620,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".ya-share2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".yeniShare"
     }
   },
@@ -148339,6 +148324,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*openspeedtest.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#footBox2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*atlasobscura.com"
       ]
     },
@@ -148821,6 +148818,20 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*bracketfights.com",
+        "*ecuadoradio.ec",
+        "*tiermaker.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#share-container"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*biorxiv.org"
       ]
     },
@@ -149248,6 +149259,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*reuters.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#toolbar-item-parent-share-12"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*designtaxi.com"
       ]
     },
@@ -149546,6 +149569,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*apnews.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Page-actions"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*smarter.com"
       ]
     },
@@ -149786,8 +149821,21 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*reserveamerica.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".acm-article-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*latimes.com",
-        "*marriott.com"
+        "*marriott.com",
+        "*sandiegouniontribune.com"
       ]
     },
     "action":{
@@ -149931,7 +149979,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*gfinityesports.com"
+        "*gfinityesports.com",
+        "*stealthoptional.com"
       ]
     },
     "action":{
@@ -150693,6 +150742,7 @@
       "if-domain":[
         "*androidpolice.com",
         "*cbr.com",
+        "*collider.com",
         "*dualshockers.com",
         "*gamerant.com",
         "*howtogeek.com",
@@ -152417,6 +152467,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*theanalyst.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footer__bottom--social-links"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*scientificamerican.com"
       ]
     },
@@ -152558,6 +152620,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".ftr-follow"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kingmodapk.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ftr_social_box"
     }
   },
   {
@@ -153839,6 +153913,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*frostfairs.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".mvp-story-share-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*techweekmag.com"
       ]
     },
@@ -154986,6 +155072,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*alwatanvoice.com",
         "*binnews.com",
         "*blog.phylum.io",
         "*iheart.com",
@@ -155039,7 +155126,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nymag.com"
+        "*nymag.com",
+        "*thisismoney.co.uk"
       ]
     },
     "action":{
@@ -155661,7 +155749,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*gfinityesports.com"
+        "*gfinityesports.com",
+        "*stealthoptional.com"
       ]
     },
     "action":{
@@ -155870,6 +155959,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*trtworld.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-media"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*gamingbolt.com"
       ]
     },
@@ -155907,6 +156008,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*knowablemagazine.org",
         "*ucl.ac.uk"
       ]
     },
@@ -157740,6 +157842,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*wdwmagic.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".zocial"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*footwearnews.com",
         "*indiewire.com"
       ]
@@ -158005,6 +158119,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*thisismoney.co.uk"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"socialContainer-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cpr.org",
         "*technologyreview.com"
       ]
@@ -158012,6 +158138,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"socialList_\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*reuters.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"social__container_\"]"
     }
   },
   {
@@ -158133,6 +158271,7 @@
         "*ewn.co.za",
         "*hannity.com",
         "*jurist.org",
+        "*menselijklichaam.nl",
         "*mobilesyrup.com",
         "*mole24.it",
         "*upcomingvinyl.com",
@@ -158149,6 +158288,7 @@
       "url-filter":".*",
       "if-domain":[
         "*adressa.no",
+        "*alwatanvoice.com",
         "*apk4free.org",
         "*auto-moto.com",
         "*criminaljusticedegreehub.com",
@@ -158261,6 +158401,7 @@
         "*al-ain.com",
         "*al-akhbar.com",
         "*al-shabaka.org",
+        "*alaqsavoice.ps",
         "*albaceteabierto.es",
         "*albawabhnews.com",
         "*algemeiner.com",
@@ -158347,6 +158488,7 @@
         "*dunsguide.co.il",
         "*ecranlarge.com",
         "*elconsolto.com",
+        "*elmundofinanciero.com",
         "*elvenar.com",
         "*entywbas.com",
         "*epicgames.com",
@@ -158418,6 +158560,7 @@
         "*hellas1903.it",
         "*hellogiggles.com",
         "*heraldlive.co.za",
+        "*hispanidad.com",
         "*howtogeek.com",
         "*html.it",
         "*hvg.hu",
@@ -158464,6 +158607,7 @@
         "*lacivertdergi.com",
         "*ladepeche.fr",
         "*lapressa.it",
+        "*laprovinciadivarese.it",
         "*lasicilia.it",
         "*latvija.lv",
         "*lavozdeltajo.com",
@@ -158543,6 +158687,7 @@
         "*pianetamilan.it",
         "*pneusnews.it",
         "*pokernews.com",
+        "*portaldotransito.com.br",
         "*professionearchitetto.it",
         "*proiezionidiborsa.it",
         "*prosieben.de",
@@ -158559,6 +158704,7 @@
         "*radionacional.com.ar",
         "*radioorient.com",
         "*ran.de",
+        "*raya.ps",
         "*razon.com.mx",
         "*red-buzz.com",
         "*regione.piemonte.it",
@@ -158883,6 +159029,7 @@
         "*huuto.net",
         "*hvg.hu",
         "*hyundai.co.nz",
+        "*idcquan.com",
         "*ildolomiti.it",
         "*ilmilanista.it",
         "*ilsecoloxix.it",
@@ -158918,6 +159065,7 @@
         "*lantidiplomatico.it",
         "*laprensagrafica.com",
         "*lastampa.it",
+        "*lavozdegalicia.es",
         "*lifegate.it",
         "*lifezette.com",
         "*ltn.com.tw",
@@ -158961,6 +159109,7 @@
         "*pianetamilan.it",
         "*planetrugby.com",
         "*planetware.com",
+        "*portaldotransito.com.br",
         "*qz.com",
         "*r7.com",
         "*radiotirol.it",
@@ -158969,11 +159118,13 @@
         "*rbc.ua",
         "*recyclingproductnews.com",
         "*reductress.com",
+        "*responsiblestatecraft.org",
         "*reteimprese.it",
         "*rftvoficial.com.br",
         "*ria.ru",
         "*romadailynews.it",
         "*rxresource.org",
+        "*sanmarinortv.sm",
         "*sasomange.rs",
         "*sassuolocalcionews.it",
         "*scholarlykitchen.sspnet.org",
@@ -159095,6 +159246,7 @@
         "*instant-gaming.com",
         "*iranpress.com",
         "*kyivpost.com",
+        "*laprovinciadicomo.it",
         "*mob.org",
         "*ouest-france.fr",
         "*radiolina.it",
@@ -159135,7 +159287,12 @@
         "*superporn.com",
         "*thetoyinsider.com",
         "*thewindowsclub.com",
-        "*trtdeutsch.com"
+        "*trtafrika.com",
+        "*trtarabi.com",
+        "*trtbalkan.com",
+        "*trtdeutsch.com",
+        "*trtfrancais.com",
+        "*trtrussian.com"
       ]
     },
     "action":{
@@ -159161,6 +159318,7 @@
         "*news.artnet.com",
         "*prva.rs",
         "*skyticket.com",
+        "*stealthoptional.com",
         "*thefederalist.com"
       ]
     },
@@ -159622,6 +159780,7 @@
         "*ebu.io",
         "*fullfact.org",
         "*hannity.com",
+        "*i24news.tv",
         "*insurancejournal.com",
         "*metro.us",
         "*mobilesyrup.com",
@@ -160580,6 +160739,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*openspeedtest.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#footBox2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*atlasobscura.com"
       ]
     },
@@ -161062,6 +161233,20 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*bracketfights.com",
+        "*ecuadoradio.ec",
+        "*tiermaker.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#share-container"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*biorxiv.org"
       ]
     },
@@ -161489,6 +161674,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*reuters.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#toolbar-item-parent-share-12"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*designtaxi.com"
       ]
     },
@@ -161787,6 +161984,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*apnews.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Page-actions"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*smarter.com"
       ]
     },
@@ -162027,8 +162236,21 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*reserveamerica.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".acm-article-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*latimes.com",
-        "*marriott.com"
+        "*marriott.com",
+        "*sandiegouniontribune.com"
       ]
     },
     "action":{
@@ -162172,7 +162394,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*gfinityesports.com"
+        "*gfinityesports.com",
+        "*stealthoptional.com"
       ]
     },
     "action":{
@@ -162934,6 +163157,7 @@
       "if-domain":[
         "*androidpolice.com",
         "*cbr.com",
+        "*collider.com",
         "*dualshockers.com",
         "*gamerant.com",
         "*howtogeek.com",
@@ -164658,6 +164882,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*theanalyst.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footer__bottom--social-links"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*scientificamerican.com"
       ]
     },
@@ -164799,6 +165035,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".ftr-follow"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kingmodapk.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ftr_social_box"
     }
   },
   {
@@ -166080,6 +166328,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*frostfairs.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".mvp-story-share-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*techweekmag.com"
       ]
     },
@@ -167227,6 +167487,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*alwatanvoice.com",
         "*binnews.com",
         "*blog.phylum.io",
         "*iheart.com",
@@ -167280,7 +167541,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nymag.com"
+        "*nymag.com",
+        "*thisismoney.co.uk"
       ]
     },
     "action":{
@@ -167902,7 +168164,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*gfinityesports.com"
+        "*gfinityesports.com",
+        "*stealthoptional.com"
       ]
     },
     "action":{
@@ -168111,6 +168374,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*trtworld.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-media"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*gamingbolt.com"
       ]
     },
@@ -168148,6 +168423,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*knowablemagazine.org",
         "*ucl.ac.uk"
       ]
     },
@@ -169981,6 +170257,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*wdwmagic.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".zocial"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*footwearnews.com",
         "*indiewire.com"
       ]
@@ -170246,6 +170534,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*thisismoney.co.uk"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"socialContainer-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cpr.org",
         "*technologyreview.com"
       ]
@@ -170253,6 +170553,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"socialList_\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*reuters.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"social__container_\"]"
     }
   },
   {
@@ -170374,6 +170686,7 @@
         "*ewn.co.za",
         "*hannity.com",
         "*jurist.org",
+        "*menselijklichaam.nl",
         "*mobilesyrup.com",
         "*mole24.it",
         "*upcomingvinyl.com",
@@ -170390,6 +170703,7 @@
       "url-filter":".*",
       "if-domain":[
         "*adressa.no",
+        "*alwatanvoice.com",
         "*apk4free.org",
         "*auto-moto.com",
         "*criminaljusticedegreehub.com",
@@ -170502,6 +170816,7 @@
         "*al-ain.com",
         "*al-akhbar.com",
         "*al-shabaka.org",
+        "*alaqsavoice.ps",
         "*albaceteabierto.es",
         "*albawabhnews.com",
         "*algemeiner.com",
@@ -170588,6 +170903,7 @@
         "*dunsguide.co.il",
         "*ecranlarge.com",
         "*elconsolto.com",
+        "*elmundofinanciero.com",
         "*elvenar.com",
         "*entywbas.com",
         "*epicgames.com",
@@ -170659,6 +170975,7 @@
         "*hellas1903.it",
         "*hellogiggles.com",
         "*heraldlive.co.za",
+        "*hispanidad.com",
         "*howtogeek.com",
         "*html.it",
         "*hvg.hu",
@@ -170705,6 +171022,7 @@
         "*lacivertdergi.com",
         "*ladepeche.fr",
         "*lapressa.it",
+        "*laprovinciadivarese.it",
         "*lasicilia.it",
         "*latvija.lv",
         "*lavozdeltajo.com",
@@ -170784,6 +171102,7 @@
         "*pianetamilan.it",
         "*pneusnews.it",
         "*pokernews.com",
+        "*portaldotransito.com.br",
         "*professionearchitetto.it",
         "*proiezionidiborsa.it",
         "*prosieben.de",
@@ -170800,6 +171119,7 @@
         "*radionacional.com.ar",
         "*radioorient.com",
         "*ran.de",
+        "*raya.ps",
         "*razon.com.mx",
         "*red-buzz.com",
         "*regione.piemonte.it",
@@ -171124,6 +171444,7 @@
         "*huuto.net",
         "*hvg.hu",
         "*hyundai.co.nz",
+        "*idcquan.com",
         "*ildolomiti.it",
         "*ilmilanista.it",
         "*ilsecoloxix.it",
@@ -171159,6 +171480,7 @@
         "*lantidiplomatico.it",
         "*laprensagrafica.com",
         "*lastampa.it",
+        "*lavozdegalicia.es",
         "*lifegate.it",
         "*lifezette.com",
         "*ltn.com.tw",
@@ -171202,6 +171524,7 @@
         "*pianetamilan.it",
         "*planetrugby.com",
         "*planetware.com",
+        "*portaldotransito.com.br",
         "*qz.com",
         "*r7.com",
         "*radiotirol.it",
@@ -171210,11 +171533,13 @@
         "*rbc.ua",
         "*recyclingproductnews.com",
         "*reductress.com",
+        "*responsiblestatecraft.org",
         "*reteimprese.it",
         "*rftvoficial.com.br",
         "*ria.ru",
         "*romadailynews.it",
         "*rxresource.org",
+        "*sanmarinortv.sm",
         "*sasomange.rs",
         "*sassuolocalcionews.it",
         "*scholarlykitchen.sspnet.org",
@@ -171336,6 +171661,7 @@
         "*instant-gaming.com",
         "*iranpress.com",
         "*kyivpost.com",
+        "*laprovinciadicomo.it",
         "*mob.org",
         "*ouest-france.fr",
         "*radiolina.it",
@@ -171376,7 +171702,12 @@
         "*superporn.com",
         "*thetoyinsider.com",
         "*thewindowsclub.com",
-        "*trtdeutsch.com"
+        "*trtafrika.com",
+        "*trtarabi.com",
+        "*trtbalkan.com",
+        "*trtdeutsch.com",
+        "*trtfrancais.com",
+        "*trtrussian.com"
       ]
     },
     "action":{
@@ -171402,6 +171733,7 @@
         "*news.artnet.com",
         "*prva.rs",
         "*skyticket.com",
+        "*stealthoptional.com",
         "*thefederalist.com"
       ]
     },
@@ -171863,6 +172195,7 @@
         "*ebu.io",
         "*fullfact.org",
         "*hannity.com",
+        "*i24news.tv",
         "*insurancejournal.com",
         "*metro.us",
         "*mobilesyrup.com",
@@ -172525,6 +172858,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*s3nnet.de"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".follow"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*herz-fuer-tiere.de"
       ]
     },
@@ -172830,6 +173175,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kleinezeitung.at"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".tik4-sharing"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*ndr.de"
       ]
     },
@@ -172860,6 +173217,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"[href=\"https://www.pinterest.de/redensartenindex/\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*handelsblatt.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"app-icon-link"
     }
   },
   {
@@ -173268,6 +173637,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*foozine.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".google-news-card"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*homap.fr"
       ]
     },
@@ -173542,6 +173923,18 @@
   },
   {
     "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*tomshardware.fr"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".widget-toms-widget-google-news"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?produits\\-asiatiques\\.com\\/annuaire\\/templates\\/coolor\\/images\\/facebook\\-faces\\.gif"
     },
     "action":{
@@ -173649,6 +174042,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*trtarabi.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".google-news-button-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*alekhbariya.net"
       ]
     },
@@ -173739,6 +174144,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-flex"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*alaqsavoice.ps"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-style-2"
     }
   },
   {
@@ -174136,6 +174553,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-icon"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*menselijklichaam.nl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-wrapper"
     }
   },
   {
@@ -175126,6 +175555,7 @@
       "url-filter":".*",
       "if-domain":[
         "*lacronacadiravenna.it",
+        "*livesicilia.it",
         "*portoravennanews.com"
       ]
     },
@@ -175708,6 +176138,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*unicoebello.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".obfx-sharing"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*optimagazine.com"
       ]
     },
@@ -175879,6 +176321,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*orvieto24.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sfm-floating-menu"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*superguidatv.it"
       ]
     },
@@ -175945,6 +176399,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sh_wa"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rainews.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-toggler"
     }
   },
   {
@@ -176218,12 +176684,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*maremmanews.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ss-box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*agimeg.it"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".td-post-sharing-bottom"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*ostuninews.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".td-social-sharing-button"
     }
   },
   {
@@ -176278,6 +176768,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*maremmanews.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ts-social-list-item"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sorrisi.com"
       ]
     },
@@ -176308,6 +176810,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".tw-banner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*veritaeaffari.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".vea_share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*virgilio.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".vv-shr"
     }
   },
   {
@@ -177264,6 +177790,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*agazeta.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ag-mobile-social-widget"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sicnoticias.pt"
       ]
     },
@@ -177384,6 +177922,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*esportesdp.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*buzzfeed.com.br"
       ]
     },
@@ -177486,6 +178036,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".container-card-follow-me"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gazetaweb.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".content-share"
     }
   },
   {
@@ -177600,6 +178162,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*trabalhabrasil.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".jobview__btn-sharedVacancy"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*jota.info"
       ]
     },
@@ -177660,6 +178234,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*atarde.com.br",
         "*folhadelondrina.com.br"
       ]
     },
@@ -178185,6 +178760,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*gtrk.tv"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footer-social-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*rosphoto.com"
       ]
     },
@@ -178305,6 +178892,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*aif.ru"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sharing_item"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*caravan.kz"
       ]
     },
@@ -178335,6 +178934,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sn"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gtrk.tv"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".soc-links-hor"
     }
   },
   {
@@ -179062,6 +179673,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*diarimes.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".box-social-com"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*tonica.la"
       ]
     },
@@ -179110,12 +179733,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*segre.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".c-detail__share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cadenaser.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".c-sn"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*clubdelsubscriptor.cat"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".club-producte-social"
     }
   },
   {
@@ -179130,6 +179777,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".cnt-interaccion"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*elmundofinanciero.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".comparte_noticia"
     }
   },
   {
@@ -179267,6 +179926,19 @@
     "action":{
       "type":"css-display-none",
       "selector":".d23-button-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*benditofutbol.com",
+        "*ultimasnoticias.ec"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".div-rating"
     }
   },
   {
@@ -179691,7 +180363,8 @@
       "url-filter":".*",
       "if-domain":[
         "*cadenaser.com",
-        "*globovision.com"
+        "*globovision.com",
+        "*informacion.es"
       ]
     },
     "action":{
@@ -179769,6 +180442,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sh-bar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cnnespanol.cnn.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-buttons-style-two"
     }
   },
   {
@@ -179859,6 +180544,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*revistalideres.ec"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-nav"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*gasteizhoy.com"
       ]
     },
@@ -179938,6 +180635,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".socialts"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*servimedia.es"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".srvm-nw__share-wrapper"
     }
   },
   {
@@ -180884,7 +181593,7 @@
         "script"
       ],
       "load-type":[
-        "third-party"
+        "first-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?livesicilia\\.it\\/wp\\-content\\/plugins\\/digistream\\/digiplayer\\/js\\/videojs\\-share\\.min\\.js\\?"
     },
