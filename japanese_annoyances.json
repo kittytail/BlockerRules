@@ -18,7 +18,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".pickCreative_root"
+      "selector":"#entryBody > .pickCreative_root"
     }
   },
   {
@@ -31537,46 +31537,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\-footer\\-igram\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-footer\\-social\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-footer\\-social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-footer\\-youtube\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-footer_social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\-redes\\-facebook\\."
     },
     "action":{
@@ -33304,342 +33264,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/footer\\-facebook\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-fb\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-google\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-google\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-instagram\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-Instagram\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-linkedin\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-linkedin\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-pintrest\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-social"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-twitter\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-vk\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\-youtube\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/facebook\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/facebook_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/instagram\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/instagram\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/linkedin\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/pinterest\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/social\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/social\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/social_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/twit\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/twitter\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/twitter_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer\\/youtube\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_pinterest\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_sociale\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_socials_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_twitter_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footer_youtube\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footerFacebookIcon\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footerSocialIcons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footerSocialNet2\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footerSocialSprite\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/footerTwitterIcon\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/gadgets\\/Social\\/.*"
     },
     "action":{
@@ -33969,22 +33593,6 @@
   {
     "trigger":{
       "url-filter":"\\/likesScript\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/linkedin_footer\\.jpg"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/linkedin_footer\\.png"
     },
     "action":{
       "type":"block"
@@ -145098,6 +144706,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*pastebin.pl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#socials"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*spiked-online.com"
       ]
     },
@@ -145527,6 +145147,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".Follow"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*earth.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Footer_social_bar__E9yGn"
     }
   },
   {
@@ -146789,6 +146421,7 @@
       "url-filter":".*",
       "if-domain":[
         "*agrimag.co.za",
+        "*androidpolice.com",
         "*automart.co.za"
       ]
     },
@@ -146837,6 +146470,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*androidpolice.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-linkedIn"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*androidpolice.com",
         "*cbr.com",
         "*collider.com",
@@ -146854,6 +146499,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".btn-mail"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*androidpolice.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-reddit"
     }
   },
   {
@@ -146897,7 +146554,6 @@
       "url-filter":".*",
       "if-domain":[
         "*agrimag.co.za",
-        "*androidpolice.com",
         "*automart.co.za",
         "*maketecheasier.com"
       ]
@@ -146919,6 +146575,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".btn-whatsapp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*androidpolice.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-x"
     }
   },
   {
@@ -147332,6 +147000,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".color_mobile_bg-forskersonen-primary"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*stuff.co.nz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".comment-and-share"
     }
   },
   {
@@ -149259,6 +148939,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*noisypixel.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".hw-el-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*noisypixel.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".hw-toolbar-navplus"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dictionary.cambridge.org"
       ]
     },
@@ -151136,6 +150840,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sc-expanded"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*radio-canada.ca"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sc-sa6od2-0"
     }
   },
   {
@@ -153630,6 +153346,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*stuff.co.nz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".tik4-sharing"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*ncaa.com"
       ]
     },
@@ -154121,6 +153849,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".whatsapp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*business-standard.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".whtsppchannle"
     }
   },
   {
@@ -154904,6 +154644,7 @@
         "*nbcwashington.com",
         "*necn.com",
         "*olhardigital.com.br",
+        "*pastebin.pl",
         "*psychologies.com",
         "*psychologytoday.com",
         "*robbreport.com",
@@ -155304,6 +155045,7 @@
         "*radionacional.com.ar",
         "*radioorient.com",
         "*ran.de",
+        "*ranactive.de",
         "*raya.ps",
         "*razon.com.mx",
         "*red-buzz.com",
@@ -155749,6 +155491,7 @@
         "*taiwantoday.tw",
         "*takvim.com.tr",
         "*tenniscircus.com",
+        "*the-decoder.com",
         "*theringreport.com",
         "*thisiscolossal.com",
         "*tivusat.tv",
@@ -155900,8 +155643,10 @@
         "*pelisplus2.ai",
         "*pink.rs",
         "*publicdomainreview.org",
+        "*scmagazine.com",
         "*screenshot-media.com",
         "*superporn.com",
+        "*the-decoder.com",
         "*thetoyinsider.com",
         "*thewindowsclub.com",
         "*trtafrika.com",
@@ -158188,6 +157933,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*pastebin.pl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#socials"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*spiked-online.com"
       ]
     },
@@ -158617,6 +158374,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".Follow"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*earth.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Footer_social_bar__E9yGn"
     }
   },
   {
@@ -159879,6 +159648,7 @@
       "url-filter":".*",
       "if-domain":[
         "*agrimag.co.za",
+        "*androidpolice.com",
         "*automart.co.za"
       ]
     },
@@ -159927,6 +159697,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*androidpolice.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-linkedIn"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*androidpolice.com",
         "*cbr.com",
         "*collider.com",
@@ -159944,6 +159726,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".btn-mail"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*androidpolice.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-reddit"
     }
   },
   {
@@ -159987,7 +159781,6 @@
       "url-filter":".*",
       "if-domain":[
         "*agrimag.co.za",
-        "*androidpolice.com",
         "*automart.co.za",
         "*maketecheasier.com"
       ]
@@ -160009,6 +159802,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".btn-whatsapp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*androidpolice.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-x"
     }
   },
   {
@@ -160422,6 +160227,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".color_mobile_bg-forskersonen-primary"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*stuff.co.nz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".comment-and-share"
     }
   },
   {
@@ -162349,6 +162166,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*noisypixel.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".hw-el-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*noisypixel.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".hw-toolbar-navplus"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dictionary.cambridge.org"
       ]
     },
@@ -164226,6 +164067,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sc-expanded"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*radio-canada.ca"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sc-sa6od2-0"
     }
   },
   {
@@ -166720,6 +166573,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*stuff.co.nz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".tik4-sharing"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*ncaa.com"
       ]
     },
@@ -167211,6 +167076,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".whatsapp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*business-standard.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".whtsppchannle"
     }
   },
   {
@@ -167994,6 +167871,7 @@
         "*nbcwashington.com",
         "*necn.com",
         "*olhardigital.com.br",
+        "*pastebin.pl",
         "*psychologies.com",
         "*psychologytoday.com",
         "*robbreport.com",
@@ -168394,6 +168272,7 @@
         "*radionacional.com.ar",
         "*radioorient.com",
         "*ran.de",
+        "*ranactive.de",
         "*raya.ps",
         "*razon.com.mx",
         "*red-buzz.com",
@@ -168839,6 +168718,7 @@
         "*taiwantoday.tw",
         "*takvim.com.tr",
         "*tenniscircus.com",
+        "*the-decoder.com",
         "*theringreport.com",
         "*thisiscolossal.com",
         "*tivusat.tv",
@@ -168990,8 +168870,10 @@
         "*pelisplus2.ai",
         "*pink.rs",
         "*publicdomainreview.org",
+        "*scmagazine.com",
         "*screenshot-media.com",
         "*superporn.com",
+        "*the-decoder.com",
         "*thetoyinsider.com",
         "*thewindowsclub.com",
         "*trtafrika.com",
@@ -170353,6 +170235,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*it-daily.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ns-buttons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*onvista.de"
       ]
     },
@@ -170446,6 +170340,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".smIconsWrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*urlaubsguru.de"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".smeShare"
     }
   },
   {
@@ -170897,6 +170803,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".bubblegum"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*allocine.fr"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".button-sign-social"
     }
   },
   {
@@ -172084,6 +172002,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".linkbar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*schrijvenonline.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".rrssb"
     }
   },
   {
@@ -177107,6 +177037,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*henaojara.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#cht-shr"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*emol.com"
       ]
     },
@@ -178080,6 +178022,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*mdzol.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".interacciones"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*movistar.es"
       ]
     },
@@ -178274,6 +178228,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*biobiochile.cl",
         "*crea-mexico.com",
         "*elobservador.com.uy",
         "*futbol.com.uy",
