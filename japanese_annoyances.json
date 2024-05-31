@@ -31449,22 +31449,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\-buttons\\-facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-buttons\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\-facebook\\-likeButton\\-"
     },
     "action":{
@@ -31482,22 +31466,6 @@
   {
     "trigger":{
       "url-filter":"\\-facebook\\-widget\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-fb\\-share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-fbpopup\\."
     },
     "action":{
       "type":"block"
@@ -31530,54 +31498,6 @@
   {
     "trigger":{
       "url-filter":"\\-followicons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-redes\\-facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-redes\\-gplus\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-redes\\-instagram\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-redes\\-pinteres\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-redes\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-redes\\-youtube\\."
     },
     "action":{
       "type":"block"
@@ -31637,14 +31557,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\-share\\-save\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\-share\\-sprite\\-"
     },
     "action":{
@@ -31662,22 +31574,6 @@
   {
     "trigger":{
       "url-filter":"\\-share\\-tools\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-share\\-twiiter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-share\\-whatsapp\\."
     },
     "action":{
       "type":"block"
@@ -31709,23 +31605,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\-ShareButton_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\-sharebuttons_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-shareit\\."
     },
     "action":{
       "type":"block"
@@ -31742,14 +31622,6 @@
   {
     "trigger":{
       "url-filter":"\\-shareWidget\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-sharing\\-popin\\."
     },
     "action":{
       "type":"block"
@@ -31781,36 +31653,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\-social\\-popup\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
-      ],
-      "url-filter":"\\-social\\-post\\-sharer\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\-social\\-sidebar\\."
     },
     "action":{
@@ -31835,114 +31677,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\-social\\-twitterhover\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "unless-domain":[
-        "centres-sociaux.fr"
-      ],
-      "url-filter":"\\-sociaux\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\-sprite\\-social\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-sticky\\-social\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-subscribe\\-social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-toolbar\\-social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-twitterbirdsprite\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-webicon\\-facebook\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-webicon\\-linkedin\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-webicon\\-twitter\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\-webicon\\-youtube\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.easyshare:"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.facebookLikePopUp\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.fb\\-like\\/"
     },
     "action":{
       "type":"block"
@@ -31958,79 +31693,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\.mobile\\-share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.pluckCount\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.share\\.dossierheader\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.share\\.lead\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.share\\.utils\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.shareaholic\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\.sharebar\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.sharecount\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.shareCounts\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.sharetool\\."
     },
     "action":{
       "type":"block"
@@ -32046,30 +31709,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\.simpleshare\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.social\\/share\\/"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\.sociallocker\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/a2a_share_"
     },
     "action":{
@@ -32078,7 +31717,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/accesspress\\-social\\-"
+      "url-filter":"\\/accesspress\\-social\\-counter\\/.*"
     },
     "action":{
       "type":"block"
@@ -32086,7 +31725,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/actionsnshare\\/.*"
+      "url-filter":"\\/add\\-mymsn2\\.gif"
     },
     "action":{
       "type":"block"
@@ -32094,7 +31733,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/add\\-mymsn2\\."
+      "url-filter":"\\/addthis_widget\\.js"
     },
     "action":{
       "type":"block"
@@ -32102,7 +31741,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/addthis\\-stumble\\."
+      "url-filter":"\\/addtoany\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -32110,125 +31749,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/addthis_horizontal\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/addthis_widget\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/addtoany\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/addtoany\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/addtogoogle\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/addtomyyahoo4\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
-      ],
-      "url-filter":"\\/advanced\\-social\\-widget\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/advinstagram\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/aI_sns\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/amp\\-social\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/aolshare\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/app\\/social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/appSocialShare\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/article\\-shares\\."
+      "url-filter":"\\/advanced\\-social\\-widget\\.js"
     },
     "action":{
       "type":"block"
@@ -32237,14 +31758,6 @@
   {
     "trigger":{
       "url-filter":"\\/article\\-social\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/ArticleSocialShare\\."
     },
     "action":{
       "type":"block"
@@ -32268,7 +31781,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/badge_twitter\\."
+      "url-filter":"\\/badge_twitter\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32276,7 +31789,23 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/banner\\-social\\."
+      "url-filter":"\\/badge_twitter\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/banner\\-social\\.jpg"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/banner\\-social\\.png"
     },
     "action":{
       "type":"block"
@@ -32292,7 +31821,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/banniere_facebook_"
+      "url-filter":"\\/bottom\\-facebook\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32300,7 +31829,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/bookmark\\/fbk\\."
+      "url-filter":"\\/bottom\\-facebook\\.png"
     },
     "action":{
       "type":"block"
@@ -32308,7 +31837,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/bookmarksite_google\\."
+      "url-filter":"\\/bottom\\-twitter\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32316,7 +31845,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/bottom\\-facebook\\."
+      "url-filter":"\\/bottom\\-twitter\\.png"
     },
     "action":{
       "type":"block"
@@ -32324,143 +31853,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/bottom\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bottone\\-condividi\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bouton\\-fb\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bouton\\-youtubue\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bt_delicious\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bt_dmotion_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bt_g_twitter_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bt_share_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/btn\\/follow\\?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/btn_share_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/btnFoursquare\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/btnShareSprite\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/btnsSocialMedia\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/button1\\-share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/button_custom_twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/button_share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/button_social_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/bwSocialIcons\\."
+      "url-filter":"\\/button_share\\.png"
     },
     "action":{
       "type":"block"
@@ -32469,46 +31862,6 @@
   {
     "trigger":{
       "url-filter":"\\/cevhershare\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/chs\\/share\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/cht\\/share\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/circle_share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/cnw\\.share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/commentshareicons\\."
     },
     "action":{
       "type":"block"
@@ -32572,60 +31925,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/emailaddthis\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/facebook\\-fan\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/facebook\\-follow\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/facebook\\-footer\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
-      ],
-      "url-filter":"\\/facebook\\-page\\-popup\\-cadence\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/facebook\\-page\\-promoter\\-lightbox\\/includes\\/launch\\/launch\\.min\\.js"
     },
     "action":{
@@ -32634,7 +31933,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook\\-pagelike\\-widget\\/.*"
+      "url-filter":"\\/facebook\\-pagelike\\-widget\\/fb\\.js"
     },
     "action":{
       "type":"block"
@@ -32650,7 +31949,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook\\-side\\."
+      "url-filter":"\\/facebook\\-side\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32658,7 +31957,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook\\-vertical\\."
+      "url-filter":"\\/facebook\\-side\\.png"
     },
     "action":{
       "type":"block"
@@ -32666,7 +31965,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook\\/likes\\?"
+      "url-filter":"\\/facebook\\-vertical\\.png"
     },
     "action":{
       "type":"block"
@@ -32674,7 +31973,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_badge\\-"
+      "url-filter":"\\/facebook\\-vertical\\.svg"
     },
     "action":{
       "type":"block"
@@ -32682,7 +31981,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_badge\\."
+      "url-filter":"\\/facebook_badge\\.gif"
     },
     "action":{
       "type":"block"
@@ -32690,7 +31989,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_footer\\."
+      "url-filter":"\\/facebook_badge\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32698,7 +31997,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_like_button\\."
+      "url-filter":"\\/facebook_badge\\.png"
     },
     "action":{
       "type":"block"
@@ -32706,7 +32005,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_ppd\\."
+      "url-filter":"\\/facebook_footer\\.png"
     },
     "action":{
       "type":"block"
@@ -32714,7 +32013,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_sidebar\\."
+      "url-filter":"\\/facebook_footer\\.svg"
     },
     "action":{
       "type":"block"
@@ -32722,7 +32021,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_social\\."
+      "url-filter":"\\/facebook_like_button\\.png"
     },
     "action":{
       "type":"block"
@@ -32730,7 +32029,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/Facebook_Social_"
+      "url-filter":"\\/facebook_sidebar\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32738,7 +32037,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebook_top_icon\\."
+      "url-filter":"\\/facebook_sidebar\\.png"
     },
     "action":{
       "type":"block"
@@ -32746,7 +32045,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebookbadge\\."
+      "url-filter":"\\/facebook_sidebar\\.svg"
     },
     "action":{
       "type":"block"
@@ -32754,7 +32053,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebookBtmIcon\\."
+      "url-filter":"\\/facebook_social\\.png"
     },
     "action":{
       "type":"block"
@@ -32762,7 +32061,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/FacebookFanWidgetFrame\\."
+      "url-filter":"\\/facebook_top_icon\\.png"
     },
     "action":{
       "type":"block"
@@ -32770,7 +32069,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebookFooterIcon\\-"
+      "url-filter":"\\/facebookbadge\\.gif"
     },
     "action":{
       "type":"block"
@@ -32778,7 +32077,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebookHeader\\."
+      "url-filter":"\\/facebookbadge\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32786,7 +32085,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebooksharebutton\\."
+      "url-filter":"\\/facebookbadge\\.png"
     },
     "action":{
       "type":"block"
@@ -32794,7 +32093,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/FacebookShares\\?"
+      "url-filter":"\\/facebookBtmIcon\\.gif"
     },
     "action":{
       "type":"block"
@@ -32802,7 +32101,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebooksmall2\\."
+      "url-filter":"\\/facebookHeader\\.png"
     },
     "action":{
       "type":"block"
@@ -32810,7 +32109,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebooksocialplugins\\."
+      "url-filter":"\\/facebooksharebutton\\.png"
     },
     "action":{
       "type":"block"
@@ -32818,7 +32117,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebooksocialplugins\\/.*"
+      "url-filter":"\\/facebooksocialplugins\\.js"
     },
     "action":{
       "type":"block"
@@ -32826,7 +32125,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebooksquare\\."
+      "url-filter":"\\/facebooksquare\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32834,7 +32133,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/FacebookTimeline\\?"
+      "url-filter":"\\/facebooksquare\\.png"
     },
     "action":{
       "type":"block"
@@ -32842,7 +32141,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebooktrafficdriver\\."
+      "url-filter":"\\/facebooktrafficdriver\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -32850,7 +32149,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/facebookwidget\\."
+      "url-filter":"\\/facebookwidget\\.js"
     },
     "action":{
       "type":"block"
@@ -32858,7 +32157,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb\\-onmouseover\\."
+      "url-filter":"\\/fb\\-like\\-pop\\.js"
     },
     "action":{
       "type":"block"
@@ -32874,7 +32173,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb\\-post\\."
+      "url-filter":"\\/fb\\-traffic\\-pop\\.css"
     },
     "action":{
       "type":"block"
@@ -32882,7 +32181,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb\\-traffic\\-pop\\."
+      "url-filter":"\\/fb\\-traffic\\-pop\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -32890,7 +32189,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb\\-traffic\\-pop\\/.*"
+      "url-filter":"\\/fb\\-widget\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32898,7 +32197,15 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb\\-widget\\."
+      "url-filter":"\\/fb\\-widget\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/fb\\-widget\\.png"
     },
     "action":{
       "type":"block"
@@ -32914,7 +32221,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb_side\\."
+      "url-filter":"\\/fb_side\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32922,7 +32229,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb_small\\."
+      "url-filter":"\\/fb_side\\.png"
     },
     "action":{
       "type":"block"
@@ -32930,7 +32237,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fb_subscribe\\."
+      "url-filter":"\\/fbfooter\\.png"
     },
     "action":{
       "type":"block"
@@ -32938,31 +32245,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fbcirclebtn\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/fbfooter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/fblikefp\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/fbook\\-share\\-"
+      "url-filter":"\\/fbfooter\\.svg"
     },
     "action":{
       "type":"block"
@@ -32978,7 +32261,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fbpromo\\."
+      "url-filter":"\\/fbshare\\.jpg"
     },
     "action":{
       "type":"block"
@@ -32986,7 +32269,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fbshare\\."
+      "url-filter":"\\/fbshare\\.js"
     },
     "action":{
       "type":"block"
@@ -32994,7 +32277,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fbshare2\\."
+      "url-filter":"\\/fbshare\\.png"
     },
     "action":{
       "type":"block"
@@ -33002,7 +32285,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/fbsubscribe\\."
+      "url-filter":"\\/fbshare2\\.jpg"
     },
     "action":{
       "type":"block"
@@ -33010,7 +32293,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/feedburner_64\\."
+      "url-filter":"\\/fbshare2\\.png"
     },
     "action":{
       "type":"block"
@@ -33018,7 +32301,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/FeedlyButton_"
+      "url-filter":"\\/floating\\-social\\-bar\\/js\\/fsb\\.js"
     },
     "action":{
       "type":"block"
@@ -33026,7 +32309,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/feedSprite_"
+      "url-filter":"\\/floating\\-wpp\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -33034,7 +32317,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/floating\\-social\\/.*"
+      "url-filter":"\\/flw\\-twitter\\.png"
     },
     "action":{
       "type":"block"
@@ -33042,79 +32325,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/floating\\-wpp\\.min\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/flw\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-footer\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-gplus\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-icon\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-icons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-linkedin\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-mobile\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-on\\-twitter\\."
+      "url-filter":"\\/follow\\-linkedin\\.jpg"
     },
     "action":{
       "type":"block"
@@ -33131,38 +32342,6 @@
   {
     "trigger":{
       "url-filter":"\\/follow\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-us\\-icon\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-us\\-icons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-us\\-on\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\-us\\-twitter\\."
     },
     "action":{
       "type":"block"
@@ -33192,7 +32371,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/follow\\-widget\\-"
+      "url-filter":"\\/follow\\-widget\\.js"
     },
     "action":{
       "type":"block"
@@ -33200,7 +32379,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/follow\\-widget\\."
+      "url-filter":"\\/follow_instagram\\.png"
     },
     "action":{
       "type":"block"
@@ -33208,7 +32387,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/follow\\-with\\-google\\-"
+      "url-filter":"\\/followusontwitter\\.jpg"
     },
     "action":{
       "type":"block"
@@ -33216,47 +32395,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/follow\\-youtube\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\/Facebook\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\/Twitter\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow\\/YouTube\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/follow_instagram\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/followusontwitter\\."
+      "url-filter":"\\/followusontwitter\\.png"
     },
     "action":{
       "type":"block"
@@ -33291,23 +32430,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/GetPocketButton_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/gfx\\/socials\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/gg\\-share\\."
     },
     "action":{
       "type":"block"
@@ -33336,7 +32459,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/gm\\-button\\-social\\."
+      "url-filter":"\\/gm\\-button\\-social\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -33352,14 +32475,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/guys_social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/Handlers\\/Sharrre\\.ashx\\?"
     },
     "action":{
@@ -33368,47 +32483,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/HatenaButton_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/head\\-social\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/header_social_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/header_socials\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/headerSocialIcons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/headline_share_"
+      "url-filter":"\\/header_socials\\.png"
     },
     "action":{
       "type":"block"
@@ -33424,14 +32499,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/highlight_share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/icon_share_"
     },
     "action":{
@@ -33440,31 +32507,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/icon_sharethis_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/icon_sns_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/icons\\-follow\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/Images\\/mobile\\-share\\-"
     },
     "action":{
       "type":"block"
@@ -33528,7 +32571,39 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/jquery\\.sharecount\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/jquery\\.stp\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/juiz\\-social\\-post\\-sharer\\-2\\.min\\.css"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/juiz\\-social\\-post\\-sharer\\-6\\.min\\.css"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/juiz\\-social\\-post\\-sharer\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -33649,6 +32724,14 @@
   {
     "trigger":{
       "url-filter":"\\/o3\\-social\\-share\\-styles\\.css"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/oss_share\\.js"
     },
     "action":{
       "type":"block"
@@ -34027,7 +33110,23 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/plugins\\/slick\\-social\\-share\\-buttons\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/plugins\\/slide\\-in\\/js\\/wdsi\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/plugins\\/sme\\-facebook\\-likebox\\-sidebar\\/.*"
     },
     "action":{
       "type":"block"
@@ -34058,6 +33157,28 @@
         "other"
       ],
       "url-filter":"\\/plugins\\/sociable\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "image"
+      ],
+      "url-filter":"\\/plugins\\/social\\-media\\-widget\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "image"
+      ],
+      "url-filter":"\\/plugins\\/social\\-profiles\\-widget\\/.*"
     },
     "action":{
       "type":"block"
@@ -34216,6 +33337,14 @@
   {
     "trigger":{
       "url-filter":"\\/rrshare\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/s9\\-social\\-sharing\\-front\\.css"
     },
     "action":{
       "type":"block"
@@ -34471,23 +33600,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/shareBTNs\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/sharebutton\\?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sharebutts\\."
     },
     "action":{
       "type":"block"
@@ -34559,7 +33672,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sharedcount\\."
+      "url-filter":"\\/shareFacebook\\.jpg"
     },
     "action":{
       "type":"block"
@@ -34567,7 +33680,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/shareFacebook\\."
+      "url-filter":"\\/shareFacebook\\.png"
     },
     "action":{
       "type":"block"
@@ -34575,7 +33688,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/Sharefb\\."
+      "url-filter":"\\/Sharefb\\.jpg"
     },
     "action":{
       "type":"block"
@@ -34583,7 +33696,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sharefb_"
+      "url-filter":"\\/Sharefb\\.png"
     },
     "action":{
       "type":"block"
@@ -34591,7 +33704,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sharefrom\\/.*"
+      "url-filter":"\\/sharefb_icon\\.png"
     },
     "action":{
       "type":"block"
@@ -34600,14 +33713,6 @@
   {
     "trigger":{
       "url-filter":"\\/shareicon\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/shareiconnew\\/.*"
     },
     "action":{
       "type":"block"
@@ -34637,7 +33742,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/shareit\\."
+      "url-filter":"\\/shareit\\.js"
     },
     "action":{
       "type":"block"
@@ -34646,14 +33751,6 @@
   {
     "trigger":{
       "url-filter":"\\/shareit_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sharelike\\."
     },
     "action":{
       "type":"block"
@@ -34670,14 +33767,6 @@
   {
     "trigger":{
       "url-filter":"\\/shareon\\.min\\.css"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sharePost\\/.*"
     },
     "action":{
       "type":"block"
@@ -34709,15 +33798,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/shareStyle\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sharethis\\-buttons\\."
+      "url-filter":"\\/sharethis\\-buttons\\.js"
     },
     "action":{
       "type":"block"
@@ -34733,15 +33814,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sharethis_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/shareThisIcons\\."
+      "url-filter":"\\/shareThisIcons\\.png"
     },
     "action":{
       "type":"block"
@@ -34765,10 +33838,7 @@
   },
   {
     "trigger":{
-      "resource-type":[
-        "image"
-      ],
-      "url-filter":"\\/sharetools\\/.*"
+      "url-filter":"\\/shareTT\\.js"
     },
     "action":{
       "type":"block"
@@ -34776,10 +33846,7 @@
   },
   {
     "trigger":{
-      "resource-type":[
-        "script"
-      ],
-      "url-filter":"\\/sharetools\\/.*"
+      "url-filter":"\\/Sharetw\\.png"
     },
     "action":{
       "type":"block"
@@ -34787,7 +33854,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sharetoolsnew\\."
+      "url-filter":"\\/sharetw_icon\\.png"
     },
     "action":{
       "type":"block"
@@ -34795,7 +33862,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/shareTT\\."
+      "url-filter":"\\/shareTwitter\\.jpg"
     },
     "action":{
       "type":"block"
@@ -34803,7 +33870,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/Sharetw\\."
+      "url-filter":"\\/shareTwitter\\.png"
     },
     "action":{
       "type":"block"
@@ -34811,31 +33878,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sharetw_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/shareTwitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/shareWidgetBackgrounds\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/shariff\\-sharing\\/.*"
+      "url-filter":"\\/shariff\\.complete\\.js"
     },
     "action":{
       "type":"block"
@@ -34883,25 +33926,6 @@
   },
   {
     "trigger":{
-      "resource-type":[
-        "fetch"
-      ],
-      "url-filter":"\\/sharrre\\.jsp\\?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sharrre_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/shr_btn_"
     },
     "action":{
@@ -34911,14 +33935,6 @@
   {
     "trigger":{
       "url-filter":"\\/shrMain\\.min\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sibar\\-social\\."
     },
     "action":{
       "type":"block"
@@ -34974,7 +33990,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sidebar_facebook\\."
+      "url-filter":"\\/sidebar_facebook\\.png"
     },
     "action":{
       "type":"block"
@@ -34982,7 +33998,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sidebar_gplus\\."
+      "url-filter":"\\/sidebar_twitter\\.png"
     },
     "action":{
       "type":"block"
@@ -34990,47 +34006,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/sidebar_social_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sidebar_twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sidenav_instagram_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sidenav_tumblr_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sideShare_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/silicon\\-counters\\/.*"
+      "url-filter":"\\/silicon\\-counters\\.js"
     },
     "action":{
       "type":"block"
@@ -35061,18 +34037,7 @@
   {
     "trigger":{
       "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
+        "image"
       ],
       "url-filter":"\\/simple\\-social\\-sharing\\/.*"
     },
@@ -35090,14 +34055,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/simplified\\-social\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/site\\/share\\/.*"
     },
     "action":{
@@ -35106,39 +34063,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/SiteImages\\/facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/SiteImages\\/Twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/skm\\/assets\\/share\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/sl_share\\-public\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/slick\\-social\\-"
     },
     "action":{
       "type":"block"
@@ -35170,14 +34095,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/smart_share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "resource-type":[
         "image"
       ],
@@ -35190,14 +34107,6 @@
   {
     "trigger":{
       "url-filter":"\\/sn_share_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/snaShare\\."
     },
     "action":{
       "type":"block"
@@ -35253,22 +34162,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social\\-badges\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-bar\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/social\\-bar\\."
     },
     "action":{
@@ -35277,7 +34170,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social\\-bookmark\\."
+      "url-filter":"\\/social\\-footer\\.jpg"
     },
     "action":{
       "type":"block"
@@ -35285,93 +34178,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social\\-bookmarks\\-generator\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-bookmarks\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-footer\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-impulse\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
-      ],
-      "url-filter":"\\/social\\-media\\-widget\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-network\\-icons\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-networks\\-icon\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-overlay\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-plugin\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-plugins\\."
+      "url-filter":"\\/social\\-footer\\.png"
     },
     "action":{
       "type":"block"
@@ -35387,21 +34194,7 @@
   },
   {
     "trigger":{
-      "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
-      ],
-      "url-filter":"\\/social\\-profiles\\-widget\\/.*"
+      "url-filter":"\\/social\\-proof\\-testimonials\\-slider\\/admin\\/js\\/slick\\-block\\-editor\\.js"
     },
     "action":{
       "type":"block"
@@ -35409,7 +34202,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social\\-proof\\-"
+      "url-filter":"\\/Social\\-Sidebar\\.js"
     },
     "action":{
       "type":"block"
@@ -35417,7 +34210,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social\\-search\\-"
+      "url-filter":"\\/social\\-twit\\.png"
     },
     "action":{
       "type":"block"
@@ -35425,7 +34218,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/Social\\-Sidebar\\."
+      "url-filter":"\\/social\\-twit\\.svg"
     },
     "action":{
       "type":"block"
@@ -35433,7 +34226,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social\\-signs\\."
+      "url-filter":"\\/social\\-url\\-generator\\.js"
     },
     "action":{
       "type":"block"
@@ -35441,45 +34234,7 @@
   },
   {
     "trigger":{
-      "resource-type":[
-        "document",
-        "image",
-        "script",
-        "font",
-        "raw",
-        "svg-document",
-        "media",
-        "popup",
-        "ping",
-        "fetch",
-        "websocket",
-        "other"
-      ],
-      "url-filter":"\\/social\\-traffic\\-pop\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-traffic\\-pop\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-twit\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\-url\\-generator\\."
+      "url-filter":"\\/social\\-url\\-generator\\.minc\\.js"
     },
     "action":{
       "type":"block"
@@ -35488,62 +34243,6 @@
   {
     "trigger":{
       "url-filter":"\\/social\\-widgets\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\.icon\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\/bar\\?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\/footerIcons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\/foursquare_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\/link\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\/linked\\-in\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social\\/pinit_"
     },
     "action":{
       "type":"block"
@@ -35567,30 +34266,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social_apple"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social_badges\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social_badges_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/social_balloon\\-"
     },
     "action":{
@@ -35607,15 +34282,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/social_bookmark_icons\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/social_bookmarking\\."
+      "url-filter":"\\/social_bookmarking\\.png"
     },
     "action":{
       "type":"block"
@@ -35846,7 +34513,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialcore\\-"
+      "url-filter":"\\/socialcount\\.js"
     },
     "action":{
       "type":"block"
@@ -35854,7 +34521,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialcount\\."
+      "url-filter":"\\/socialcount\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -35975,23 +34642,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialmediabar_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/socialmediabuttons\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/SocialMediaFooter\\."
     },
     "action":{
       "type":"block"
@@ -36007,47 +34658,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialMediaPinterestButton\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialmediaround\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialmediasajax\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialmediasprite\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialmediasprites2\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialNetFooter\\."
+      "url-filter":"\\/socialmediasprite\\.png"
     },
     "action":{
       "type":"block"
@@ -36063,14 +34674,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialNetworkSprite\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/socialplugins\\/.*"
     },
     "action":{
@@ -36079,7 +34682,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialpod\\-"
+      "url-filter":"\\/SocialSharePlugin\\.js"
     },
     "action":{
       "type":"block"
@@ -36087,7 +34690,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialShareCount\\."
+      "url-filter":"\\/SocialSharePlugin\\.png"
     },
     "action":{
       "type":"block"
@@ -36095,31 +34698,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/SocialSharePlugin\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialshares\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/SocialShareSprite\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialsheet\\."
+      "url-filter":"\\/socialshares\\.js"
     },
     "action":{
       "type":"block"
@@ -36167,23 +34746,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socialtwitter1\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialtwitterdark\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socialview\\-"
+      "url-filter":"\\/socialtwitter1\\.png"
     },
     "action":{
       "type":"block"
@@ -36192,14 +34755,6 @@
   {
     "trigger":{
       "url-filter":"\\/socialwd\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socila\\-media\\-"
     },
     "action":{
       "type":"block"
@@ -36228,22 +34783,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/socjal\\/facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/socjal\\/twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/squaresocial\\-"
     },
     "action":{
@@ -36252,39 +34791,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/stocktwits_share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/suivez\\-nous\\-facebook\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/suivez\\-nous\\-google\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/suivez\\-nous\\-twitter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/suivez\\-nous\\-youtube\\."
+      "url-filter":"\\/stocktwits_share\\.png"
     },
     "action":{
       "type":"block"
@@ -36324,7 +34831,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/tweet_footer\\."
+      "url-filter":"\\/tweet_footer\\.png"
     },
     "action":{
       "type":"block"
@@ -36332,7 +34839,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/tweetbutton\\."
+      "url-filter":"\\/twfooter\\.png"
     },
     "action":{
       "type":"block"
@@ -36340,39 +34847,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/tweetcount\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/tweetgrid\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twfollowfp\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twfooter\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twitbadge\\."
+      "url-filter":"\\/twitbadge\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36396,7 +34871,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter\\-timeline\\-"
+      "url-filter":"\\/twitter\\-v2\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36404,7 +34879,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter\\-v2\\."
+      "url-filter":"\\/twitter\\-v2\\.png"
     },
     "action":{
       "type":"block"
@@ -36412,7 +34887,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter\\-widget\\-"
+      "url-filter":"\\/twitter\\-widget\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36420,7 +34895,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter\\-widget\\."
+      "url-filter":"\\/twitter\\-widget\\.png"
     },
     "action":{
       "type":"block"
@@ -36428,7 +34903,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter\\/lookup\\?"
+      "url-filter":"\\/twitter_badge\\.png"
     },
     "action":{
       "type":"block"
@@ -36436,7 +34911,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_badge\\."
+      "url-filter":"\\/twitter_follow\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36444,7 +34919,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_bubble_"
+      "url-filter":"\\/twitter_follow\\.png"
     },
     "action":{
       "type":"block"
@@ -36452,7 +34927,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_follow\\."
+      "url-filter":"\\/twitter_footer\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36460,7 +34935,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_footer\\."
+      "url-filter":"\\/twitter_footer\\.png"
     },
     "action":{
       "type":"block"
@@ -36468,7 +34943,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_header\\."
+      "url-filter":"\\/twitter_header\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36476,7 +34951,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_square\\."
+      "url-filter":"\\/twitter_header\\.png"
     },
     "action":{
       "type":"block"
@@ -36484,7 +34959,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_subscribe\\."
+      "url-filter":"\\/twitter_square\\.png"
     },
     "action":{
       "type":"block"
@@ -36492,7 +34967,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitter_tasto_"
+      "url-filter":"\\/twitter_square\\.svg"
     },
     "action":{
       "type":"block"
@@ -36500,23 +34975,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitterbadge\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twitterbadge\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twitterFetcher_"
+      "url-filter":"\\/twitterbadge\\.png"
     },
     "action":{
       "type":"block"
@@ -36532,7 +34991,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitterfollow\\."
+      "url-filter":"\\/twitterfollow\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36540,7 +34999,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitterfollowbadge\\/.*"
+      "url-filter":"\\/twitterfollow\\.png"
     },
     "action":{
       "type":"block"
@@ -36548,7 +35007,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitterlib\\."
+      "url-filter":"\\/twitterlib\\.js"
     },
     "action":{
       "type":"block"
@@ -36556,7 +35015,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitteron\\."
+      "url-filter":"\\/twitteron\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36564,7 +35023,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitterpin\\."
+      "url-filter":"\\/twitteron\\.png"
     },
     "action":{
       "type":"block"
@@ -36572,7 +35031,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twitterPrev\\."
+      "url-filter":"\\/twittersquare\\.png"
     },
     "action":{
       "type":"block"
@@ -36580,55 +35039,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/twittersquare\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twitterwidget\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/twitterWidgetHeader\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/validateArticleShareCount\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/videojs\\-share\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/view\\/share_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/view_social_"
+      "url-filter":"\\/videojs\\-share\\.js"
     },
     "action":{
       "type":"block"
@@ -36652,7 +35063,15 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/vk_button\\."
+      "url-filter":"\\/vk_button\\.jpg"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/vk_button\\.png"
     },
     "action":{
       "type":"block"
@@ -36668,7 +35087,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/whatsapp\\-button\\."
+      "url-filter":"\\/whatsapp\\-button\\.js"
     },
     "action":{
       "type":"block"
@@ -36676,7 +35095,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/whatsapp_button\\."
+      "url-filter":"\\/whatsapp_button\\.php"
     },
     "action":{
       "type":"block"
@@ -36684,7 +35103,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/whatsapp_icon\\."
+      "url-filter":"\\/whatsapp_icon\\.png"
     },
     "action":{
       "type":"block"
@@ -36700,7 +35119,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/whatsappshare\\."
+      "url-filter":"\\/whatsappshare\\.jpg"
     },
     "action":{
       "type":"block"
@@ -36708,15 +35127,7 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/whtapp\\-mob\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/whtapp\\-web\\."
+      "url-filter":"\\/whatsappshare\\.js"
     },
     "action":{
       "type":"block"
@@ -36733,22 +35144,6 @@
   {
     "trigger":{
       "url-filter":"\\/widget\\/share_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/widget_add_this_"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/Widgets\\/.*\\/Tweets\\?"
     },
     "action":{
       "type":"block"
@@ -36773,14 +35168,6 @@
   {
     "trigger":{
       "url-filter":"\\/widgets\\/twitter\\/.*"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"\\/win\\-sm\\-icons\\."
     },
     "action":{
       "type":"block"
@@ -37698,6 +36085,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":"#TwitterShare"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":"#UISideShareBar"
     }
   },
@@ -38248,6 +36644,15 @@
     "action":{
       "type":"css-display-none",
       "selector":"#article-social-head"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#article-social-icons"
     }
   },
   {
@@ -39265,6 +37670,33 @@
     "action":{
       "type":"css-display-none",
       "selector":"#btShareFacebook"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#btn-share-email"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#btn-share-fb"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#btn-share-tele"
     }
   },
   {
@@ -45069,6 +43501,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":"#linkedin_share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":"#linkedin_social_sidebar"
     }
   },
@@ -48148,6 +46589,15 @@
     "action":{
       "type":"css-display-none",
       "selector":"#shareBar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#shareBarBottom"
     }
   },
   {
@@ -57426,6 +55876,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":"#wsp_share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":"#xe-header-social-nav"
     }
   },
@@ -63312,6 +61771,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".articleShareVideoBox"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".articleSharing"
     }
   },
@@ -64537,6 +63005,15 @@
     "action":{
       "type":"css-display-none",
       "selector":".b-article-share__buttons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".b-article-topSocial"
     }
   },
   {
@@ -88566,6 +87043,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".j-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".j-twitter"
     }
   },
@@ -88891,6 +87377,15 @@
     "action":{
       "type":"css-display-none",
       "selector":".js-custom-pinterest-button"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".js-fb-share"
     }
   },
   {
@@ -102624,15 +101119,6 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".retweet"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
       "selector":".reuters-share"
     }
   },
@@ -103399,6 +101885,15 @@
     "action":{
       "type":"css-display-none",
       "selector":".s-social-item"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".s-social-share"
     }
   },
   {
@@ -105108,6 +103603,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".share-bsky"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".share-btn"
     }
   },
@@ -106566,6 +105070,33 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".share-network-facebook"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-network-twitter"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-network-whatsapp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".share-new"
     }
   },
@@ -107512,24 +106043,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".share-tools-wrapper"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".share-top"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".share-top-new"
     }
   },
   {
@@ -119661,6 +118174,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".social-share-sticky"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".social-share-svg"
     }
   },
@@ -125089,6 +123611,15 @@
     "action":{
       "type":"css-display-none",
       "selector":".socialsharing"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".socialsharing-buttons"
     }
   },
   {
@@ -136374,6 +134905,15 @@
     },
     "action":{
       "type":"css-display-none",
+      "selector":".zr-social-button"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
       "selector":".zss-follow-us"
     }
   },
@@ -139131,18 +137671,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*artistdirect.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#FollowBut"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*iflscience.com"
       ]
     },
@@ -139161,6 +137689,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#IconContainer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rockmods.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#LinkList76"
     }
   },
   {
@@ -139359,36 +137899,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*fnlondon.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#article_tools"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*bleedingcool.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"#bc_sharing_is_caring"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*mydorpie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#blf"
     }
   },
   {
@@ -139419,18 +137935,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*crash.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#block-block-25"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*enca.com"
       ]
     },
@@ -139449,30 +137953,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#block-fs_helpers-fstop_socials"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*mydorpie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#bltw"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*mydorpie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#blwh"
     }
   },
   {
@@ -139542,18 +138022,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*slickdeals.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#buyNowShareContainer"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*skidrowreloaded.com"
       ]
     },
@@ -139586,18 +138054,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#cta"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*newframe.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#cta-follow"
     }
   },
   {
@@ -139647,18 +138103,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#custom_html-7"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*dailyherald.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#dhFollow"
     }
   },
   {
@@ -139882,6 +138326,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*newindianexpress.com",
         "*newsgram.com"
       ]
     },
@@ -140041,18 +138486,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ohmyrockness.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#newsfeed"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*dezeen.com"
       ]
     },
@@ -140113,30 +138546,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*blurtit.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#plusOnePage"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*newindianexpress.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#print_article"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*auburnpub.com",
         "*azdailysun.com",
         "*beatricedailysun.com",
@@ -140190,6 +138599,30 @@
     "action":{
       "type":"css-display-none",
       "selector":"#reaction-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*recipeland.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rhs-pinbar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*redice.tv"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#s1"
     }
   },
   {
@@ -140354,18 +138787,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*biorxiv.org"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#shareit"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*coinlore.com"
       ]
     },
@@ -140390,6 +138811,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*recipeland.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#shr-actn-bar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*perezhilton.com"
       ]
     },
@@ -140408,18 +138841,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#sidebar > h4"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*sbs.com.au"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#sidebar-first"
     }
   },
   {
@@ -140584,6 +139005,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*fangoria.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#social-promotion"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*lethbridgenewsnow.com",
         "*panow.com"
       ]
@@ -140651,18 +139084,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#socials"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*spiked-online.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#spikedShareBar"
     }
   },
   {
@@ -140741,31 +139162,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*amazon.co.uk",
-        "*amazon.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tafContainerDiv"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*thepoke.co.uk"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tag"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*technology.org"
       ]
     },
@@ -140812,18 +139208,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#text-9"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*whatuni.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tickerTape"
     }
   },
   {
@@ -140942,6 +139326,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nhl.com",
         "*petri.com"
       ]
     },
@@ -140960,30 +139345,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".AccordionShareWrapper"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*10news.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ActionBar"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ktvq.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ActionBar-items"
     }
   },
   {
@@ -141050,18 +139411,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nationalgeographic.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".Article__Header__Share"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*startrek.com"
       ]
     },
@@ -141080,18 +139429,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".BlogPost__social-block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*cnbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".CNBCFooter-share"
     }
   },
   {
@@ -141131,6 +139468,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".Entry-infoSocial"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*omannews.gov.om"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Fiction-FeedBack"
     }
   },
   {
@@ -141188,12 +139537,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*gadgetsnow.com"
+        "*sfstandard.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".KkbaU"
+      "selector":".Metadata_shareButton__hvaZs"
     }
   },
   {
@@ -141212,6 +139561,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*6amcity.com",
         "*apnews.com"
       ]
     },
@@ -141230,6 +139580,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".PartialSocialLinks"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rbth.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Popup-telegram"
     }
   },
   {
@@ -141266,18 +139628,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".ShareBar_listItem__6t0E_"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*simkl.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".SimklTVFooterShare"
     }
   },
   {
@@ -141380,24 +139730,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*toptal.com"
+        "*sfstandard.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"._1oxEOBHC"
+      "selector":".StickySharer_content__J2QbY"
     }
   },
   {
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*aliexpress.com"
+        "*toptal.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"._2t2rD"
+      "selector":"._1oxEOBHC"
     }
   },
   {
@@ -141464,6 +139814,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tvline.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"._socialMedia_1y23u_1"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*timeout.com"
       ]
     },
@@ -141494,18 +139856,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".a2a_kit"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*abc.go.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".abc-facebook-like"
     }
   },
   {
@@ -141587,6 +139937,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tmo.report"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".aft-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*mp1st.com"
       ]
     },
@@ -141659,18 +140021,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*moneycontrol.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".arti_icn"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*wxyz.com"
       ]
     },
@@ -141683,12 +140033,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*theepochtimes.com"
+        "*chosun.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".article-below-widgets"
+      "selector":".article-control-bar"
     }
   },
   {
@@ -141702,18 +140052,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".article-float-buttons"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*revizoronline.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".article-footer"
     }
   },
   {
@@ -142108,7 +140446,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*artnet.com"
+        "*news.artnet.com"
       ]
     },
     "action":{
@@ -142373,12 +140711,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*vegrecipesofindia.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".block-social-links"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*artforum.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".blog-article__share-sticky"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*thehustle.co"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blog-hustle-social-links"
     }
   },
   {
@@ -142529,18 +140891,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*newsroom.co.nz"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".btn-email"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*agrimag.co.za",
         "*androidpolice.com",
         "*automart.co.za"
@@ -142555,7 +140905,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*androidpolice.com"
+        "*androidpolice.com",
+        "*givemesport.com"
       ]
     },
     "action":{
@@ -142609,6 +140960,7 @@
         "*collider.com",
         "*dualshockers.com",
         "*gamerant.com",
+        "*givemesport.com",
         "*howtogeek.com",
         "*makeuseof.com",
         "*movieweb.com",
@@ -142663,18 +141015,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*newsroom.co.nz"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".btn-tweet"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*agrimag.co.za",
         "*automart.co.za",
         "*maketecheasier.com"
@@ -142691,7 +141031,8 @@
       "if-domain":[
         "*agrimag.co.za",
         "*androidpolice.com",
-        "*automart.co.za"
+        "*automart.co.za",
+        "*givemesport.com"
       ]
     },
     "action":{
@@ -143068,18 +141409,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*financialexpress.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".click-event-telegrame"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*businesstoday.in"
       ]
     },
@@ -143164,6 +141493,19 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*citybeat.com",
+        "*riverfronttimes.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".comp-content-sharetools"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*usatoday.com"
       ]
     },
@@ -143194,6 +141536,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".component-social-twitter"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kqed.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".components-SocialShareTray-__SocialShareTray__SocialShareUL"
     }
   },
   {
@@ -143313,30 +141667,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".copy-link-button"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*coub.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".coub__sharing__dropdown"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*coub.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".coub__sharing__list"
     }
   },
   {
@@ -143499,36 +141829,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ubisoft.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".desktop-only"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*capital.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".detail__soc"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*sbs.com.au"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".dfIqLC"
     }
   },
   {
@@ -143852,18 +142158,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*babylonbee.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".fab"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*techradar.com"
       ]
     },
@@ -143973,6 +142267,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*cltampa.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".fdn-content-multi-row-share-tools-small"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sacurrent.com"
       ]
     },
@@ -143997,12 +142303,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*westword.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".fdn-site-header-social-icons-block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eadaily.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".feed"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lubuntu.me"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ff-social-icon"
     }
   },
   {
@@ -144105,18 +142435,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kick.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".flex.flex-col.space-y-3"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*techradar.com"
       ]
     },
@@ -144171,6 +142489,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".floating-share-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*sportskeeda.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".follow-action"
     }
   },
   {
@@ -144258,6 +142588,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".follow-me-foot"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*windowsreport.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".follow-more-news"
     }
   },
   {
@@ -144396,6 +142738,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".follow_us_icons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kentonline.co.uk"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".followbox"
     }
   },
   {
@@ -144609,6 +142963,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*gastrojournal.ch",
         "*myanimelist.net"
       ]
     },
@@ -145098,6 +143453,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kick.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".group.flex.w-40.items-center.space-x-2.text-xs.font-bold.text-gray-400.hover\\:text-primary"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*atlanticcouncil.org"
       ]
     },
@@ -145128,18 +143495,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".hd-discord"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*floridasportsman.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".head-social"
     }
   },
   {
@@ -145340,18 +143695,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*classicalite.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ic_bt"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*insideclimatenews.org"
       ]
     },
@@ -145370,18 +143713,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".icon-font"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*insta360.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".icon-list"
     }
   },
   {
@@ -145460,12 +143791,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*designcurial.com"
+        "*picsart.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".image-tools"
+      "selector":".image-with-overlay-pinterest-0-2-76"
     }
   },
   {
@@ -145520,19 +143851,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ebay.co.uk",
-        "*ebay.com.au"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".info > .share"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*labiotech.eu"
       ]
     },
@@ -145551,18 +143869,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".inline-flex"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*inquirer.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".inq-share__option"
     }
   },
   {
@@ -145605,24 +143911,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*islamweb.net"
+        "*theenergymix.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".iteminfo"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*itweb.co.za"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".itw-toolbox-item"
+      "selector":".jeg_custom_share_wrapper"
     }
   },
   {
@@ -145647,6 +143941,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".join-tg"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*moneycontrol.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".join_follow"
     }
   },
   {
@@ -145701,18 +144007,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kdnuggets.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".kd_bottom"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*levernews.com",
         "*overkill.wtf"
       ]
@@ -145751,24 +144045,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kedglobal.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".laFlow"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*sendatext.co"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".lb_overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bikerumor.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ldm-social-menu"
     }
   },
   {
@@ -145823,19 +144117,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*labour.org.nz",
-        "*nzfirst.org.nz"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".like-page"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*mmoga.co.uk",
         "*mmoga.com",
         "*mmoga.de",
@@ -145880,19 +144161,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*owgr.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".linkicon"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*expertreviews.co.uk",
         "*wheelsage.org"
       ]
     },
@@ -146470,6 +144738,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*sfu.ca"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".news_content_tools"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*aimp.ru"
       ]
     },
@@ -146488,6 +144768,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".nfl-c-article__share-bar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nhl.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".nhl-o-sharebar"
     }
   },
   {
@@ -146699,6 +144991,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*operawire.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".page-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*odt.co.nz"
       ]
     },
@@ -146729,6 +145033,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".partage"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*theenergymix.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".pf-button"
     }
   },
   {
@@ -146801,18 +145117,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".pm-socials-block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*audacy.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".podcast-lead__social"
     }
   },
   {
@@ -147038,18 +145342,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*aliexpress.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".product-fix-sns"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*inspiredtaste.net"
       ]
     },
@@ -147062,24 +145354,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ubisoft.com"
+        "*thetruthaboutcars.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".promo--channels"
+      "selector":".project-actions-header"
     }
   },
   {
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*fancentro.com"
+        "*sports.ndtv.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".public-links"
+      "selector":".pst_scl"
     }
   },
   {
@@ -147128,6 +145420,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".qyh"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*prdaily.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ragan-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*drive.com.au"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".react-share__ShareButton"
     }
   },
   {
@@ -147244,18 +145560,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*dailycaller.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rounded-full"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*publicbooks.org"
       ]
     },
@@ -147310,6 +145614,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sabc_social_box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*sordum.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sbar_social_div"
     }
   },
   {
@@ -147447,24 +145763,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nationaldaycalendar.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sfsiplus_inerCnt"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*bravotube.net"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".sh"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dailysabah.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".shB"
     }
   },
   {
@@ -147547,7 +145863,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*tastecooking.com"
+        "*tastecooking.com",
+        "*thetruthaboutcars.com"
       ]
     },
     "action":{
@@ -147596,9 +145913,9 @@
       "url-filter":".*",
       "if-domain":[
         "*cheknews.ca",
+        "*estadao.com.br",
         "*fandomwire.com",
-        "*stadiumtalk.com",
-        "*tvline.com"
+        "*stadiumtalk.com"
       ]
     },
     "action":{
@@ -147644,12 +145961,25 @@
         "*jessekellyshow.com",
         "*news12.com",
         "*steveharveyfm.com",
+        "*supermarketnews.com",
         "*thewildest.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".share-icons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*picsart.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-icons-single-icons-0-2-82"
     }
   },
   {
@@ -147881,6 +146211,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*windowsreport.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".shareMobile"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*vimeo.com"
       ]
     },
@@ -147947,6 +146289,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sharebutton"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*mydorpie.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sharecell"
     }
   },
   {
@@ -148074,30 +146428,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*theregister.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sharing_widget"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*missouri.edu"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".showme-footer__social"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*michaelmedved.com"
       ]
     },
@@ -148116,6 +146446,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sidebar-card-media"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*prdaily.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sidebarShareHeading"
     }
   },
   {
@@ -148146,18 +146488,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*japantimes.co.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".single-sns-area"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*foodsforbetterhealth.com"
       ]
     },
@@ -148182,12 +146512,25 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nme.com"
+        "*nme.com",
+        "*operawire.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".site-footer-social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*operawire.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".site-header-actions-social"
     }
   },
   {
@@ -148326,6 +146669,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".soci"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rtvs.sk"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social--bar"
     }
   },
   {
@@ -148490,18 +146845,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*jns.org"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social-help"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*siliconrepublic.com"
       ]
     },
@@ -148614,18 +146957,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*cinenews.be"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social-line"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*businesspost.ie"
       ]
     },
@@ -148650,6 +146981,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*recipes.net",
         "*securityaffairs.com",
         "*techopedia.com",
         "*trtworld.com",
@@ -148659,6 +146991,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-media"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gastrojournal.ch"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-media-blocks"
     }
   },
   {
@@ -148775,6 +147119,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-menu-desktop"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*toofab.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-nav"
     }
   },
   {
@@ -149023,6 +147379,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*rbth.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dailymail.co.uk"
       ]
     },
@@ -149071,7 +147439,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*faithwire.com"
+        "*faithwire.com",
+        "*rtvs.sk"
       ]
     },
     "action":{
@@ -149195,7 +147564,9 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*captainaltcoin.com"
+        "*captainaltcoin.com",
+        "*ndtv.com",
+        "*ndtv.in"
       ]
     },
     "action":{
@@ -149213,6 +147584,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social_links"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dailysabah.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social_media"
     }
   },
   {
@@ -149237,18 +147620,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".social_panel"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*myfitnesspal.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social_profile"
     }
   },
   {
@@ -149316,24 +147687,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bidorbuy.co.za"
+        "*9anime.se"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".socialnetwork"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*tecmint.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".socialprofiles"
+      "selector":".socials-group"
     }
   },
   {
@@ -149382,6 +147741,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".socilamedia-share-btns"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*comicxy.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sosmed"
     }
   },
   {
@@ -149538,18 +147909,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".sticky-buttons"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*nmpoliticalreport.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sticky-footer-holder"
     }
   },
   {
@@ -149996,6 +148355,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*carnewschina.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".td-post-sharing-style2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*opindia.com"
       ]
     },
@@ -150038,6 +148409,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".tecmint-float-social-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*carnewschina.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".telegram-scrolling"
     }
   },
   {
@@ -150261,18 +148644,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*sahomeowner.co.za"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".topbar-right"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*thejewishstar.com"
       ]
     },
@@ -150297,24 +148668,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*tomorrowland-movie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".topsection"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*firstshowing.net"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".topsoc"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bloomberglinea.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ts-share-bar-custom"
     }
   },
   {
@@ -150820,6 +149191,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*thecookierookie.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wprm-social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*frommybowl.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wprm-template-fmb-footer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*manhwatop.com"
       ]
     },
@@ -150844,12 +149239,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*geekflare.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".x-social-menu"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*spring.org.uk"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".yasip.widget"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news.am"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".youtube-subscriber"
     }
   },
   {
@@ -151121,24 +149540,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*invezz.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"button[data-sharer]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*lonelyplanet.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"button[data-taggyid]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*photorumors.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[align=\"RIGHT\"]"
     }
   },
   {
@@ -151193,12 +149612,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bloomberg.com"
+        "*ici.radio-canada.ca"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[class^=\"share-article-button_\"]"
+      "selector":"div[class^=\"StyledSharingBar-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*reuters.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"image-caption__social__\"]"
     }
   },
   {
@@ -151223,18 +149654,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"share-widget_\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*today.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class^=\"share_\"]"
     }
   },
   {
@@ -151290,36 +149709,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*psyche.co"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class^=\"styled__SocialLinks-\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*semafor.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"styles_shareWrapper_\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*cheddar.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class^=\"video__share_\"]"
     }
   },
   {
@@ -151374,12 +149769,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*fansshare.com"
+        "*ea.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[style=\"width:192px;height:90px;float:left;padding-left:6px;\"]"
+      "selector":"ea-social-links"
     }
   },
   {
@@ -151551,6 +149946,7 @@
         "*telemundoutah.com",
         "*telemundowashingtondc.com",
         "*tenor.com",
+        "*thecradle.co",
         "*vlaamskijken.nl"
       ]
     },
@@ -151563,6 +149959,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*10news.com",
         "*aboutamazon.co.uk",
         "*aboutamazon.com",
         "*aboutamazon.de",
@@ -151571,10 +149968,12 @@
         "*chronicle.com",
         "*deseret.com",
         "*iowapublicradio.org",
+        "*ktvq.com",
         "*laist.com",
         "*nepm.org",
         "*suntimes.com",
         "*tvazteca.com",
+        "*vanidades.com",
         "*washingtonexaminer.com",
         "*wgbh.org"
       ]
@@ -151667,6 +150066,7 @@
         "*classicalite.com",
         "*classifieds.co.zw",
         "*clearancejobs.com",
+        "*climatempo.com.br",
         "*clm21.es",
         "*cmt.com",
         "*cmu.edu",
@@ -151675,6 +150075,7 @@
         "*comicbook.com",
         "*comicbookmovie.com",
         "*conjur.com.br",
+        "*cookingwithjanica.com",
         "*coopcasarsa.it",
         "*correiobraziliense.com.br",
         "*corriere.it",
@@ -151708,10 +150109,12 @@
         "*eetimes.com",
         "*elconsolto.com",
         "*elmundofinanciero.com",
+        "*elplural.com",
         "*elvenar.com",
         "*entywbas.com",
         "*epicgames.com",
         "*err.ee",
+        "*estadao.com.br",
         "*estrelando.com.br",
         "*estrellatv.com",
         "*etcanada.com",
@@ -151827,6 +150230,7 @@
         "*klassikradio.de",
         "*knack.be",
         "*korben.info",
+        "*krautundrueben.de",
         "*lacivertdergi.com",
         "*ladepeche.fr",
         "*lapressa.it",
@@ -151891,6 +150295,7 @@
         "*nzgeo.com",
         "*nzx.com",
         "*odia.ig.com.br",
+        "*olhardigital.com.br",
         "*olivetti.com",
         "*omdb.org",
         "*omnialyrics.it",
@@ -151898,6 +150303,7 @@
         "*opendns.com",
         "*opinione.it",
         "*ornews.it",
+        "*osthessen-news.de",
         "*ox.ac.uk",
         "*padovasport.tv",
         "*paginasamarillas.es",
@@ -151954,6 +150360,7 @@
         "*russia-insider.com",
         "*rustica.fr",
         "*samachar.com",
+        "*samfw.com",
         "*sanook.com",
         "*sardiniapost.it",
         "*sat.tv",
@@ -152007,6 +150414,7 @@
         "*testimania.com",
         "*the-sun.com",
         "*the-voice-of-germany.de",
+        "*thecookierookie.com",
         "*thedissolve.com",
         "*themoscowtimes.com",
         "*thepeninsulaqatar.com",
@@ -152026,6 +150434,7 @@
         "*tmz.com",
         "*todomecanica.com",
         "*todomercadoweb.es",
+        "*toofab.com",
         "*top.de",
         "*toronews.net",
         "*tourhebdo.com",
@@ -152042,6 +150451,7 @@
         "*u.tv",
         "*ucl.ac.uk",
         "*uk-mkivs.net",
+        "*ukraine-nachrichten.de",
         "*ultimominuto.news",
         "*unica.it",
         "*unita.it",
@@ -152087,6 +150497,7 @@
       "url-filter":".*",
       "if-domain":[
         "*bulawayo24.com",
+        "*canalarte1.uol.com.br",
         "*canavesenews.it",
         "*dbknews.com",
         "*designtaxi.com",
@@ -152173,6 +150584,7 @@
         "*autoline.tj",
         "*autoline.ua",
         "*autoline.uz",
+        "*automotive-online.nl",
         "*averagelinuxuser.com",
         "*basketinside.com",
         "*bianconeranews.it",
@@ -152206,8 +150618,8 @@
         "*crusoe.com.br",
         "*crypto.news",
         "*cryptopotato.com",
-        "*dailycaller.com",
         "*dailymail.co.uk",
+        "*dailysabah.com",
         "*dailytrust.com",
         "*dancestarparty.com",
         "*democracynow.org",
@@ -152236,6 +150648,7 @@
         "*fantamagazine.com",
         "*fcinter1908.it",
         "*firenzeviola.it",
+        "*fleet-mobility.nl",
         "*flowingdata.com",
         "*food.com",
         "*foodnetwork.it",
@@ -152349,6 +150762,7 @@
         "*paginegialle.it",
         "*panorama.it",
         "*passioneinter.com",
+        "*pbs.org",
         "*perlaretorica.it",
         "*pianetagenoa1893.net",
         "*pianetamilan.it",
@@ -152408,7 +150822,9 @@
         "*viveusa.mx",
         "*vz.ru",
         "*webdunia.com",
+        "*weltbild.de",
         "*wikiway.com",
+        "*windowsreport.com",
         "*xxxymovies.com",
         "*yougov.com"
       ]
@@ -152491,6 +150907,7 @@
         "*ambito.com",
         "*anews.com.tr",
         "*animeworld.tv",
+        "*archivebate.com",
         "*az.nl",
         "*bazar.it",
         "*cracked.com",
@@ -152499,6 +150916,8 @@
         "*ezalenyeg.hu",
         "*fastweb.it",
         "*hirtv.hu",
+        "*hot.co.uk",
+        "*hot.com",
         "*instant-gaming.com",
         "*ipwatchdog.com",
         "*iranpress.com",
@@ -152506,6 +150925,7 @@
         "*kyivpost.com",
         "*laprovinciadicomo.it",
         "*mob.org",
+        "*ots.at",
         "*ouest-france.fr",
         "*radiolina.it",
         "*recyclingproductnews.com",
@@ -152514,6 +150934,7 @@
         "*secoloditalia.it",
         "*sportwebsicilia.it",
         "*thejc.com",
+        "*thetruthaboutcars.com",
         "*videolina.it"
       ]
     },
@@ -152538,19 +150959,23 @@
         "*futurity.org",
         "*glas-javnosti.rs",
         "*ijr.com",
+        "*iranintl.com",
         "*justthenews.com",
         "*letras.mus.br",
         "*liliputing.com",
         "*netgear.com",
         "*nypost.com",
         "*observer.com",
+        "*outkick.com",
         "*pelisplus2.ai",
         "*pink.rs",
         "*publicdomainreview.org",
         "*scmagazine.com",
         "*screenshot-media.com",
         "*superporn.com",
+        "*tedi.com",
         "*the-decoder.com",
+        "*thechunkychef.com",
         "*thetoyinsider.com",
         "*thewindowsclub.com",
         "*trtafrika.com",
@@ -152574,6 +150999,7 @@
         "*az.com.na",
         "*azernews.az",
         "*b92.net",
+        "*climatempo.com.br",
         "*gfinityesports.com",
         "*huffingtonpost.fr",
         "*iltalehti.fi",
@@ -152598,6 +151024,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*businessinsider.de",
         "*coindesk.com",
         "*crn.com",
         "*lavoz.com.ar"
@@ -152634,12 +151061,14 @@
         "*astrologyzone.com",
         "*bigleaguepolitics.com",
         "*goedgevoel.be",
+        "*goodnet.org",
         "*indiatoday.in",
         "*marketingweek.com",
         "*metacritic.com",
         "*moviemaker.com",
         "*numberempire.com",
         "*ornews.it",
+        "*raiplay.it",
         "*screenrant.com",
         "*spectator.com.au",
         "*thepointsguy.com"
@@ -152682,6 +151111,7 @@
         "*novabh.tv",
         "*onet.pl",
         "*online-convert.com",
+        "*rbth.com",
         "*sowetanlive.co.za",
         "*timeslive.co.za"
       ]
@@ -152784,6 +151214,7 @@
       "url-filter":".*",
       "if-domain":[
         "*crimeonline.com",
+        "*dezeen.com",
         "*fivebooks.com",
         "*informer.com",
         "*open.online",
@@ -153024,8 +151455,6 @@
         "*mmoga.es",
         "*mmoga.fr",
         "*mmoga.se",
-        "*newindianexpress.com",
-        "*nhl.com",
         "*phys.org",
         "*pulsenews.co.kr",
         "*shazam.com",
@@ -153083,6 +151512,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*addapinch.com",
         "*alpin.de",
         "*anothermag.com",
         "*antena3.com",
@@ -153096,8 +151526,10 @@
         "*ebu.io",
         "*fortune.com",
         "*fullfact.org",
+        "*gimmedelicious.com",
         "*hannity.com",
         "*i24news.tv",
+        "*idsnews.com",
         "*insurancejournal.com",
         "*metro.us",
         "*mobilesyrup.com",
@@ -153242,30 +151674,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*yandex.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#shareButton"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*yandex.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#shareContent"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*adblockplus.org"
       ]
     },
@@ -153326,18 +151734,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".fb-page"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*duckduckgo.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".footer__social-icon"
     }
   },
   {
@@ -153416,30 +151812,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*duckduckgo.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social__icon"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*duckduckgo.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social__link"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*tomshardware.com"
       ]
     },
@@ -153489,30 +151861,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class*=\"TagShareWrapper\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*artistdirect.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#FollowBut"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*iflscience.com"
       ]
     },
@@ -153531,6 +151879,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#IconContainer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rockmods.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#LinkList76"
     }
   },
   {
@@ -153729,36 +152089,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*fnlondon.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#article_tools"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*bleedingcool.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"#bc_sharing_is_caring"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*mydorpie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#blf"
     }
   },
   {
@@ -153789,18 +152125,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*crash.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#block-block-25"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*enca.com"
       ]
     },
@@ -153819,30 +152143,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#block-fs_helpers-fstop_socials"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*mydorpie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#bltw"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*mydorpie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#blwh"
     }
   },
   {
@@ -153912,18 +152212,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*slickdeals.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#buyNowShareContainer"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*skidrowreloaded.com"
       ]
     },
@@ -153956,18 +152244,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#cta"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*newframe.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#cta-follow"
     }
   },
   {
@@ -154017,18 +152293,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#custom_html-7"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*dailyherald.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#dhFollow"
     }
   },
   {
@@ -154252,6 +152516,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*newindianexpress.com",
         "*newsgram.com"
       ]
     },
@@ -154411,18 +152676,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ohmyrockness.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#newsfeed"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*dezeen.com"
       ]
     },
@@ -154483,30 +152736,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*blurtit.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#plusOnePage"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*newindianexpress.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#print_article"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*auburnpub.com",
         "*azdailysun.com",
         "*beatricedailysun.com",
@@ -154560,6 +152789,30 @@
     "action":{
       "type":"css-display-none",
       "selector":"#reaction-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*recipeland.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#rhs-pinbar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*redice.tv"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#s1"
     }
   },
   {
@@ -154724,18 +152977,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*biorxiv.org"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#shareit"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*coinlore.com"
       ]
     },
@@ -154760,6 +153001,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*recipeland.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#shr-actn-bar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*perezhilton.com"
       ]
     },
@@ -154778,18 +153031,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#sidebar > h4"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*sbs.com.au"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#sidebar-first"
     }
   },
   {
@@ -154954,6 +153195,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*fangoria.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#social-promotion"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*lethbridgenewsnow.com",
         "*panow.com"
       ]
@@ -155021,18 +153274,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#socials"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*spiked-online.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#spikedShareBar"
     }
   },
   {
@@ -155111,31 +153352,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*amazon.co.uk",
-        "*amazon.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tafContainerDiv"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*thepoke.co.uk"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tag"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*technology.org"
       ]
     },
@@ -155182,18 +153398,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#text-9"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*whatuni.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tickerTape"
     }
   },
   {
@@ -155312,6 +153516,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nhl.com",
         "*petri.com"
       ]
     },
@@ -155330,30 +153535,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".AccordionShareWrapper"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*10news.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ActionBar"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ktvq.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ActionBar-items"
     }
   },
   {
@@ -155420,18 +153601,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nationalgeographic.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".Article__Header__Share"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*startrek.com"
       ]
     },
@@ -155450,18 +153619,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".BlogPost__social-block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*cnbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".CNBCFooter-share"
     }
   },
   {
@@ -155501,6 +153658,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".Entry-infoSocial"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*omannews.gov.om"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Fiction-FeedBack"
     }
   },
   {
@@ -155558,12 +153727,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*gadgetsnow.com"
+        "*sfstandard.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".KkbaU"
+      "selector":".Metadata_shareButton__hvaZs"
     }
   },
   {
@@ -155582,6 +153751,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*6amcity.com",
         "*apnews.com"
       ]
     },
@@ -155600,6 +153770,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".PartialSocialLinks"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rbth.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".Popup-telegram"
     }
   },
   {
@@ -155636,18 +153818,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".ShareBar_listItem__6t0E_"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*simkl.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".SimklTVFooterShare"
     }
   },
   {
@@ -155750,24 +153920,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*toptal.com"
+        "*sfstandard.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"._1oxEOBHC"
+      "selector":".StickySharer_content__J2QbY"
     }
   },
   {
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*aliexpress.com"
+        "*toptal.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"._2t2rD"
+      "selector":"._1oxEOBHC"
     }
   },
   {
@@ -155834,6 +154004,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tvline.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"._socialMedia_1y23u_1"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*timeout.com"
       ]
     },
@@ -155864,18 +154046,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".a2a_kit"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*abc.go.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".abc-facebook-like"
     }
   },
   {
@@ -155957,6 +154127,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*tmo.report"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".aft-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*mp1st.com"
       ]
     },
@@ -156029,18 +154211,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*moneycontrol.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".arti_icn"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*wxyz.com"
       ]
     },
@@ -156053,12 +154223,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*theepochtimes.com"
+        "*chosun.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".article-below-widgets"
+      "selector":".article-control-bar"
     }
   },
   {
@@ -156072,18 +154242,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".article-float-buttons"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*revizoronline.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".article-footer"
     }
   },
   {
@@ -156478,7 +154636,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*artnet.com"
+        "*news.artnet.com"
       ]
     },
     "action":{
@@ -156743,12 +154901,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*vegrecipesofindia.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".block-social-links"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*artforum.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".blog-article__share-sticky"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*thehustle.co"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".blog-hustle-social-links"
     }
   },
   {
@@ -156899,18 +155081,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*newsroom.co.nz"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".btn-email"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*agrimag.co.za",
         "*androidpolice.com",
         "*automart.co.za"
@@ -156925,7 +155095,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*androidpolice.com"
+        "*androidpolice.com",
+        "*givemesport.com"
       ]
     },
     "action":{
@@ -156979,6 +155150,7 @@
         "*collider.com",
         "*dualshockers.com",
         "*gamerant.com",
+        "*givemesport.com",
         "*howtogeek.com",
         "*makeuseof.com",
         "*movieweb.com",
@@ -157033,18 +155205,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*newsroom.co.nz"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".btn-tweet"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*agrimag.co.za",
         "*automart.co.za",
         "*maketecheasier.com"
@@ -157061,7 +155221,8 @@
       "if-domain":[
         "*agrimag.co.za",
         "*androidpolice.com",
-        "*automart.co.za"
+        "*automart.co.za",
+        "*givemesport.com"
       ]
     },
     "action":{
@@ -157438,18 +155599,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*financialexpress.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".click-event-telegrame"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*businesstoday.in"
       ]
     },
@@ -157534,6 +155683,19 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*citybeat.com",
+        "*riverfronttimes.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".comp-content-sharetools"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*usatoday.com"
       ]
     },
@@ -157564,6 +155726,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".component-social-twitter"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kqed.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".components-SocialShareTray-__SocialShareTray__SocialShareUL"
     }
   },
   {
@@ -157683,30 +155857,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".copy-link-button"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*coub.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".coub__sharing__dropdown"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*coub.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".coub__sharing__list"
     }
   },
   {
@@ -157869,36 +156019,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ubisoft.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".desktop-only"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*capital.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".detail__soc"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*sbs.com.au"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".dfIqLC"
     }
   },
   {
@@ -158222,18 +156348,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*babylonbee.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".fab"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*techradar.com"
       ]
     },
@@ -158343,6 +156457,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*cltampa.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".fdn-content-multi-row-share-tools-small"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sacurrent.com"
       ]
     },
@@ -158367,12 +156493,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*westword.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".fdn-site-header-social-icons-block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eadaily.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".feed"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*lubuntu.me"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ff-social-icon"
     }
   },
   {
@@ -158475,18 +156625,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kick.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".flex.flex-col.space-y-3"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*techradar.com"
       ]
     },
@@ -158541,6 +156679,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".floating-share-wrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*sportskeeda.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".follow-action"
     }
   },
   {
@@ -158628,6 +156778,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".follow-me-foot"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*windowsreport.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".follow-more-news"
     }
   },
   {
@@ -158766,6 +156928,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".follow_us_icons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kentonline.co.uk"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".followbox"
     }
   },
   {
@@ -158979,6 +157153,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*gastrojournal.ch",
         "*myanimelist.net"
       ]
     },
@@ -159468,6 +157643,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kick.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".group.flex.w-40.items-center.space-x-2.text-xs.font-bold.text-gray-400.hover\\:text-primary"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*atlanticcouncil.org"
       ]
     },
@@ -159498,18 +157685,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".hd-discord"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*floridasportsman.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".head-social"
     }
   },
   {
@@ -159710,18 +157885,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*classicalite.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".ic_bt"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*insideclimatenews.org"
       ]
     },
@@ -159740,18 +157903,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".icon-font"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*insta360.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".icon-list"
     }
   },
   {
@@ -159830,12 +157981,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*designcurial.com"
+        "*picsart.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".image-tools"
+      "selector":".image-with-overlay-pinterest-0-2-76"
     }
   },
   {
@@ -159890,19 +158041,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ebay.co.uk",
-        "*ebay.com.au"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".info > .share"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*labiotech.eu"
       ]
     },
@@ -159921,18 +158059,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".inline-flex"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*inquirer.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".inq-share__option"
     }
   },
   {
@@ -159975,24 +158101,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*islamweb.net"
+        "*theenergymix.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".iteminfo"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*itweb.co.za"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".itw-toolbox-item"
+      "selector":".jeg_custom_share_wrapper"
     }
   },
   {
@@ -160017,6 +158131,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".join-tg"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*moneycontrol.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".join_follow"
     }
   },
   {
@@ -160071,18 +158197,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kdnuggets.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".kd_bottom"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*levernews.com",
         "*overkill.wtf"
       ]
@@ -160121,24 +158235,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*kedglobal.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".laFlow"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*sendatext.co"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".lb_overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bikerumor.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ldm-social-menu"
     }
   },
   {
@@ -160193,19 +158307,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*labour.org.nz",
-        "*nzfirst.org.nz"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".like-page"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*mmoga.co.uk",
         "*mmoga.com",
         "*mmoga.de",
@@ -160250,19 +158351,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*owgr.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".linkicon"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*expertreviews.co.uk",
         "*wheelsage.org"
       ]
     },
@@ -160840,6 +158928,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*sfu.ca"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".news_content_tools"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*aimp.ru"
       ]
     },
@@ -160858,6 +158958,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".nfl-c-article__share-bar"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nhl.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".nhl-o-sharebar"
     }
   },
   {
@@ -161069,6 +159181,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*operawire.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".page-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*odt.co.nz"
       ]
     },
@@ -161099,6 +159223,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".partage"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*theenergymix.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".pf-button"
     }
   },
   {
@@ -161171,18 +159307,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".pm-socials-block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*audacy.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".podcast-lead__social"
     }
   },
   {
@@ -161408,18 +159532,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*aliexpress.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".product-fix-sns"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*inspiredtaste.net"
       ]
     },
@@ -161432,24 +159544,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*ubisoft.com"
+        "*thetruthaboutcars.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".promo--channels"
+      "selector":".project-actions-header"
     }
   },
   {
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*fancentro.com"
+        "*sports.ndtv.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".public-links"
+      "selector":".pst_scl"
     }
   },
   {
@@ -161498,6 +159610,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".qyh"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*prdaily.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ragan-social-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*drive.com.au"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".react-share__ShareButton"
     }
   },
   {
@@ -161614,18 +159750,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*dailycaller.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".rounded-full"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*publicbooks.org"
       ]
     },
@@ -161680,6 +159804,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sabc_social_box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*sordum.org"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sbar_social_div"
     }
   },
   {
@@ -161817,24 +159953,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nationaldaycalendar.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sfsiplus_inerCnt"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*bravotube.net"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".sh"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dailysabah.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".shB"
     }
   },
   {
@@ -161917,7 +160053,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*tastecooking.com"
+        "*tastecooking.com",
+        "*thetruthaboutcars.com"
       ]
     },
     "action":{
@@ -161966,9 +160103,9 @@
       "url-filter":".*",
       "if-domain":[
         "*cheknews.ca",
+        "*estadao.com.br",
         "*fandomwire.com",
-        "*stadiumtalk.com",
-        "*tvline.com"
+        "*stadiumtalk.com"
       ]
     },
     "action":{
@@ -162014,12 +160151,25 @@
         "*jessekellyshow.com",
         "*news12.com",
         "*steveharveyfm.com",
+        "*supermarketnews.com",
         "*thewildest.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".share-icons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*picsart.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-icons-single-icons-0-2-82"
     }
   },
   {
@@ -162251,6 +160401,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*windowsreport.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".shareMobile"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*vimeo.com"
       ]
     },
@@ -162317,6 +160479,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sharebutton"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*mydorpie.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sharecell"
     }
   },
   {
@@ -162444,30 +160618,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*theregister.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sharing_widget"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*missouri.edu"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".showme-footer__social"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*michaelmedved.com"
       ]
     },
@@ -162486,6 +160636,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sidebar-card-media"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*prdaily.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sidebarShareHeading"
     }
   },
   {
@@ -162516,18 +160678,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*japantimes.co.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".single-sns-area"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*foodsforbetterhealth.com"
       ]
     },
@@ -162552,12 +160702,25 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*nme.com"
+        "*nme.com",
+        "*operawire.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".site-footer-social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*operawire.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".site-header-actions-social"
     }
   },
   {
@@ -162696,6 +160859,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".soci"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*rtvs.sk"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social--bar"
     }
   },
   {
@@ -162860,18 +161035,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*jns.org"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social-help"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*siliconrepublic.com"
       ]
     },
@@ -162984,18 +161147,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*cinenews.be"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social-line"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*businesspost.ie"
       ]
     },
@@ -163020,6 +161171,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*recipes.net",
         "*securityaffairs.com",
         "*techopedia.com",
         "*trtworld.com",
@@ -163029,6 +161181,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-media"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gastrojournal.ch"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-media-blocks"
     }
   },
   {
@@ -163145,6 +161309,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-menu-desktop"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*toofab.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-nav"
     }
   },
   {
@@ -163393,6 +161569,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*rbth.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dailymail.co.uk"
       ]
     },
@@ -163441,7 +161629,8 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*faithwire.com"
+        "*faithwire.com",
+        "*rtvs.sk"
       ]
     },
     "action":{
@@ -163565,7 +161754,9 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*captainaltcoin.com"
+        "*captainaltcoin.com",
+        "*ndtv.com",
+        "*ndtv.in"
       ]
     },
     "action":{
@@ -163583,6 +161774,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social_links"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*dailysabah.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social_media"
     }
   },
   {
@@ -163607,18 +161810,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".social_panel"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*myfitnesspal.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social_profile"
     }
   },
   {
@@ -163686,24 +161877,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bidorbuy.co.za"
+        "*9anime.se"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":".socialnetwork"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*tecmint.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".socialprofiles"
+      "selector":".socials-group"
     }
   },
   {
@@ -163752,6 +161931,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".socilamedia-share-btns"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*comicxy.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sosmed"
     }
   },
   {
@@ -163908,18 +162099,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".sticky-buttons"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*nmpoliticalreport.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".sticky-footer-holder"
     }
   },
   {
@@ -164366,6 +162545,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*carnewschina.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".td-post-sharing-style2"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*opindia.com"
       ]
     },
@@ -164408,6 +162599,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".tecmint-float-social-wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*carnewschina.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".telegram-scrolling"
     }
   },
   {
@@ -164631,18 +162834,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*sahomeowner.co.za"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".topbar-right"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*thejewishstar.com"
       ]
     },
@@ -164667,24 +162858,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*tomorrowland-movie.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".topsection"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*firstshowing.net"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".topsoc"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*bloomberglinea.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ts-share-bar-custom"
     }
   },
   {
@@ -165190,6 +163381,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*thecookierookie.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wprm-social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*frommybowl.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wprm-template-fmb-footer"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*manhwatop.com"
       ]
     },
@@ -165214,12 +163429,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*geekflare.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".x-social-menu"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*spring.org.uk"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".yasip.widget"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news.am"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".youtube-subscriber"
     }
   },
   {
@@ -165491,24 +163730,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*invezz.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"button[data-sharer]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*lonelyplanet.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"button[data-taggyid]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*photorumors.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[align=\"RIGHT\"]"
     }
   },
   {
@@ -165563,12 +163802,24 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bloomberg.com"
+        "*ici.radio-canada.ca"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[class^=\"share-article-button_\"]"
+      "selector":"div[class^=\"StyledSharingBar-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*reuters.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"image-caption__social__\"]"
     }
   },
   {
@@ -165593,18 +163844,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"share-widget_\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*today.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class^=\"share_\"]"
     }
   },
   {
@@ -165660,36 +163899,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*psyche.co"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class^=\"styled__SocialLinks-\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*semafor.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"div[class^=\"styles_shareWrapper_\"]"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*cheddar.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class^=\"video__share_\"]"
     }
   },
   {
@@ -165744,12 +163959,12 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*fansshare.com"
+        "*ea.com"
       ]
     },
     "action":{
       "type":"css-display-none",
-      "selector":"div[style=\"width:192px;height:90px;float:left;padding-left:6px;\"]"
+      "selector":"ea-social-links"
     }
   },
   {
@@ -165921,6 +164136,7 @@
         "*telemundoutah.com",
         "*telemundowashingtondc.com",
         "*tenor.com",
+        "*thecradle.co",
         "*vlaamskijken.nl"
       ]
     },
@@ -165933,6 +164149,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*10news.com",
         "*aboutamazon.co.uk",
         "*aboutamazon.com",
         "*aboutamazon.de",
@@ -165941,10 +164158,12 @@
         "*chronicle.com",
         "*deseret.com",
         "*iowapublicradio.org",
+        "*ktvq.com",
         "*laist.com",
         "*nepm.org",
         "*suntimes.com",
         "*tvazteca.com",
+        "*vanidades.com",
         "*washingtonexaminer.com",
         "*wgbh.org"
       ]
@@ -166037,6 +164256,7 @@
         "*classicalite.com",
         "*classifieds.co.zw",
         "*clearancejobs.com",
+        "*climatempo.com.br",
         "*clm21.es",
         "*cmt.com",
         "*cmu.edu",
@@ -166045,6 +164265,7 @@
         "*comicbook.com",
         "*comicbookmovie.com",
         "*conjur.com.br",
+        "*cookingwithjanica.com",
         "*coopcasarsa.it",
         "*correiobraziliense.com.br",
         "*corriere.it",
@@ -166078,10 +164299,12 @@
         "*eetimes.com",
         "*elconsolto.com",
         "*elmundofinanciero.com",
+        "*elplural.com",
         "*elvenar.com",
         "*entywbas.com",
         "*epicgames.com",
         "*err.ee",
+        "*estadao.com.br",
         "*estrelando.com.br",
         "*estrellatv.com",
         "*etcanada.com",
@@ -166197,6 +164420,7 @@
         "*klassikradio.de",
         "*knack.be",
         "*korben.info",
+        "*krautundrueben.de",
         "*lacivertdergi.com",
         "*ladepeche.fr",
         "*lapressa.it",
@@ -166261,6 +164485,7 @@
         "*nzgeo.com",
         "*nzx.com",
         "*odia.ig.com.br",
+        "*olhardigital.com.br",
         "*olivetti.com",
         "*omdb.org",
         "*omnialyrics.it",
@@ -166268,6 +164493,7 @@
         "*opendns.com",
         "*opinione.it",
         "*ornews.it",
+        "*osthessen-news.de",
         "*ox.ac.uk",
         "*padovasport.tv",
         "*paginasamarillas.es",
@@ -166324,6 +164550,7 @@
         "*russia-insider.com",
         "*rustica.fr",
         "*samachar.com",
+        "*samfw.com",
         "*sanook.com",
         "*sardiniapost.it",
         "*sat.tv",
@@ -166377,6 +164604,7 @@
         "*testimania.com",
         "*the-sun.com",
         "*the-voice-of-germany.de",
+        "*thecookierookie.com",
         "*thedissolve.com",
         "*themoscowtimes.com",
         "*thepeninsulaqatar.com",
@@ -166396,6 +164624,7 @@
         "*tmz.com",
         "*todomecanica.com",
         "*todomercadoweb.es",
+        "*toofab.com",
         "*top.de",
         "*toronews.net",
         "*tourhebdo.com",
@@ -166412,6 +164641,7 @@
         "*u.tv",
         "*ucl.ac.uk",
         "*uk-mkivs.net",
+        "*ukraine-nachrichten.de",
         "*ultimominuto.news",
         "*unica.it",
         "*unita.it",
@@ -166457,6 +164687,7 @@
       "url-filter":".*",
       "if-domain":[
         "*bulawayo24.com",
+        "*canalarte1.uol.com.br",
         "*canavesenews.it",
         "*dbknews.com",
         "*designtaxi.com",
@@ -166543,6 +164774,7 @@
         "*autoline.tj",
         "*autoline.ua",
         "*autoline.uz",
+        "*automotive-online.nl",
         "*averagelinuxuser.com",
         "*basketinside.com",
         "*bianconeranews.it",
@@ -166576,8 +164808,8 @@
         "*crusoe.com.br",
         "*crypto.news",
         "*cryptopotato.com",
-        "*dailycaller.com",
         "*dailymail.co.uk",
+        "*dailysabah.com",
         "*dailytrust.com",
         "*dancestarparty.com",
         "*democracynow.org",
@@ -166606,6 +164838,7 @@
         "*fantamagazine.com",
         "*fcinter1908.it",
         "*firenzeviola.it",
+        "*fleet-mobility.nl",
         "*flowingdata.com",
         "*food.com",
         "*foodnetwork.it",
@@ -166719,6 +164952,7 @@
         "*paginegialle.it",
         "*panorama.it",
         "*passioneinter.com",
+        "*pbs.org",
         "*perlaretorica.it",
         "*pianetagenoa1893.net",
         "*pianetamilan.it",
@@ -166778,7 +165012,9 @@
         "*viveusa.mx",
         "*vz.ru",
         "*webdunia.com",
+        "*weltbild.de",
         "*wikiway.com",
+        "*windowsreport.com",
         "*xxxymovies.com",
         "*yougov.com"
       ]
@@ -166861,6 +165097,7 @@
         "*ambito.com",
         "*anews.com.tr",
         "*animeworld.tv",
+        "*archivebate.com",
         "*az.nl",
         "*bazar.it",
         "*cracked.com",
@@ -166869,6 +165106,8 @@
         "*ezalenyeg.hu",
         "*fastweb.it",
         "*hirtv.hu",
+        "*hot.co.uk",
+        "*hot.com",
         "*instant-gaming.com",
         "*ipwatchdog.com",
         "*iranpress.com",
@@ -166876,6 +165115,7 @@
         "*kyivpost.com",
         "*laprovinciadicomo.it",
         "*mob.org",
+        "*ots.at",
         "*ouest-france.fr",
         "*radiolina.it",
         "*recyclingproductnews.com",
@@ -166884,6 +165124,7 @@
         "*secoloditalia.it",
         "*sportwebsicilia.it",
         "*thejc.com",
+        "*thetruthaboutcars.com",
         "*videolina.it"
       ]
     },
@@ -166908,19 +165149,23 @@
         "*futurity.org",
         "*glas-javnosti.rs",
         "*ijr.com",
+        "*iranintl.com",
         "*justthenews.com",
         "*letras.mus.br",
         "*liliputing.com",
         "*netgear.com",
         "*nypost.com",
         "*observer.com",
+        "*outkick.com",
         "*pelisplus2.ai",
         "*pink.rs",
         "*publicdomainreview.org",
         "*scmagazine.com",
         "*screenshot-media.com",
         "*superporn.com",
+        "*tedi.com",
         "*the-decoder.com",
+        "*thechunkychef.com",
         "*thetoyinsider.com",
         "*thewindowsclub.com",
         "*trtafrika.com",
@@ -166944,6 +165189,7 @@
         "*az.com.na",
         "*azernews.az",
         "*b92.net",
+        "*climatempo.com.br",
         "*gfinityesports.com",
         "*huffingtonpost.fr",
         "*iltalehti.fi",
@@ -166968,6 +165214,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*businessinsider.de",
         "*coindesk.com",
         "*crn.com",
         "*lavoz.com.ar"
@@ -167004,12 +165251,14 @@
         "*astrologyzone.com",
         "*bigleaguepolitics.com",
         "*goedgevoel.be",
+        "*goodnet.org",
         "*indiatoday.in",
         "*marketingweek.com",
         "*metacritic.com",
         "*moviemaker.com",
         "*numberempire.com",
         "*ornews.it",
+        "*raiplay.it",
         "*screenrant.com",
         "*spectator.com.au",
         "*thepointsguy.com"
@@ -167052,6 +165301,7 @@
         "*novabh.tv",
         "*onet.pl",
         "*online-convert.com",
+        "*rbth.com",
         "*sowetanlive.co.za",
         "*timeslive.co.za"
       ]
@@ -167154,6 +165404,7 @@
       "url-filter":".*",
       "if-domain":[
         "*crimeonline.com",
+        "*dezeen.com",
         "*fivebooks.com",
         "*informer.com",
         "*open.online",
@@ -167394,8 +165645,6 @@
         "*mmoga.es",
         "*mmoga.fr",
         "*mmoga.se",
-        "*newindianexpress.com",
-        "*nhl.com",
         "*phys.org",
         "*pulsenews.co.kr",
         "*shazam.com",
@@ -167453,6 +165702,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*addapinch.com",
         "*alpin.de",
         "*anothermag.com",
         "*antena3.com",
@@ -167466,8 +165716,10 @@
         "*ebu.io",
         "*fortune.com",
         "*fullfact.org",
+        "*gimmedelicious.com",
         "*hannity.com",
         "*i24news.tv",
+        "*idsnews.com",
         "*insurancejournal.com",
         "*metro.us",
         "*mobilesyrup.com",
@@ -167612,30 +165864,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*yandex.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#shareButton"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*yandex.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#shareContent"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*adblockplus.org"
       ]
     },
@@ -167696,18 +165924,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".fb-page"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*duckduckgo.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".footer__social-icon"
     }
   },
   {
@@ -167786,30 +166002,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*duckduckgo.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social__icon"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*duckduckgo.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".social__link"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*tomshardware.com"
       ]
     },
@@ -167853,18 +166045,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".w-full.border-gray-900.p-5"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*bbc.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[class*=\"TagShareWrapper\"]"
     }
   },
   {
@@ -168292,6 +166472,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*fliegermagazin.de"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".icon-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nn.de",
         "*nordbayern.de"
       ]
@@ -168373,6 +166565,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".mtbnews-post-share__container"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*b4bschwaben.de"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".nfy-footer-social"
     }
   },
   {
@@ -168475,12 +166679,38 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*bdkj.info"
+        "*bdkj.info",
+        "*pferdekult.de"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".shariff"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*st-georg.de"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sharing_is_caring"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*evrejskaja-panorama.de",
+        "*juedischerundschau.de"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sideSocialMedia"
     }
   },
   {
@@ -169097,6 +167327,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*ici.radio-canada.ca"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".flex.flex-wrap.items-center.gap-3.pt-4.xsToSm\\:pt-2.print\\:hidden"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*homap.fr"
       ]
     },
@@ -169470,6 +167712,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*francetvinfo.fr"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-zone__wrapper"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*pix-geeks.com"
       ]
     },
@@ -169763,6 +168017,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nabd.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*midad.com"
       ]
     },
@@ -169841,6 +168107,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social_single_post_bottom"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nabd.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".socials"
     }
   },
   {
@@ -170231,12 +168509,50 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*carwashpro.nl",
+        "*infrasite.nl",
+        "*mobiliteit.nl",
+        "*rijschoolpro.nl",
+        "*spoorpro.nl",
+        "*tankpro.nl",
+        "*taxipro.nl",
+        "*zelfrijdendvervoer.nl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#socialmedia"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*telegraaf.nl"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".SocialButtons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*carwashpro.nl",
+        "*infrasite.nl",
+        "*mobiliteit.nl",
+        "*rijschoolpro.nl",
+        "*spoorpro.nl",
+        "*tankpro.nl",
+        "*taxipro.nl",
+        "*zelfrijdendvervoer.nl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".author-links"
     }
   },
   {
@@ -170316,6 +168632,25 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*carwashpro.nl",
+        "*infrasite.nl",
+        "*mobiliteit.nl",
+        "*rijschoolpro.nl",
+        "*spoorpro.nl",
+        "*tankpro.nl",
+        "*taxipro.nl",
+        "*zelfrijdendvervoer.nl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".menu-social-media-container"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*schrijvenonline.org"
       ]
     },
@@ -170346,6 +168681,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".social-icon"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*automobielmanagement.nl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-nav"
     }
   },
   {
@@ -171310,6 +169657,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*raiplaysound.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".banner-buttons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*napolimagazine.com"
       ]
     },
@@ -171340,6 +169699,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".bottoniera-social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*primapaginanews.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".box-condivisione"
     }
   },
   {
@@ -171702,6 +170073,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*scarpescarpestore.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".footer-social-icons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*jeanlouisdavid.it"
       ]
     },
@@ -171824,6 +170207,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*agi.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".hidden.xlarge\\:flex.border-t.border-base-300.pt-2.core.items-center.justify-between"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*24plus.ilsole24ore.com"
       ]
     },
@@ -171926,6 +170321,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".jw-video-details-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blitztv.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ld-t-footer-sharing"
     }
   },
   {
@@ -172223,6 +170630,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*raiplay.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".prefooter__social__list"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*assopoker.com"
       ]
     },
@@ -172362,6 +170781,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".sh_wa"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*blitztv.it"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-control"
     }
   },
   {
@@ -173910,6 +172341,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*dnoticias.pt"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".article--aside_share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sicnoticias.pt"
       ]
     },
@@ -174048,6 +172491,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".btn-share"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*estadao.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".button-share-icon"
     }
   },
   {
@@ -174464,6 +172919,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*portaldozacarias.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".redes-socias-noticia"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*defatoonline.com.br"
       ]
     },
@@ -174482,6 +172949,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".share-box-container"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*olhardigital.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-header"
     }
   },
   {
@@ -175515,6 +173994,54 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*24ur.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".flex.flex-row.items-center.justify-center.md\\:justify-start.p-16.md\\:p-0"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*vizita.si"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".flex.justify-center.items-center.fill-current.mt-18.md\\:mt-0"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*vizita.si"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".flex.justify-center.md\\:justify-end.items-center.fill-current.mt-6.md\\:mt-0.xl\\:mt-0.w-auto"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*24ur.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".w-full.md\\:w-auto.h-full.flex.flex-row.items-center.justify-center.md\\:justify-start.pt-16.md\\:pt-0.border-t.md\\:border-none.border-black\\/10.dark\\:border-white\\/10"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*dontorrent.uno"
       ]
     },
@@ -175960,12 +174487,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*rpp.pe"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".article__follow"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*elespanol.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".article__footer-nav"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*13.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".banner-google-news"
     }
   },
   {
@@ -176003,6 +174554,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".boton_ws"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*alairelibre.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".botones-llevatelo"
     }
   },
   {
@@ -176093,12 +174656,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*elplural.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".btn-whatsapp"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eltiempo.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".btn_googlelink"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eltiempo.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".c-detail__info-share"
     }
   },
   {
@@ -176118,12 +174705,25 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*adnradio.cl",
         "*cadenaser.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".c-sn"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eltiempo.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".c-subheader__social"
     }
   },
   {
@@ -176142,6 +174742,7 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*adnradio.cl",
         "*cadenaser.com",
         "*caracol.com.co",
         "*wradio.com.co"
@@ -176150,6 +174751,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".cnt-interaccion"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*df.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".col-xs-12.col-sm-12.col-md-12.text-right.pull-left.pad-none"
     }
   },
   {
@@ -176247,6 +174860,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*hola.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".contact"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*laprensalara.com.ve"
       ]
     },
@@ -176297,12 +174922,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*cooperativa.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".contenedor-compartir"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*elcolombiano.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".contenedor-google-noticias"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cooperativa.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".contenedor-sociales"
     }
   },
   {
@@ -176322,12 +174971,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*highxtar.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".content__compartir"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*elperiodico.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".countsocialhor"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*13.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".cuerpo-share"
     }
   },
   {
@@ -176377,6 +175050,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".dt_social_single"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*universo.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry__social"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*canalarte1.uol.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".fab"
     }
   },
   {
@@ -176649,6 +175346,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*canalarte1.uol.com.br"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".icons"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*neomotor.epe.es"
       ]
     },
@@ -176745,6 +175454,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*milanuncios.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ma-AdDetailShare"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*canalnet.tv"
       ]
     },
@@ -176795,6 +175516,30 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*cooperativa.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modulo-channels"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cooperativa.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".modulo-google-news"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cadenaser.com"
       ]
     },
@@ -176813,6 +175558,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".nav__story-social-network"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*businessinsider.mx"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".net-social"
     }
   },
   {
@@ -176849,6 +175606,31 @@
     "action":{
       "type":"css-display-none",
       "selector":".noticia-ampliada-compartir"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*cronicabalear.es"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".noticia-compartir"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*diarioeldia.cl",
+        "*elterritorio.com.ar"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".noticia-social-share"
     }
   },
   {
@@ -176930,6 +175712,7 @@
         "*biobiochile.cl",
         "*crea-mexico.com",
         "*elobservador.com.uy",
+        "*expansion.com",
         "*futbol.com.uy",
         "*futbolred.com",
         "*laverdad.com",
@@ -176997,6 +175780,7 @@
       "url-filter":".*",
       "if-domain":[
         "*cadenaser.com",
+        "*cronicabalear.es",
         "*deia.eus",
         "*diaridegirona.cat",
         "*diariocordoba.com",
@@ -177121,6 +175905,31 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*elamaule.cl",
+        "*elboyaldia.cl",
+        "*elconcecuente.cl",
+        "*elmagallanews.cl",
+        "*elmartutino.cl",
+        "*elmorrocotudo.cl",
+        "*elnaveghable.cl",
+        "*elnortero.cl",
+        "*elobservatodo.cl",
+        "*elquehaydecierto.cl",
+        "*elrancahuaso.cl",
+        "*elrepuertero.cl",
+        "*elvacanudo.cl",
+        "*laopinon.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".share-content"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*eltiempo.com",
         "*expreso.ec",
         "*extra.ec"
@@ -177219,12 +176028,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*radioimagina.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".sn-single"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*ansalatina.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".social-button"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*nostalgica.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".social-grid"
     }
   },
   {
@@ -177364,6 +176197,19 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*concierto.cl",
+        "*fmdos.cl"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ssd"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*cadenaser.com"
       ]
     },
@@ -177436,6 +176282,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*cronicabalear.es"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".top-bar-rrss"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*telexitos.com"
       ]
     },
@@ -177454,6 +176312,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".twt"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*elmundo.es"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ue-c-article__share-tools"
     }
   },
   {
@@ -177485,6 +176355,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*elpais.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".w_rs"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*unanimodeportes.com"
       ]
     },
@@ -177509,8 +176391,23 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*upday.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[class^=\"ShareButton_\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*autobild.es",
         "*businessinsider.es",
-        "*hobbyconsolas.com"
+        "*computerhoy.com",
+        "*hobbyconsolas.com",
+        "*topgear.es"
       ]
     },
     "action":{
@@ -177522,7 +176419,11 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*hobbyconsolas.com"
+        "*autobild.es",
+        "*businessinsider.es",
+        "*computerhoy.com",
+        "*hobbyconsolas.com",
+        "*topgear.es"
       ]
     },
     "action":{
@@ -177975,6 +176876,17 @@
         "fetch"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ahaan\\.co\\.uk[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?answers\\.ros\\.org\\/m\\/default\\/media\\/images\\/socialsprite\\.png"
     },
     "action":{
       "type":"ignore-previous-rules"
