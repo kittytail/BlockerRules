@@ -382079,17 +382079,6 @@
   },
   {
     "trigger":{
-      "load-type":[
-        "third-party"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?player\\.gliacloud\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "if-domain":[
         "at-s.com"
       ],
@@ -382216,6 +382205,24 @@
     "action":{
       "type":"css-display-none",
       "selector":"iframe[style*=\"opacity: 1 !important; max-width:\"][style*=\"position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"style + div[class][style=\"cursor: pointer; position: relative;\"] > img"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"video[max-width=\"728px\"][max-height=\"90px\"]"
     }
   },
   {
@@ -382398,6 +382405,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".right-bottom--ad"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*aipophia.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".responsive-video"
     }
   },
   {
@@ -383823,6 +383842,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kankyo-mirai.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#st_custom_html_widget-12"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*keimusho.net"
       ]
     },
@@ -384124,6 +384155,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*manga-pocket.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-content > span[style$=\"font-size: 60%;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*mankitu-blog.com"
       ]
     },
@@ -384202,6 +384245,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"td[bgcolor=\"White\"] > center > table[cellpadding=\"3\"][width=\"96%\"][bgcolor=\"#007fc0\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*milk-island.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".foot_banner"
     }
   },
   {
@@ -384598,6 +384653,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#black-studio-tinymce-5"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*pa-tu.work"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".card-body.mt-5:has(> div > .product-link)"
     }
   },
   {
@@ -385032,6 +385099,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".simple-box8"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*serisawa2021.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-content > span[style=\"color: #999999; font-size: 10px;\"]"
     }
   },
   {
@@ -385680,15 +385759,6 @@
   },
   {
     "trigger":{
-      "url-filter":".*"
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".gliaplayer-container"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":".*",
       "if-domain":[
         "*373news.com"
@@ -385697,18 +385767,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".ad-area-jack-absolute"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*appget.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#side_right > div[style=\"margin: 0 0 20px 25px;\"]"
     }
   },
   {
@@ -385732,18 +385790,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*weblio.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".firstDictVideoAd"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*businessinsider.jp",
         "*bizspa.jp",
         "*digiday.jp",
@@ -385754,8 +385800,7 @@
         "*kyobun.co.jp",
         "*my-golfdigest.jp",
         "*nikkan-spa.jp",
-        "*tennenseikatsu.jp",
-        "*toyokeizai.net"
+        "*tennenseikatsu.jp"
       ]
     },
     "action":{
@@ -386678,6 +386723,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*iqtisad.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".affi-banner"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*iyasiya.com"
       ]
     },
@@ -386768,6 +386825,42 @@
     "action":{
       "type":"css-display-none",
       "selector":".l-main > .dividerBottom > .dividerTop"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kannou.world.coocan.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"a[href^=\"http://track.bannerbridge.net/click.php\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kannou.world.coocan.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[id^=\"affimage-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*kannou.world.coocan.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[id^=\"dugaflvplayer-\"]"
     }
   },
   {
@@ -387009,6 +387102,54 @@
     "action":{
       "type":"css-display-none",
       "selector":".mainbottom-widget"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*onahot.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-btn > a[href^=\"https://www.e-nls.com/access.php\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*onahot.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-tgimg > a[href^=\"https://www.e-nls.com/access.php\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*onahot.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".kiji_text > a[href^=\"https://www.e-nls.com/access.php\"] > img"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*onahot.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".t_b > font[style=\"font-size:120%; font-weight: bold; color:;\"]"
     }
   },
   {
@@ -387543,12 +387684,36 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kannou.world.coocan.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".ad"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*sweetchocolate.blogterest.net"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":".blockAreaHeader a[href^=\"https://al.dmm.co.jp/\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*surirt.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#inplayer"
     }
   },
   {
@@ -387575,6 +387740,18 @@
     "action":{
       "type":"css-display-none",
       "selector":"#footer-ad-box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*gendai.media"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"div[data-testid=\"firework-storyblock-ad\"]"
     }
   },
   {
@@ -387627,18 +387804,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"#pianoj_ribbon"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*ejje.weblio.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".mainBlock[style=\"min-height: 270px;\"]"
     }
   },
   {
@@ -388012,6 +388177,20 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "if-domain":[
+        "surirt.com"
+      ],
+      "url-filter":"\\.php\\?id="
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"jav777\\.xyz#%#\\/\\/scriptlet('prevent\\-eval\\-if', 'ADS_BLOCKED')"
     },
     "action":{
@@ -388083,7 +388262,7 @@
   },
   {
     "trigger":{
-      "url-filter":"xhamster\\..*#%#\\/\\/scriptlet('set\\-constant', 'initials\\.urls\\.bannerCheckUrl', '')"
+      "url-filter":"xhamster\\..*#%#\\/\\/scriptlet('set\\-constant', 'initials\\.layout\\.layoutPromoProps\\.promoMessagesWrapperProps\\.shouldDisplayAdblockMessage', 'false')"
     },
     "action":{
       "type":"block"
@@ -388921,7 +389100,7 @@
     },
     "action":{
       "type":"css-display-none",
-      "selector":".ad-unit:not(.text-ad):not(.textads)"
+      "selector":".ad-unit:not(.text-ad):not(.textads):not([style^=\"width: 1px; height: 1px; position: absolute;\"])"
     }
   },
   {
@@ -389537,103 +389716,10 @@
   },
   {
     "trigger":{
-      "if-domain":[
-        "in-jpn.com",
-        "oninet.ne.jp",
-        "xth.jp"
-      ],
-      "url-filter":"\\/ad\\-check\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "script"
-      ],
-      "if-domain":[
-        "in-jpn.com",
-        "oninet.ne.jp",
-        "xth.jp"
-      ],
-      "url-filter":"\\/sakigake\\-ad\\-"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "fetch"
-      ],
-      "if-domain":[
-        "gunauc.net"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pagead2\\.googlesyndication\\.com\\/pagead\\/js\\/adsbygoogle\\.js"
-    },
-    "action":{
-      "type":"ignore-previous-rules"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "fetch"
-      ],
-      "if-domain":[
-        "in-jpn.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pagead2\\.googlesyndication\\.com\\/pagead\\/js\\/adsbygoogle\\.js"
-    },
-    "action":{
-      "type":"ignore-previous-rules"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ptube\\.pipio\\.site\\/adblock\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rxlife\\.net\\/src\\/adb\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tandess\\.com\\/music\\/files\\/detectAdblock\\.js"
     },
     "action":{
       "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"in\\-jpn\\.com,oninet\\.ne\\.jp,xth\\.jp#%#\\/\\/scriptlet('set\\-constant', 'myFunc', 'noopFunc')"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*it.in-jpn.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"body > a[rel*=\"sponsored\"]"
     }
   },
   {
@@ -389682,7 +389768,45 @@
   },
   {
     "trigger":{
+      "url-filter":":\\/\\/html\\-load\\.com\\/loader\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fb\\.html\\-load\\.com\\/loader\\.min\\.js"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fb\\.html\\-load\\.com\\/script\\/"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"androidpolice\\.com,howtogeek\\.com,xda\\-developers\\.com#%#\\/\\/scriptlet('abort\\-current\\-inline\\-script', 'document\\.createElement', '\\/admiral\\|String\\\\.fromCharCode\\(97,( ).*\\?100,( ).*\\?109,( ).*\\?105,( ).*\\?114,( ).*\\?97,( ).*\\?108\\)\\|a%64%6d%69%72%61%6c\\/')"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"iwb\\.jp#%#\\/\\/scriptlet('abort\\-current\\-inline\\-script', 'document\\.createElement', 'googletag')"
     },
     "action":{
       "type":"block"
