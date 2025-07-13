@@ -306,6 +306,17 @@
   },
   {
     "trigger":{
+      "if-domain":[
+        "kompas.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?amazonaws\\.com\\/tracker\\/p\\/kompasreco\\/oval_web_analytics_latest\\.js"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "script"
       ],
@@ -571,6 +582,17 @@
         "app.touchnote.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?api\\.touchnote\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "barenecessities.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?api\\.useinsider\\.com\\/api\\/web[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -995,6 +1017,7 @@
       ],
       "if-domain":[
         "abstractapi.com",
+        "accounts-bc.com",
         "app.cryptotrader.tax",
         "app.joinhandshake.com",
         "driversed.com",
@@ -1166,6 +1189,17 @@
         "heise.de"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cleverpush\\.com\\/sdk\\/"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "waze.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clouderrorreporting\\.googleapis\\.com[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -1548,6 +1582,20 @@
         "usa.experian.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?datadoghq\\-browser\\-agent\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "if-domain":[
+        "monster.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?datadome\\.monster\\.com\\.first\\-party\\-js\\.datadome\\.co[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -2040,6 +2088,17 @@
   },
   {
     "trigger":{
+      "if-domain":[
+        "costcobusinessdelivery.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?go\\-mpulse\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?groupbycloud\\.com\\/gb\\-tracker\\-client\\-3\\.min\\.js"
     },
     "action":{
@@ -2268,7 +2327,18 @@
       "if-domain":[
         "monster.ca",
         "sso.garena.com",
-        "thefork.com"
+        "thefork.at",
+        "thefork.be",
+        "thefork.ch",
+        "thefork.co.uk",
+        "thefork.com",
+        "thefork.de",
+        "thefork.es",
+        "thefork.fr",
+        "thefork.it",
+        "thefork.nl",
+        "thefork.pt",
+        "thefork.se"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?js\\.datadome\\.co\\/tags\\.js"
     },
@@ -2283,6 +2353,7 @@
       ],
       "if-domain":[
         "app.homebinder.com",
+        "bolt.new",
         "book.dmm.com",
         "etsy.com",
         "interacty.me",
@@ -2319,32 +2390,6 @@
         "jules.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kameleoon\\.eu\\/kameleoon\\.js"
-    },
-    "action":{
-      "type":"ignore-previous-rules"
-    }
-  },
-  {
-    "trigger":{
-      "if-domain":[
-        "palmettostatearmory.com",
-        "wyze.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kaptcha\\.com\\/collect\\/sdk\\?"
-    },
-    "action":{
-      "type":"ignore-previous-rules"
-    }
-  },
-  {
-    "trigger":{
-      "resource-type":[
-        "fetch"
-      ],
-      "if-domain":[
-        "vanillaereward.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kaxsdc\\.com\\/collect\\/sdk"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -3219,6 +3264,17 @@
   },
   {
     "trigger":{
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?opex\\.xplan\\.iress\\.com\\.au\\/js\\/xiled\\/util\\/pageview\\.js"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "if-domain":[
         "app.touchnote.com"
       ],
@@ -3390,6 +3446,20 @@
         "first-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?plantyn\\.com\\/optiext\\/optiextension\\.dll"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?platform\\.bombas\\.com\\/external\\/gtm\\.js"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -3879,6 +3949,17 @@
   {
     "trigger":{
       "if-domain":[
+        "cdn.i-ready.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shared\\.learnosity\\.com\\/vendor\\/rollbar\\.min\\.js"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
         "bristan.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sharethis\\.com\\/button\\/buttons\\.js"
@@ -3968,17 +4049,6 @@
         "retrounlim.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?smushcdn\\.com[\\/:&?]?.*\\/1\\.gif"
-    },
-    "action":{
-      "type":"ignore-previous-rules"
-    }
-  },
-  {
-    "trigger":{
-      "if-domain":[
-        "msci.com"
-      ],
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?snap\\.licdn\\.com\\/li\\.lms\\-analytics\\/insight\\.min\\.js"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -4825,6 +4895,37 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "if-domain":[
+        "uaf.edu"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?youvisit\\.com\\/SmartScript\\/"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-context":[
+        "child-frame"
+      ],
+      "if-domain":[
+        "uaf.edu"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?youvisit\\.com\\/tour\\/"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "first-party"
       ],
@@ -4913,6 +5014,7 @@
         "aena.es",
         "aeromexico.com",
         "afisha.timepad.ru",
+        "airhaifa.com",
         "aliexpress.com",
         "almamedia.fi",
         "ampparit.com",
@@ -4973,6 +5075,7 @@
         "courses.monoprix.fr",
         "cram.com",
         "crello.com",
+        "currys.co.uk",
         "cyclestyle.net",
         "cyclingnews.com",
         "cypress.io",
@@ -4991,6 +5094,7 @@
         "dropps.com",
         "e15.cz",
         "easternbank.com",
+        "eat.co.nz",
         "ecmweb.com",
         "ecovacs.com",
         "edwardjones.com",
@@ -5081,6 +5185,7 @@
         "lasvegasentuidioma.com",
         "lbc.co.uk",
         "lecker.de",
+        "lequipeur.com",
         "level.travel",
         "life.fi",
         "lift.co.za",
@@ -5095,6 +5200,7 @@
         "makitani.net",
         "mall.heiwa.jp",
         "mangaseek.net",
+        "marks.com",
         "mcgeeandco.com",
         "mecindo.no",
         "mediamarkt.nl",
@@ -5158,7 +5264,6 @@
         "proxyscrape.com",
         "qrcode-monkey.com",
         "radiko.jp",
-        "radio-canada.ca",
         "radiobob.de",
         "radiorur.de",
         "rbbtoday.com",
@@ -5221,6 +5326,7 @@
         "tickets.georgiaaquarium.org",
         "tide.com",
         "tilt.fi",
+        "time.com",
         "tivi.fi",
         "tn.com.ar",
         "tomshw.it",
@@ -5276,6 +5382,7 @@
         "zennioptical.com",
         "zf1.tohoku-epco.co.jp",
         "zinio.com",
+        "zipair.net",
         "zive.cz",
         "zozo.jp"
       ],
@@ -5393,10 +5500,12 @@
         "redstoneonline.jp",
         "rhbgroup.com",
         "rintraccialamiaspedizione.it",
+        "royalcams.com",
         "schwab.com",
         "seatmaps.com",
         "showroom-live.com",
         "skylar.com",
+        "slink.ptit.edu.vn",
         "sloways.eu",
         "square-enix.com",
         "starblast.io",
@@ -5408,10 +5517,12 @@
         "truckspring.com",
         "virginmedia.com",
         "virginplus.ca",
+        "webstatus.dev",
         "winefolly.com",
         "winhappy.com",
         "xl-bygg.no",
-        "zf1.tohoku-epco.co.jp"
+        "zf1.tohoku-epco.co.jp",
+        "zipair.net"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?googletagmanager\\.com\\/gtag\\/js"
     },
@@ -5542,6 +5653,7 @@
   {
     "trigger":{
       "if-domain":[
+        "identity.healthsafe-id.com",
         "nbc.com",
         "subwy.com",
         "tatamotors.com",
@@ -5657,6 +5769,7 @@
         "tou.tv",
         "usanetwork.com",
         "vanityfair.com",
+        "verizon.com",
         "vtr.com",
         "wayin.com",
         "wired.com"
@@ -5915,6 +6028,7 @@
         "friday.kodansha.co.jp",
         "handelsblatt.com",
         "inquirer.com",
+        "journaldequebec.com",
         "ksml.fi",
         "mainichi.jp",
         "marketwatch.com",
@@ -5964,6 +6078,7 @@
         "cyclestyle.net",
         "handelsblatt.com",
         "inquirer.com",
+        "journaldequebec.com",
         "ksml.fi",
         "mainichi.jp",
         "marketwatch.com",
@@ -6383,6 +6498,20 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "if-domain":[
+        "www.adobe.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adobe\\.com\\.ssl\\.d1\\.sc\\.omtrdc\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "first-party"
       ],
@@ -6403,6 +6532,17 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?content\\.ingbank\\.pl[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
+        "wizzair.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dd\\.wizzair\\.com\\.first\\-party\\-js\\.datadome\\.co[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -6475,6 +6615,17 @@
   {
     "trigger":{
       "if-domain":[
+        "paypal.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?paypal\\.com\\.first\\-party\\-js\\.datadome\\.co[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "if-domain":[
         "cibc.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sc\\.omtrdc\\.net[\\/:&?]?"
@@ -6490,6 +6641,20 @@
         "voi.0101.co.jp"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?team\\-rec\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "if-domain":[
+        "connect.ubisoft.com"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ubisoft\\.com\\.first\\-party\\-js\\.datadome\\.co[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -8311,6 +8476,17 @@
   },
   {
     "trigger":{
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cybozu\\.com\\/.*\\/event\\.gif\\?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "script"
       ],
@@ -8452,6 +8628,20 @@
         "pokemoncenter-online.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?f\\-tra\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?friday\\.kodansha\\.co\\.jp\\/scripts\\/taboola\\.js"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -8687,6 +8877,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?matsukiyococokara\\-online\\.com\\/store\\/.*\\/rtoaster\\.js"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "first-party"
       ],
@@ -8744,6 +8942,21 @@
         "paypaymall.yahoo.co.jp"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pvtag\\.yahoo\\.co\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "image",
+        "fetch"
+      ],
+      "if-domain":[
+        "mechacomic.jp"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?query\\.petametrics\\.com[\\/:&?]?"
     },
     "action":{
       "type":"ignore-previous-rules"
@@ -9913,6 +10126,34 @@
         "script"
       ],
       "if-domain":[
+        "mercadopublico.cl"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?static\\-cdn\\.hotjar\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "if-domain":[
+        "mercadopublico.cl"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?static\\.hotjar\\.com\\/c\\/hotjar\\-"
+    },
+    "action":{
+      "type":"ignore-previous-rules"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "if-domain":[
         "sydostran.se"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lwadm\\.com\\/lw\\/pbjs\\?pid="
@@ -10252,6 +10493,17 @@
   {
     "trigger":{
       "url-filter":"\\.com\\/g\\.gif\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "ping"
+      ],
+      "url-filter":"\\.com\\/hit"
     },
     "action":{
       "type":"block"
@@ -10861,6 +11113,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/_i\\?referral_url="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/_i\\?type=event&"
     },
     "action":{
@@ -10878,6 +11138,17 @@
   {
     "trigger":{
       "url-filter":"\\/_owa\\.gif\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "url-filter":"\\/_servix\\/webid\\.aspx\\?"
     },
     "action":{
       "type":"block"
@@ -10942,6 +11213,14 @@
   {
     "trigger":{
       "url-filter":"\\/a\\.gif\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/a\\/elevar\\/static\\/.*"
     },
     "action":{
       "type":"block"
@@ -11182,6 +11461,14 @@
   {
     "trigger":{
       "url-filter":"\\/adm_tracking\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/admtracker\\.lib\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -12254,6 +12541,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/analytics\\/rakuten\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/analytics\\/searches\\?"
     },
     "action":{
@@ -12473,6 +12768,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/analyticstrain\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/anametrix\\/cas\\.js"
     },
     "action":{
@@ -12663,17 +12966,6 @@
   },
   {
     "trigger":{
-      "resource-type":[
-        "fetch"
-      ],
-      "url-filter":"\\/api\\/metrics$"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/api\\/pageactivity"
     },
     "action":{
@@ -12772,6 +13064,14 @@
   {
     "trigger":{
       "url-filter":"\\/api\\/v1\\/EndpointTracker"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/api\\/v1\\/firehose\\/batch"
     },
     "action":{
       "type":"block"
@@ -12959,6 +13259,14 @@
   {
     "trigger":{
       "url-filter":"\\/AppMeasurementCustom\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/apps\\/ba\\-rev\\/app_metrics"
     },
     "action":{
       "type":"block"
@@ -13970,14 +14278,6 @@
   },
   {
     "trigger":{
-      "url-filter":"\\/browserinfo\\?f\\.sid="
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/bsp\\-analytics\\.min\\."
     },
     "action":{
@@ -14506,6 +14806,14 @@
   {
     "trigger":{
       "url-filter":"\\/click\\-tracking\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/click\\.php\\?lp=data_upd&"
     },
     "action":{
       "type":"block"
@@ -15044,17 +15352,6 @@
   },
   {
     "trigger":{
-      "unless-domain":[
-        "iugu.com"
-      ],
-      "url-filter":"\\/collect\\/sdk\\?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"\\/collect\\/stats\\?"
     },
     "action":{
@@ -15243,6 +15540,14 @@
   {
     "trigger":{
       "url-filter":"\\/com_joomlawatch\\/img\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/commerce\\-events\\-listener\\.js"
     },
     "action":{
       "type":"block"
@@ -16707,6 +17012,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/ev\\.gif\\?_rand="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/eva\\-analytics\\.min\\.js"
     },
     "action":{
@@ -16865,6 +17178,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/EventLoggerV3\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/eventLogServlet\\?"
     },
     "action":{
@@ -16922,6 +17243,14 @@
   {
     "trigger":{
       "url-filter":"\\/events\\/counter\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/events\\/events\\-utils\\.js"
     },
     "action":{
       "type":"block"
@@ -17137,6 +17466,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/ezoicanalytics\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/ezytrack\\.js"
     },
     "action":{
@@ -17186,6 +17523,17 @@
   {
     "trigger":{
       "url-filter":"\\/facebook_pixel_3_1_2\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/FacebookEvent\\/PageView"
     },
     "action":{
       "type":"block"
@@ -17461,6 +17809,14 @@
   {
     "trigger":{
       "url-filter":"\\/flying\\-analytics\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/footer\\-eventdata\\.js"
     },
     "action":{
       "type":"block"
@@ -18793,6 +19149,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/graphql\\/track\\-pageview"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/grumi\\-ip\\.js"
     },
     "action":{
@@ -19531,6 +19898,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/img\\.gif\\?_rand="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/img\\?eid="
     },
     "action":{
@@ -19785,6 +20160,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/index\\.php\\/analytics\\/cookieAnalytics$"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/index\\.track\\?"
     },
     "action":{
@@ -19794,6 +20180,14 @@
   {
     "trigger":{
       "url-filter":"\\/indextools\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/init\\?.*&fallbackUserId="
     },
     "action":{
       "type":"block"
@@ -19921,6 +20315,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/iris\\-t\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/iterable\\/track\\/views\\/.*"
     },
     "action":{
@@ -19974,6 +20376,14 @@
   {
     "trigger":{
       "url-filter":"\\/joomla\\-visites\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/jpuid\\?jsonp="
     },
     "action":{
       "type":"block"
@@ -20481,6 +20891,14 @@
   {
     "trigger":{
       "url-filter":"\\/LandingPageHitLog\\.aspx\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/LandingPageInteractionLog\\.aspx\\?"
     },
     "action":{
       "type":"block"
@@ -21075,9 +21493,6 @@
   },
   {
     "trigger":{
-      "unless-domain":[
-        "meet.google.com"
-      ],
       "url-filter":"\\/log\\?format="
     },
     "action":{
@@ -21183,6 +21598,17 @@
   {
     "trigger":{
       "url-filter":"\\/log_h\\.jsp"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "ping"
+      ],
+      "url-filter":"\\/log_js_error"
     },
     "action":{
       "type":"block"
@@ -21646,6 +22072,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/mati\\.gif\\?v="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/matomo\\-tracking\\.js"
     },
     "action":{
@@ -21673,6 +22107,9 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "script"
+      ],
       "unless-domain":[
         "github.com",
         "hub.docker.com",
@@ -21888,6 +22325,17 @@
   {
     "trigger":{
       "url-filter":"\\/metrics\\/track\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "url-filter":"\\/metrics\\/umd\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -22677,6 +23125,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/omnitrack\\-lately\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/omniture\\/uuid\\.js"
     },
     "action":{
@@ -22774,6 +23230,17 @@
   {
     "trigger":{
       "url-filter":"\\/oo\\/cl.*\\.js\\?rd="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"\\/oo\\/cl\\.js$"
     },
     "action":{
       "type":"block"
@@ -23225,6 +23692,14 @@
   {
     "trigger":{
       "url-filter":"\\/pageview\\?pageviewId"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/pageview\\?session="
     },
     "action":{
       "type":"block"
@@ -24230,6 +24705,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/plugins\\/tagging\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/plugins\\/userinfo\\.gif\\?"
     },
     "action":{
@@ -24504,6 +24987,14 @@
   {
     "trigger":{
       "url-filter":"\\/propagate_cookie\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/providers\\/atLabel\\/load$"
     },
     "action":{
       "type":"block"
@@ -25796,6 +26287,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/s\\.png\\?event="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/s\\/js\\/ta\\-2\\.3\\.js\\?"
     },
     "action":{
@@ -25892,6 +26391,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/script\\.hash\\.outbound\\-links\\.pageview\\-props\\.tagged\\-events\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/script\\.tagged\\-events\\.js"
     },
     "action":{
@@ -25925,6 +26432,14 @@
   {
     "trigger":{
       "url-filter":"\\/scripts\\.kissmetrics\\.com\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/scripts\\/click\\.js\\.php"
     },
     "action":{
       "type":"block"
@@ -26064,6 +26579,14 @@
         "image"
       ],
       "url-filter":"\\/search\\-cookie\\.aspx\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/secomapp\\.scripttag\\.js"
     },
     "action":{
       "type":"block"
@@ -26277,6 +26800,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/services\\/t\\/l\\?referrer="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/servlet\\/Cookie\\?"
     },
     "action":{
@@ -26389,6 +26920,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/sf\\-recommendations\\-events\\-listener\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/sfCounter\\/.*"
     },
     "action":{
@@ -26438,6 +26977,14 @@
   {
     "trigger":{
       "url-filter":"\\/shopify\\-boomerang\\-"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/shopify\\-datalayer\\-minified\\.js"
     },
     "action":{
       "type":"block"
@@ -26641,6 +27188,17 @@
   {
     "trigger":{
       "url-filter":"\\/skype\\-analytics\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/sLT_bEhAvIoR_aNaLySiS\\/.*"
     },
     "action":{
       "type":"block"
@@ -27089,6 +27647,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/stat\\/stat\\.php\\?type="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/stat2\\.aspx\\?"
     },
     "action":{
@@ -27263,6 +27829,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/statistiche\\/stat\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -27283,6 +27860,14 @@
   {
     "trigger":{
       "url-filter":"\\/statistics\\/visit\\?id="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/StatProviderV2\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -28220,6 +28805,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/tag\\?name=PageView"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/tag\\?tags="
     },
     "action":{
@@ -28835,6 +29431,14 @@
   {
     "trigger":{
       "url-filter":"\\/track\\/event\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/track\\/go\\.php\\?.*&referer_url="
     },
     "action":{
       "type":"block"
@@ -29571,6 +30175,14 @@
   {
     "trigger":{
       "url-filter":"\\/trackingApi\\?type="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/trackingClient\\.bundle\\.js"
     },
     "action":{
       "type":"block"
@@ -30338,6 +30950,17 @@
   {
     "trigger":{
       "url-filter":"\\/user\\-context\\?referrer="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "url-filter":"\\/user\\-data\\-minified\\."
     },
     "action":{
       "type":"block"
@@ -32189,6 +32812,14 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/yofi\\-telemetry\\-prod\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/youtubeVideoAnalytic\\.js"
     },
     "action":{
@@ -32419,6 +33050,30 @@
   },
   {
     "trigger":{
+      "url-filter":":\\/\\/data\\..*\\/v1\\/interact\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":":\\/\\/datacollector\\..*\\/event"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":":\\/\\/dwh\\-prod\\..*\\/de\\.npg\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":":\\/\\/elqtrk\\."
     },
     "action":{
@@ -32593,6 +33248,33 @@
   {
     "trigger":{
       "url-filter":":\\/\\/segment\\-cdn\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":":\\/\\/stat\\..*\\/pageview\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":":\\/\\/stats\\..*\\/code\\/e\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":":\\/\\/t\\.targito\\."
     },
     "action":{
       "type":"block"
@@ -33001,6 +33683,80 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"\\/_static\\/deliver\\.js\\?nonce="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/javascripts\\/browserfp\\.min\\.js\\?templateId="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "fetch"
+      ],
+      "url-filter":"\\/munin\\/a\\/ls\\?t="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/munin\\/a\\/tr\\/browserjs\\?domain="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/sk\\-park\\.php\\?pid="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
+        "third-party"
+      ],
+      "unless-domain":[
+        "linkvertise.com"
+      ],
+      "url-filter":"\\/sxp\\/i\\/.*"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/tc_imp\\.gif\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/ng\\.gif\\?"
     },
     "action":{
@@ -33397,7 +34153,34 @@
   },
   {
     "trigger":{
+      "url-filter":"&cx=c&gtm="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"&ep\\.analytics_storage="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"&event_name=page_view&"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "image"
+      ],
+      "url-filter":"&ga_blocked="
     },
     "action":{
       "type":"block"
@@ -33413,6 +34196,14 @@
   },
   {
     "trigger":{
+      "url-filter":"&sst\\.sw_exp="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\.js\\?id=GTM\\-"
     },
     "action":{
@@ -33421,7 +34212,47 @@
   },
   {
     "trigger":{
+      "url-filter":"\\/.*JmVu\\.js\\?sp="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/.*JmVu\\.js\\?tg="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/\\.netlify\\/scripts\\/rum"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"\\/ns\\.html\\?id=GTM\\-"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/send_ga4_params\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"\\/tag\\/proxy\\?id=G\\-"
     },
     "action":{
       "type":"block"
@@ -33449,6 +34280,50 @@
   {
     "trigger":{
       "url-filter":":\\/\\/sgtm\\..*\\.js\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":":\\/\\/tagging\\..*\\.js\\?aw="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":":\\/\\/tagging\\..*\\/settings\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"=aWQ9R1RNL.*apiKey="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
+        "first-party"
+      ],
+      "url-filter":"=aWQ9R1RNL.*page="
     },
     "action":{
       "type":"block"
@@ -33570,6 +34445,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?123rf\\.com\\/apicore\\-index\\/traffic_log"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?1rer\\.hummel\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -34058,6 +34941,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?airgreenland\\.com\\/tracking\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?airtable\\.com\\/internal\\/"
     },
     "action":{
@@ -34155,6 +35046,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?allaboutberlin\\.com\\/whoisthere\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?allbbwcams\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -34552,6 +35451,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.komiku\\.org[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.makeitmeme\\.com[\\/:&?]?"
     },
     "action":{
@@ -34625,6 +35532,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.productreview\\.com\\.au[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.python\\.org[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -34998,6 +35913,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?asanalytics\\.booking\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "if-domain":[
         "abebooks.com"
       ],
@@ -35074,6 +35997,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?avitop\\.com\\/aviation\\/hitlist\\.asp"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?b2c\\-unleash\\-proxy\\.fresha\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -35263,6 +36194,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?beacons\\.ai\\/api\\/next_api\\/rta_v1\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?beacons\\.digital\\.disneyadvertising\\.com[\\/:&?]?"
     },
     "action":{
@@ -35296,6 +36235,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?behance\\.net\\/v2\\/logs"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?beoecomapim\\.bang\\-olufsen\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -35426,7 +36373,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?biosolutions\\.tv\\/audience\\-proxy\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bitchute\\.com\\/data\\/script\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bitwarden\\.com\\/plsbl\\/"
     },
     "action":{
       "type":"block"
@@ -35763,7 +36726,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cammodels\\.com\\/api\\/metrics"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?campsaver\\.com\\/nelmio\\-js\\-logger\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cams\\.aebn\\.com\\/api\\/metrics"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?camxpress\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -36006,6 +36993,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clapper\\.life\\/update_deeplink_stats\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clapperapp\\.com\\/clpixgif\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clarice\\.streema\\.com[\\/:&?]?"
     },
     "action":{
@@ -36064,6 +37067,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clickindia\\.com\\/cimem\\/ad\\-post\\-ajax\\.php\\?FormName=browsingHistory"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clickins\\.slixa\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -36589,6 +37600,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?contentpass\\.net\\/error\\-tunnel"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?contentpass\\.net\\/stats"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cookpad\\.com\\/.*\\/activity_logs"
     },
     "action":{
@@ -36702,6 +37729,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cryo\\.socialblade\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?csp\\.godaddy\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -36854,6 +37889,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\.guide\\.photobucket\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\.jerkmate\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -37128,14 +38171,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?digg\\.com\\/library\\/tracker\\.js"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?digital\\.flytedesk\\.com\\/js\\/head\\.js"
     },
     "action":{
@@ -37284,6 +38319,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dropbox\\.com\\/2\\/pap_event_logging"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dropbox\\.com\\/2\\/udcl\\/log_timing"
     },
     "action":{
       "type":"block"
@@ -37582,6 +38625,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ei\\.monday\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eighten\\-bloc\\-party\\.thebrowser\\.company\\/script\\.js"
     },
     "action":{
@@ -37607,6 +38658,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eldorado\\.gg\\/white\\-house\\/white_house_script_data_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?elements\\.video\\/tr\\/"
     },
     "action":{
       "type":"block"
@@ -37814,6 +38873,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?etsy\\.com\\/clientlog"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?etsy\\.com\\/include\\/tags\\.js"
     },
     "action":{
       "type":"block"
@@ -38037,6 +39104,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.s4long\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.santander\\.co\\.uk[\\/:&?]?"
     },
     "action":{
@@ -38128,6 +39203,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?experte\\.com\\/t\\/events"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?exporntoons\\.net\\/api\\/stats\\?"
     },
     "action":{
@@ -38212,6 +39295,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?facebook\\.com\\/ajax\\/qm\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?facebook\\.com\\/ajax\\/weblite_load_logging\\/"
     },
     "action":{
       "type":"block"
@@ -38331,23 +39422,15 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fc2\\.com\\/ana\\/analyzer\\.php"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fc2\\.com\\/ana\\/processor\\.php\\?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fc2\\.com\\/counter_img\\.php\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fd\\.ivoclar\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -38540,6 +39623,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?foodcouture\\.net\\/public_html\\/ra\\/script\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?forgood\\.co\\.za\\/api\\/tracking\\/"
     },
     "action":{
       "type":"block"
@@ -39132,6 +40223,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?go\\.thegrocer\\.co\\.uk[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "image"
       ],
@@ -39259,9 +40358,6 @@
   },
   {
     "trigger":{
-      "unless-domain":[
-        "meet.google.com"
-      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?google\\.com\\/log[\\/:&?]?"
     },
     "action":{
@@ -39279,6 +40375,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?grabify\\.link\\/api\\/js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?graylog\\.prod\\.cams\\.run[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -39700,6 +40804,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "ping"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ifunny\\.co\\/api\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?iguazu\\.doordash\\.com[\\/:&?]?"
     },
     "action":{
@@ -40074,6 +41189,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?internal\\-t\\.posthog\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?internetslang\\.com\\/jass\\/"
     },
     "action":{
@@ -40235,6 +41358,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?javynow\\.com\\/ajax\\/access\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jerkmatelive\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -40490,6 +41621,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kqefj\\.clearstem\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kroger\\.com\\/clickstream\\/"
     },
     "action":{
@@ -40603,6 +41742,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lexology\\.com\\/pd\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lftce\\.clearstem\\.com\\/load"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lgforbes\\.akamaized\\.net\\/rtblog\\.php\\?"
     },
     "action":{
       "type":"block"
@@ -40934,6 +42089,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?logx\\-experimentation\\.iherb\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?logx\\.optimizely\\.com[\\/:&?]?"
     },
     "action":{
@@ -40958,7 +42121,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lookfantastic\\.ie\\/track"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?loom\\.com\\/metrics\\/graphql"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?love\\.vidora\\.su[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -41134,7 +42313,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?marketing\\.taskus\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?marty\\.zappos\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?massivecams\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -41599,6 +42794,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?monitor\\.lifemiles\\.com\\/collect"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?motorsport\\.com\\/stat\\/"
     },
     "action":{
@@ -41694,6 +42897,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mstm\\.motorsport\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mx\\.eneba\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -41829,14 +43040,6 @@
         "nbcnews.com"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nbcnews\\.com\\/_next\\/static\\/chunks\\/ads\\."
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ncbi\\.nlm\\.nih\\.gov\\/core\\/pinger"
     },
     "action":{
       "type":"block"
@@ -42208,6 +43411,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nzherald\\.co\\.nz\\/pf\\/resources\\/scripts\\/tracking\\/data\\-ref\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nzpages\\.co\\.nz\\/modules\\/common\\/track\\.js"
     },
     "action":{
@@ -42472,6 +43683,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pay4fans\\.com\\/api\\/analytics"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?paypal\\.com\\/credit\\-presentment\\/log"
     },
     "action":{
@@ -42520,6 +43739,46 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pdffiller\\.com\\/api_v3\\/experiment\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pdffiller\\.com\\/api_v3\\/uploader\\/stats"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pdffiller\\.com\\/click\\-stream\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pdffiller\\.com\\/funnel\\.php\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pdffiller\\.com\\/mpages\\/track\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pelisfree\\.site\\/cdn\\-cgi\\/trace"
     },
     "action":{
@@ -42552,6 +43811,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?perplexity\\.ai\\/rest\\/event\\/analytics"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?perr\\.hola\\.org[\\/:&?]?"
     },
     "action":{
@@ -42569,14 +43836,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pftk\\.temu\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ph\\.thenextweb\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -42760,6 +44019,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pl\\.elements\\.video[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pl\\.letsblock\\.it[\\/:&?]?"
     },
     "action":{
@@ -42825,6 +44092,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?player\\-telemetry\\.vimeo\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?player\\.javboys\\.cam\\/cdn\\-cgi\\/trace"
     },
     "action":{
       "type":"block"
@@ -43060,6 +44335,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?proxima\\.midjourney\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?publicwww\\.com\\/mtm\\/mtm\\.js"
     },
     "action":{
       "type":"block"
@@ -43494,6 +44777,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?revolut\\.com\\/api\\/t\\/errors"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rfk\\.biglots\\.com[\\/:&?]?"
     },
     "action":{
@@ -43567,6 +44858,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rome\\.api\\.flipkart\\.com\\/api\\/1\\/fdp"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?royalcams\\.com\\/tools\\/track\\.php\\?"
     },
     "action":{
       "type":"block"
@@ -43798,14 +45097,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sapphire\\-api\\.target\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "resource-type":[
         "ping"
       ],
@@ -43901,6 +45192,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?searchiq\\.co\\/api\\/tr\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?secretbenefits\\.com\\/js\\/script\\.js"
     },
     "action":{
       "type":"block"
@@ -44019,6 +45318,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shazam\\.com\\/services\\/metrics\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shemale\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -44229,6 +45536,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?smetrics\\.vanguard\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?smutty\\.com\\/ajax\\/trcking\\/"
     },
     "action":{
@@ -44262,6 +45577,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?solvusoft\\.com[\\/:&?]?.*\\/scripts\\/visitor\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sortlist\\.cloud\\/log"
     },
     "action":{
       "type":"block"
@@ -44448,7 +45771,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sst\\.shopware\\.com[\\/:&?]?"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sst\\.bwt\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -44456,7 +45779,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sstats\\.adobe\\.com[\\/:&?]?"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sst\\.shopware\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -44521,6 +45844,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stapadblockuser\\.xyz\\/stat\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stape\\.brascast\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -44731,6 +46062,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.hexa\\.watch[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.ibtimes\\.co\\.in[\\/:&?]?"
     },
     "action":{
@@ -44827,6 +46166,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.videasy\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.vk\\-portal\\.net[\\/:&?]?"
     },
     "action":{
@@ -44867,6 +46214,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stayforlong\\.com\\/api\\/kafka\\/tracking"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stayz\\.com\\.au\\/cl\\/data\\/omgpixel\\.json"
     },
     "action":{
@@ -44875,7 +46230,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stirr\\.com\\/api\\/stats"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stockanalysis\\.com\\/cfa\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?storage\\.googleapis\\.com\\/cdn2\\.guard\\.io\\/webflow\\/tracking\\-grd\\.js"
     },
     "action":{
       "type":"block"
@@ -45665,6 +47036,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tapepops\\.com\\/stat\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tapewithadblock\\.com\\/stat\\/"
     },
     "action":{
@@ -46041,6 +47420,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?thronecdn\\.com\\/analytics\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?thtk\\.temu\\.com[\\/:&?]?"
     },
     "action":{
@@ -46130,6 +47517,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?time\\.is\\/img\\/nod\\.png"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tms\\.abconsent\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -46375,6 +47770,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?track\\.iegcom\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?track\\.kueez\\.com[\\/:&?]?"
     },
     "action":{
@@ -46594,6 +47997,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?traveloka\\.com\\/api\\/v1\\/tvlk\\/events"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?trck\\.coomeet\\.com[\\/:&?]?"
     },
     "action":{
@@ -46765,6 +48176,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tsmate\\.com\\/api\\/metrics"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tubepornstars\\.com\\/js\\/analytics"
     },
     "action":{
@@ -46909,6 +48328,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ub\\.galaxus\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?uber\\.com\\/_events"
     },
     "action":{
@@ -46997,6 +48424,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ugprod\\.geeksforgeeks\\.org\\/post\\/api\\/usertracking\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ukdevilz\\.com\\/api\\/stats\\?"
     },
     "action":{
@@ -47030,6 +48465,30 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?um\\.contentstudio\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?umami\\.flixer\\.su[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?umami\\.spencerdevs\\.xyz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?umami\\.vidfast\\.pro[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -47085,6 +48544,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?up4stream\\.com\\/js\\/anti\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?upi\\.com\\/story\\/stat\\/"
     },
     "action":{
@@ -47102,6 +48569,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ups\\.com\\/img\\/icp\\.gif"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ups2up\\.fun\\/js\\/anti\\.js"
     },
     "action":{
       "type":"block"
@@ -47213,6 +48688,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vbox7\\.com\\/aj\\/player\\-stats\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vf\\.startpage\\.com[\\/:&?]?"
     },
     "action":{
@@ -47225,6 +48708,14 @@
         "fetch"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?video\\.mobile\\.yahoo\\.com\\/log$"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vidsrc\\.icu\\/js\\/script\\-custom\\.js"
     },
     "action":{
       "type":"block"
@@ -47297,6 +48788,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vivaldi\\..*\\/rep\\/rep\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vixenlive\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -47599,6 +49098,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?wealthfront\\.com\\/track_next\\?p="
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?web\\-perf\\.booking\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -48366,6 +49873,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?youtubekids\\.com\\/youtubei\\/v1\\/log_event\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ypmate\\.com\\/api\\/metrics"
     },
     "action":{
       "type":"block"
@@ -49171,6 +50686,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tmx\\.bestbuy\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tmx\\.td\\.com[\\/:&?]?"
     },
     "action":{
@@ -49179,7 +50702,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?u47\\.pnc\\.com[\\/:&?]?"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?u46\\.pnc\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -50004,6 +51527,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\.openerotik\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\.sportdeutschland\\.tv[\\/:&?]?"
     },
     "action":{
@@ -50256,6 +51787,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hokuspokus\\.tarnkappe\\.info[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?holidaycheck\\..*\\/svc\\/ubt\\/v1\\/events"
     },
     "action":{
       "type":"block"
@@ -51465,6 +53004,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?wnoz\\.de\\/nieyohh8\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "ping"
       ],
@@ -51508,7 +53055,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bgtfr\\-test\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bob\\-a1at\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dtpen\\.mno\\.link[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -51525,6 +53088,30 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?esca\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fakexa\\-post\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?logger\\-test\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mgntat\\.mno\\.link[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -51572,6 +53159,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?timit\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tmi\\.jv\\-telcoid\\.es[\\/:&?]?"
     },
     "action":{
@@ -51588,7 +53183,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?u\\.20mn\\.it[\\/:&?]?"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?u\\.20minutes\\.fr[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -51596,7 +53191,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\-aws\\.net[\\/:&?]?"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?u\\.20mn\\.it[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -51732,6 +53327,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.actu\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.aisnenouvelle\\.fr[\\/:&?]?"
     },
     "action":{
@@ -51741,6 +53344,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.allocine\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.annalect\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.apotheken\\-umschau\\.de[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -51884,6 +53503,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.brand\\-demo\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.brokser\\-heiratsmarkt\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.buffed\\.de[\\/:&?]?"
     },
     "action":{
@@ -51940,6 +53575,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.c7c12669\\-b77b\\-4cff\\-8b74\\-0aceec09c0c7\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.caminteresse\\.fr[\\/:&?]?"
     },
     "action":{
@@ -51981,6 +53624,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.cesoirtv\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.charentelibre\\.fr[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52036,7 +53687,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.cocinatis\\.com[\\/:&?]?"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.codebuild\\.ovh[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52069,6 +53720,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.computerfrage\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.comunidadmsm\\.es[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52109,6 +53768,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.dasgelbeblatt\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.derwesten\\.de[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52204,6 +53871,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.doctissimo\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.donaukurier\\.de[\\/:&?]?"
     },
     "action":{
@@ -52213,6 +53888,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.duden\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.dzfoot\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52244,6 +53927,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.einbuergerungstest\\-online\\.eu[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.einfach\\-tasty\\.de[\\/:&?]?"
     },
     "action":{
@@ -52253,6 +53944,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.einfachkochen\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.einfachschoen\\.me[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52309,6 +54008,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.eldiariomontanes\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.elmueble\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52388,6 +54095,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.entrenous\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.epe\\.es[\\/:&?]?"
     },
     "action":{
@@ -52397,6 +54112,30 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.espinof\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.europapress\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.europapress\\.tv[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.eventfinder\\.at[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52500,6 +54239,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.football\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.football365\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.fr\\.de[\\/:&?]?"
     },
     "action":{
@@ -52564,6 +54319,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.genialetricks\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.geo\\.fr[\\/:&?]?"
     },
     "action":{
@@ -52597,6 +54360,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.grazia\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.groupmintelligence\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52692,6 +54463,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.hola\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.hoy\\.es[\\/:&?]?"
     },
     "action":{
@@ -52724,6 +54503,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.infosalus\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.ingame\\.de[\\/:&?]?"
     },
     "action":{
@@ -52748,7 +54535,39 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.instyle\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.ippen\\.media[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.jakala\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.jamesonwhiskey\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.jdelhommeau\\.fr[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52788,14 +54607,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.kreisbote\\.de[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.kreiszeitung\\.de[\\/:&?]?"
     },
     "action":{
@@ -52812,6 +54623,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.kurierverlag\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lacentrale\\.fr[\\/:&?]?"
     },
     "action":{
@@ -52821,6 +54640,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lachainemeteo\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lacronicabadajoz\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52845,6 +54672,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.landtiere\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lanouvellerepublique\\.fr[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -52980,6 +54815,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.leckerschmecker\\.me[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lecturas\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lefigaro\\.fr[\\/:&?]?"
     },
     "action":{
@@ -53068,7 +54919,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lidl\\.pl[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.lindependant\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.listisima\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53132,7 +54999,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.manager\\-magazin\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.manga\\-viewer\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.mappy\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.mappyrecette\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53180,7 +55071,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.melty\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.merklespaintech\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.merkur\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.meteoconsult\\.es[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53220,6 +55135,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.mittelbayerische\\-stellen\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.mittelbayerische\\.de[\\/:&?]?"
     },
     "action":{
@@ -53228,7 +55151,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.mobilite\\-verte\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.modesettravaux\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.moin\\.de[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53292,7 +55239,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.nationalgeographic\\.com\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.neonmag\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.news\\.bayern[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53308,7 +55271,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.nextplz\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.nicematin\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.nicematin\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.noovomoi\\.ca[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53372,7 +55359,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.oktoberfest\\.bayern[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.op\\-online\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.orange\\.es[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53500,6 +55503,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.promiflash\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.psychologies\\.com[\\/:&?]?"
     },
     "action":{
@@ -53509,6 +55520,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.ptitchef\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.publisher\\-demo\\.media[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53588,6 +55607,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.sabervivirtv\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.salamancahoy\\.es[\\/:&?]?"
     },
     "action":{
@@ -53613,6 +55640,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.science\\-et\\-vie\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.semana\\.es[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53676,6 +55711,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.spiegel\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.spielaffe\\.de[\\/:&?]?"
     },
     "action":{
@@ -53708,7 +55751,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.staging\\-\\-hb\\.hmg\\.systems[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.staging\\-\\-wiwo\\.hmg\\.systems[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.stg\\.noovomoi\\.bellmedia\\.ca[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.stilo\\.es[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53804,6 +55871,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.telestar\\.fr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.telva\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.terrafemina\\.com[\\/:&?]?"
     },
     "action":{
@@ -53820,6 +55903,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.thestar\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.thewatmag\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.thueringen24\\.de[\\/:&?]?"
     },
     "action":{
@@ -53829,6 +55928,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.tierfans\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.tim\\.it[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -53908,6 +56015,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.utest2\\-prod\\.work[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.utest2\\.work[\\/:&?]?"
     },
     "action":{
@@ -53980,7 +56095,31 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.volksfest\\-freising\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.wa\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.webedia\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.webnachrichten\\.de[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -54013,6 +56152,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.wetterauer\\-zeitung\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.wieistmeineip\\.de[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.wiesn\\.bayern[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -54053,6 +56208,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.xataka\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?utiq\\.xatakaciencia\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -54140,6 +56303,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vfit\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vfuk\\.mno\\.link[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yesss\\-a1at\\.mno\\.link[\\/:&?]?"
     },
     "action":{
@@ -54165,6 +56344,30 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jv\\.dk\\/assets\\/statistics\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?matas\\.dk\\/internal\\/Tracking\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?minetilbud\\.dk\\/api\\/web\\/logViewAdvertPage"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?minetilbud\\.dk[\\/:&?]?.*\\/Statistics\\.asmx"
     },
     "action":{
       "type":"block"
@@ -54428,6 +56631,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dorcel\\.com\\/_stats\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?e\\.legalstart\\.fr[\\/:&?]?"
     },
     "action":{
@@ -54480,6 +56691,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\-logs\\.doctolib\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.verifymy\\.io[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -55307,7 +57526,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sta\\.extreme\\-down\\."
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sstm\\.sport2000\\.fr[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -55364,6 +57583,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stt\\.wawacity\\.onl[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stw\\.extrem\\-down\\.zone[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stw\\.extreme\\-down\\."
     },
     "action":{
       "type":"block"
@@ -55431,6 +57666,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracking\\.cdiscount\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tss\\.sport2000\\.fr[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -57763,7 +60006,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?insights\\.triad\\.sk[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jslog\\.post\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?logapi\\.alza\\.cz[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -57807,6 +60066,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?statistics\\.csob\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?xtv\\.cz\\/api\\/v3\\/log\\/"
     },
     "action":{
       "type":"block"
@@ -58014,6 +60281,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?log\\.willie\\.nl[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?marktplaats\\.nl\\/add_counter_image\\."
     },
     "action":{
@@ -58161,6 +60436,14 @@
         "other"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pipeline\\.lc\\.nl[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pipeline\\.nachtkastje\\.nl[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -58449,6 +60732,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tweakers\\.net\\/ajax\\/clicks\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tweakers\\.nl\\/track\\/"
     },
     "action":{
@@ -58498,6 +60789,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vroom\\.be[\\/:&?]?.*\\/stats\\.php\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?woonboulevardpoortvliet\\.nl\\/.*\\/Tagging_GTM\\/"
     },
     "action":{
       "type":"block"
@@ -58573,6 +60872,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ilcdn\\.fi[\\/:&?]?.*\\/Bootstrap\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?insights\\.mtv\\.a2d\\.tv[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -59297,6 +61604,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fideuram\\.it\\/js\\/cookie\\-manager\\/tracking\\-scripts\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?freeonline\\.org\\/sito_track\\?"
     },
     "action":{
@@ -59322,6 +61637,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?joka\\.it\\/inquiero\\/isapi\\/csf\\.dll\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kijimea\\.it\\/javascript\\/script\\.js"
     },
     "action":{
       "type":"block"
@@ -59573,14 +61896,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.stylight\\.it[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.suedtirolerjobs\\.it[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -60146,6 +62461,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?counter\\.asobeans\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?crank\\-in\\.net\\/assets\\/common\\/js\\/sendpv\\.js"
     },
     "action":{
@@ -60322,6 +62645,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gigafile\\.nu\\/add_count_fab_jx\\.php"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gizmodo\\.jp\\/api\\/SurveyCountCollection\\?"
     },
     "action":{
@@ -60395,6 +62726,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?k\\-crm\\.jp\\/tracking\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?kabu\\-sokuhou\\.com\\/js\\/cpv\\/"
     },
     "action":{
       "type":"block"
@@ -60558,6 +62897,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?next\\.rikunabi\\.com\\/api\\/logRecommendRealtimeI2AV2"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nhk\\.or\\.jp\\/mpulse\\/boomerang\\/"
     },
     "action":{
       "type":"block"
@@ -61961,6 +64308,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ab\\.g\\.globo\\/event"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?audience\\-mostread\\.r7\\.com[\\/:&?]?"
     },
     "action":{
@@ -62009,7 +64364,7 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dn\\.pt\\/tag\\/"
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dn\\.pt\\/scooby\\/api\\/v1\\/log\\/"
     },
     "action":{
       "type":"block"
@@ -62090,6 +64445,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?horizon\\.globo\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?inlead\\.digital\\/js\\/script\\.js"
     },
     "action":{
       "type":"block"
@@ -62320,6 +64683,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracker\\.publico\\.pt[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?trackid\\.globoid\\.globo\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -62581,6 +64952,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?booster\\.osnova\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?c\\.sibnet\\.ru[\\/:&?]?"
     },
     "action":{
@@ -62654,6 +65033,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cs43\\.pikabu\\.ru[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cu\\.dzen\\.ru\\/\\?rn="
     },
     "action":{
       "type":"block"
@@ -62959,6 +65346,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mts\\.ru\\/fe\\-api\\/logger"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mtsbank\\.ru\\/hustonwehaveaproblem\\/"
     },
     "action":{
       "type":"block"
@@ -63286,6 +65681,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?telemetry\\.dzen\\.ru[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tes\\-game\\.ru\\/stat\\/"
     },
     "action":{
@@ -63363,6 +65766,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vesti\\.ru\\/counter\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vkvideo\\.ru\\/al_video\\.php\\?act=track"
     },
     "action":{
       "type":"block"
@@ -63581,6 +65992,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?counters\\.libertaddigital\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cp\\.as\\.com\\/stats"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\-ingest\\.xtralife\\.com[\\/:&?]?"
     },
     "action":{
@@ -63590,6 +66017,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?data\\.acierto\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?deporvillage\\.com\\/tracking\\-library\\/"
     },
     "action":{
       "type":"block"
@@ -63638,6 +66073,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?estadonline\\.publiguias\\.cl[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?eternalmangas\\.com\\/api\\/track\\-visit"
     },
     "action":{
       "type":"block"
@@ -63765,6 +66208,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pccomponentes\\..*\\/api\\/users\\/tracking\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixel\\.europapress\\.net[\\/:&?]?"
     },
     "action":{
@@ -63774,6 +66225,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?px\\-intl\\.ucweb\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rba\\.es\\/track\\.action"
     },
     "action":{
       "type":"block"
@@ -63886,6 +66345,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?todomercadoweb\\.es\\/pixel"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracker\\.atrapalo\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -64679,6 +67146,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?accounts\\.google\\.com\\/gsi\\/log"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?activengage\\.com\\/overwatch\\/"
     },
     "action":{
@@ -64814,6 +67289,17 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ads\\-trk\\.vidible\\.tv[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adsmoloco\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -65046,6 +67532,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?amazonaws\\.com\\/b2bjsstore\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?amazonaws\\.com\\/beacon[\\/:&?]?"
     },
     "action":{
@@ -65236,6 +67730,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?amp\\.vg\\/track\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?amplifypixel\\.outbrain\\.com[\\/:&?]?"
     },
     "action":{
@@ -65311,6 +67813,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analyticcdn\\.wlmediahub\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\-1\\.cavai\\.com[\\/:&?]?"
     },
     "action":{
@@ -65344,6 +67854,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\-consent\\-manager\\-v2\\-prod\\.azureedge\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\-fe\\.digital\\-cloud\\-prem\\.medallia\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -65392,6 +67910,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\-static\\.ugc\\.bazaarvoice\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\-tracker\\.thescore\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -65768,6 +68294,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.gtflixtv\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.gvim\\.mobi[\\/:&?]?"
     },
     "action":{
@@ -66051,6 +68585,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.propensity\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.pyksid\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.qualityunit\\.com[\\/:&?]?"
     },
     "action":{
@@ -66092,6 +68642,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.salesanalytics\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.scorpion\\.co[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -66583,6 +69141,17 @@
   },
   {
     "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?api\\.visitorapi\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?api\\.wipmania\\.com[\\/:&?]?"
     },
     "action":{
@@ -66949,6 +69518,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?aservice\\.cloud\\/trc\\/mastertag"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?assets\\.apollo\\.io\\/micro\\/website\\-tracker\\/"
     },
     "action":{
@@ -67293,6 +69870,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?azureedge\\.net\\/javascripts\\/Tracking\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?azureedge\\.net\\/sdrive\\/zero\\-tracking\\.js"
     },
     "action":{
       "type":"block"
@@ -67827,6 +70412,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blackcrow\\.ai\\/v1\\/events\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blend\\.com\\/event\\/"
     },
     "action":{
@@ -67903,6 +70496,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?booking\\.com\\/pxpixel\\.html"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?boomtrain\\.com\\/identify\\/resolve\\?"
     },
     "action":{
       "type":"block"
@@ -68032,6 +70633,22 @@
         "image"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bucklemail\\.com\\/a\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bundle\\.dyn\\-rev\\.app\\/loader\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bundle\\.ppas\\.monster[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -68365,6 +70982,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cdn\\.cuty\\.io\\/fps\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -68627,7 +71252,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cl\\-pbr\\.cxr\\.skeepers\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cleantalk\\.org\\/pixel\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clearbuy\\.com\\/api\\/cookie"
     },
     "action":{
       "type":"block"
@@ -68671,6 +71312,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?click\\.appinthestore\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?click\\.rypr\\.ru[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -69522,6 +72171,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?collector\\-.*\\.luigisbox\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?collector\\-1\\.ex\\.co[\\/:&?]?"
     },
     "action":{
@@ -69684,6 +72341,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?competitoor\\.com\\/analytics\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?conan\\.screencast\\-o\\-matic\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -70369,6 +73034,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ct\\-errs\\.cartrawler\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ct\\.capterra\\.com[\\/:&?]?"
     },
     "action":{
@@ -70462,6 +73135,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?customerlobby\\.com\\/ctrack\\-"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?customers\\.edgetag\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?customers\\.xray\\-superpixel\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -70734,6 +73423,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?debales\\.ai\\/api\\/analytic\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?debales\\.ai\\/ingest\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
@@ -70958,6 +73663,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dnnapi\\.com\\/analytics\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?doh\\.cq0\\.co[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?doofinder\\.com\\/api\\/v2\\/stats\\/"
     },
     "action":{
       "type":"block"
@@ -71195,6 +73916,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ecommerce\\-events\\.adscale\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ecommstats\\.s3\\.amazonaws\\.com[\\/:&?]?"
     },
     "action":{
@@ -71204,6 +73933,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?edge\\-hls\\.doppiocdn\\.com\\/ping"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?edge\\-hls\\.doppiocdn\\.live\\/ping"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?edge\\-hls\\.doppiocdn\\.net\\/ping"
     },
     "action":{
       "type":"block"
@@ -71345,6 +74090,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?error\\-analytics\\-sessions\\-production\\.shopifysvc\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?errors\\.snackly\\.co[\\/:&?]?"
     },
     "action":{
@@ -71473,6 +74226,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?event\\.syftdata\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?event\\.syndigo\\.cloud[\\/:&?]?"
     },
     "action":{
@@ -71544,6 +74305,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\-endpoint\\.pointandplace\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\-proxy\\.mintlify\\.com"
     },
     "action":{
       "type":"block"
@@ -71714,6 +74483,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.pickrr\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.realgravity\\.com[\\/:&?]?"
     },
     "action":{
@@ -71737,6 +74514,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.shareably\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.shoplift\\.ai[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -72125,6 +74910,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fallback\\.attntags\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fallback\\.emtag\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?faphouse\\.com\\/api\\/collector\\/"
     },
     "action":{
@@ -72378,6 +75179,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?flixster\\.com[\\/:&?]?.*\\/analytics\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?flocdn\\.com[\\/:&?]?.*\\/dpl\\/"
     },
     "action":{
       "type":"block"
@@ -72875,6 +75684,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?geo\\.bdg\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?geo\\.ertya\\.com[\\/:&?]?"
     },
     "action":{
@@ -72980,6 +75797,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?geoproapp\\.com\\/api\\/record"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?geoservice\\.curse\\.com[\\/:&?]?"
     },
     "action":{
@@ -72989,6 +75814,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?geotags\\.refinery89\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?getelevar\\.com\\/configs\\/"
     },
     "action":{
       "type":"block"
@@ -73134,6 +75967,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?global\\.ssl\\.fastly\\.net\\/native\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?globale\\-analytics\\-sdk\\.global\\-e\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -73728,6 +76569,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hit\\.mybestpro\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hit\\.salesfire\\.co\\.uk[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -74736,6 +77585,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?js\\.verisoul\\.ai[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jscache\\.com\\/static\\/page_moniker\\/"
     },
     "action":{
@@ -74745,6 +77602,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jsdelivr\\.net\\/gh\\/sensitiveio\\/sbtracker@master\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jsdelivr\\.net\\/npm\\/@snowplow\\/"
     },
     "action":{
       "type":"block"
@@ -74800,6 +77665,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?juicer\\.io\\/api\\/page_views"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?k\\.keyade\\.com[\\/:&?]?"
     },
     "action":{
@@ -74809,6 +77682,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?k\\.streamrail\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?k5a\\.io\\/\\?i="
     },
     "action":{
       "type":"block"
@@ -75773,6 +78654,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?logs\\.dynamicauth\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?logs\\.mezmo\\.com[\\/:&?]?"
     },
     "action":{
@@ -76699,6 +79588,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mrkhub\\.com\\/sks\\/js\\/sks_track\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ms\\-trackingapi\\.phenompeople\\.com[\\/:&?]?"
     },
     "action":{
@@ -77375,6 +80272,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?obs\\.jollyoutdoorjogger\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?obs\\.system1onesource\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?observe\\-nexus\\.pointandplace\\.com[\\/:&?]?"
     },
     "action":{
@@ -77470,6 +80383,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?olytics\\.omeda\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?omnie\\.ai\\/api\\/ddMetric"
     },
     "action":{
       "type":"block"
@@ -77834,6 +80755,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?p\\.skimresources\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?p\\.tryretool\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -78317,6 +81246,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ping\\.fastsimon\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pings\\.conviva\\.com[\\/:&?]?"
     },
     "action":{
@@ -78504,6 +81441,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixel\\.pub\\.lilyai\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixel\\.redgifs\\.com[\\/:&?]?"
     },
     "action":{
@@ -78577,6 +81522,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixels\\.afcdn\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixels\\.zalify\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -78756,6 +81709,22 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pn\\.ybp\\.yahoo\\.com\\/ab\\/secure\\/true\\/imp\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?polarbyte\\.com\\/scripts\\/latest\\/reach\\/pb\\-reach\\.iife\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?polarbyte\\.com\\/scripts\\/latest\\/survey\\/pb\\-survey\\.iife\\.min\\.js"
     },
     "action":{
       "type":"block"
@@ -78967,14 +81936,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?prodregistryv2\\.org[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?propps\\.com\\/v1\\/referrer\\/"
     },
     "action":{
@@ -79011,14 +81972,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?proxy\\.trysavvy\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?proxycheck\\.io\\/v2\\/"
     },
     "action":{
       "type":"block"
@@ -79532,6 +82485,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?raygun\\.io\\/ping\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rayn\\.io\\/contextual_targeting"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rbl\\.ms\\/res\\/users\\/tracking\\/"
     },
     "action":{
@@ -79589,6 +82558,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?recipefy\\.net\\/analytics\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?reco\\.target2sell\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -79823,10 +82800,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?reviews\\.io\\/stats\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "resource-type":[
         "image"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rfksrv\\.com\\/rfkj\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rg\\-3tn\\.pages\\.dev[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -79899,6 +82892,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rt\\.flix360\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rtb\\.prod\\.carbonatixaudio\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -80010,7 +83011,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?run\\.app\\/events\\-receiver\\/get\\-web\\-event"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?run\\.app\\/metrics\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?run\\.app\\/track\\.js"
     },
     "action":{
       "type":"block"
@@ -80049,6 +83066,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?s\\.autopilotapp\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?s\\.axon\\.ai\\/s\\/pixel\\.js"
     },
     "action":{
       "type":"block"
@@ -80159,6 +83184,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?salescs\\.com\\/liveagent\\/scripts\\/track\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?salesforce\\.com\\/beacon\\/"
     },
     "action":{
       "type":"block"
@@ -80308,6 +83341,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?scripts\\.stay22\\.com\\/letmeallez\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?scripts\\.swifteq\\.com\\/hc_events\\.js"
     },
     "action":{
@@ -80449,6 +83490,14 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?segments\\.adap\\.tv[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sempra\\.pro\\/stat\\/"
     },
     "action":{
       "type":"block"
@@ -80631,6 +83680,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shopify\\.com\\/shopifycloud\\/web\\-pixels\\-manager\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?shopifysvc\\.com\\/v1\\/logs"
     },
     "action":{
       "type":"block"
@@ -81464,6 +84521,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.indianpornempire\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.inergizedigitalmedia\\.com[\\/:&?]?"
     },
     "action":{
@@ -81587,6 +84652,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.pixeldrain\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.polldaddy\\.com[\\/:&?]?"
     },
     "action":{
@@ -81643,6 +84716,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.sender\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.senty\\.com\\.au[\\/:&?]?"
     },
     "action":{
@@ -81652,6 +84733,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.shopify\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\.slashed\\.cloud[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -81905,6 +84994,17 @@
   },
   {
     "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?streamate\\.icfcdn\\.com\\/dist\\/getPerformanceMetrics\\."
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?streamoptim\\.com\\/log\\.js"
     },
     "action":{
@@ -81946,6 +85046,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sts\\.eccmp\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ststandard\\.com\\/adsf"
     },
     "action":{
       "type":"block"
@@ -82637,7 +85745,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tag\\.unifyintent\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tagger\\.opecloud\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tagging\\.shiftdigitalapps\\.io[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -82718,6 +85842,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tatadigital\\.com\\/analytics\\-engine\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?td\\.doubleclick\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -83209,6 +86341,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tr\\.thecontentserver\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tr\\.vitals\\.co[\\/:&?]?"
     },
     "action":{
@@ -83565,6 +86705,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracker\\-dot\\-optimeeze\\.appspot\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracker\\-server\\.high\\-cdn\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -84081,6 +87229,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracking\\.graphly\\.io[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracking\\.happierleads\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -84799,10 +87955,34 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tzm\\.px\\-cloud\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?uaas\\.yandex\\.ru[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?uadblocker\\.com\\/pixel1\\.php\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ubm\\.docu\\.info[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -84927,6 +88107,22 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?uptime\\.com\\/static\\/rum\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?uptime\\.fastrr\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?upvert\\.io\\/api\\/v3\\/pixel\\/"
     },
     "action":{
       "type":"block"
@@ -85153,6 +88349,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vdrn\\.redplum\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vector\\.co\\/pixel\\.js"
     },
     "action":{
       "type":"block"
@@ -85414,6 +88618,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?visualwebsiteoptimizer\\.com\\/events\\/t\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?visualwebsiteoptimizer\\.com\\/gv\\.gif\\?"
     },
     "action":{
@@ -85506,6 +88718,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?voxmedia\\.com\\/beacon\\-min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vplayeranalytics\\.vidgyor\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -86132,6 +89352,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?wt\\.viagogo\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?wtb\\-tag\\.swaven\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -86878,6 +90106,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d20vwa69zln1wj\\.cloudfront\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d21o24qxwf7uku\\.cloudfront\\.net[\\/:&?]?"
     },
     "action":{
@@ -86982,6 +90218,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d2i34c80a0ftze\\.cloudfront\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d2ibu2ug0mt5qp\\.cloudfront\\.net[\\/:&?]?"
     },
     "action":{
@@ -87022,7 +90266,23 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d2lyx5ly60ksu3\\.cloudfront\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d2nq0f8d9ofdwv\\.cloudfront\\.net\\/track\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d2o5idwacg3gyw\\.cloudfront\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -87390,6 +90650,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d6rak4b14t5gp\\.cloudfront\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?d761erxl2qywg\\.cloudfront\\.net[\\/:&?]?"
     },
     "action":{
@@ -87407,6 +90675,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?danv01ao0kdr2\\.cloudfront\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?db7q4jg5rkhk8\\.cloudfront\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -87535,6 +90811,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dqif5bl25s0bf\\.cloudfront\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dr6vcclmzwk74\\.cloudfront\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -89130,6 +92414,22 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hotelstatic\\.com\\/collect"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hotelstatic\\.com\\/perf"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?house27\\.ch\\/counter\\/"
     },
     "action":{
@@ -89760,6 +93060,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?topblogs\\.de\\/tracker\\.php\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?track2\\.cliplister\\.com[\\/:&?]?"
     },
     "action":{
@@ -90318,6 +93626,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?high\\-cdn\\.com\\/log\\.php\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?houston\\.advgo\\.net[\\/:&?]?"
     },
     "action":{
@@ -90327,6 +93643,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?humanoid\\.fr\\/register\\-impression\\?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hzcdn\\.io\\/bff\\/static\\/vendor\\/sourcepoint\\-lib\\/"
     },
     "action":{
       "type":"block"
@@ -90856,6 +94180,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?aff.*\\.kolektiva\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?freshatl\\.azurewebsites\\.net[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -91908,6 +95240,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?1gr\\.cz\\/log\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?a\\.centrum\\.cz[\\/:&?]?"
     },
     "action":{
@@ -91992,6 +95332,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?log\\.idnes\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?m\\.1gr\\.cz[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -92207,6 +95555,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.hatech\\.dev[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.newsifier\\.nl[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -92551,6 +95907,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?metrics\\.find\\.gr[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stats\\-real\\-clients\\.zentech\\.gr[\\/:&?]?"
     },
     "action":{
@@ -92656,6 +96020,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?parsley\\.detik\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tracker\\.oval\\.id[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -92839,6 +96211,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fa5\\.dn4\\.it[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fb_servpub\\-a\\.akamaihd\\.net[\\/:&?]?"
     },
     "action":{
@@ -92970,6 +96350,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?load\\.nootiz\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?log\\.edidomus\\.it[\\/:&?]?"
     },
     "action":{
@@ -93067,6 +96455,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?plug\\.it[\\/:&?]?.*\\/tracking_"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rbdata\\.boostymark\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -93173,6 +96569,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tr\\.brand\\-fresh\\.it[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tr\\.bt\\.matrixspa\\.it[\\/:&?]?"
     },
     "action":{
@@ -93254,6 +96658,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?triboomedia\\.it[\\/:&?]?.*\\/Bootstrap\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?usage\\.centsdonations\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -93455,14 +96867,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.spearly\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analyzer51\\.fc2\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -94282,6 +97686,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?script\\.mixi\\.net\\/static\\/js\\/build\\/mixi\\-analysis\\-\\.production\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?seesaa\\.jp\\/ot_square\\.pl\\?"
     },
     "action":{
@@ -94464,6 +97876,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?t\\.adclr\\.jp[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?t\\.adlpo\\.com[\\/:&?]?"
     },
     "action":{
@@ -94548,6 +97968,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tr\\.slvrbullet\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?trace\\.bluemonkey\\.jp[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -95135,6 +98563,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hypemarketing\\.pl\\/cdn\\/fhmm\\-tracker\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?liczniki\\.org\\/hit\\.php"
     },
     "action":{
@@ -95311,6 +98747,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?arena\\.im\\/v2\\/collect"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?b2w\\.io\\/event\\/"
     },
     "action":{
@@ -95416,6 +98860,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?nctrk\\.abmail\\.com\\.br[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ndmais\\.com\\.br\\/tracking\\-parceiros\\-ndmais\\/"
     },
     "action":{
       "type":"block"
@@ -95560,6 +99012,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?visit\\-prod\\-us\\.occa\\.ocs\\.oraclecloud\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?web\\-ivcbrasil\\-tag\\.s3\\.us\\-west\\-2\\.amazonaws\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -95939,6 +99399,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?events\\.plus\\.yandex\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?g4p\\.redtram\\.com[\\/:&?]?"
     },
     "action":{
@@ -96210,6 +99678,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?piper\\.amocrm\\.ru[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixel\\-storage\\.konnektu\\.ru[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -96849,6 +100325,17 @@
   },
   {
     "trigger":{
+      "if-domain":[
+        "mxplus.tv"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bitmovin\\.com\\/analytics\\/web\\/2\\/bitmovinanalytics\\.min\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bpt\\.webedia\\-group\\.com[\\/:&?]?"
     },
     "action":{
@@ -96937,6 +100424,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?edisound\\.com\\/api\\/p\\/medias\\/stats"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?enetres\\.net\\/StatisticsV1\\/"
     },
     "action":{
@@ -96954,6 +100449,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?g\\-stats\\.openhost\\.es[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?groupbycloud\\.com\\/wisdom\\/v2\\/pixel"
     },
     "action":{
       "type":"block"
@@ -97026,6 +100529,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?s3wfg\\.com\\/js\\/vortexloader\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?segment\\.lalr\\.co[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -97137,6 +100648,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?unpkg\\.com\\/@topsort\\/analytics\\.js"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?webpixel\\.smartmeapp\\.com[\\/:&?]?"
     },
     "action":{
@@ -97208,6 +100727,14 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pixel\\.smartmedia\\.tj[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?roibest\\-report\\-sdk\\.qiliangjia\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -97290,10 +100817,26 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.ticimax\\.cloud[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "load-type":[
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?analytics\\.turk\\.pro[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?app\\.kulgacdn\\.com\\/js\\/script\\.js"
     },
     "action":{
       "type":"block"
@@ -102563,7 +106106,29 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adactive\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?affilbox\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?affiliateport\\.eu[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -102585,7 +106150,40 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?boldem\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ehub\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?itop\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?leady\\.com[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -102663,6 +106261,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?programmatic\\.cz[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?retargeted\\.co[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -103267,6 +106876,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?brevo\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?buzzoole\\.com[\\/:&?]?"
     },
     "action":{
@@ -103773,6 +107393,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yodalytics\\.com[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?accaii\\.com[\\/:&?]?"
     },
     "action":{
@@ -103994,6 +107625,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?blogranking\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bownow\\.jp[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -104898,6 +108540,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?woomy\\.me[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?zerostats\\.com[\\/:&?]?"
     },
     "action":{
@@ -105684,6 +109337,17 @@
       "load-type":[
         "third-party"
       ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?deviceprotect\\.eu[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?engageya\\.com[\\/:&?]?"
     },
     "action":{
@@ -106304,6 +109968,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cityua\\.net[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?click\\.ru[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -108078,6 +111753,17 @@
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tagon\\.co[\\/:&?]?"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "load-type":[
+        "third-party"
+      ],
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?thequin\\.ai[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -144755,14 +148441,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?go\\.engiestorage\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?go\\.esri\\.fi[\\/:&?]?"
     },
     "action":{
       "type":"block"
@@ -208562,14 +212240,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?secure\\.info\\.m\\.seek\\.co\\.nz[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?secure\\.realwomenofphiladelphia\\.ca[\\/:&?]?"
     },
     "action":{
@@ -264818,14 +268488,6 @@
   },
   {
     "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?get\\.revolut\\.com[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?get\\.reward\\.me[\\/:&?]?"
     },
     "action":{
@@ -278123,14 +281785,6 @@
   {
     "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?open\\.ailo\\.app[\\/:&?]?"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?open\\.airtelxstream\\.in[\\/:&?]?"
     },
     "action":{
       "type":"block"

@@ -381743,6 +381743,47 @@
         "script"
       ],
       "load-type":[
+        "first-party"
+      ],
+      "if-domain":[
+        "4545comics.com",
+        "chinshiko-outfit.com",
+        "comic-r18.com",
+        "dhufufu-manga.com",
+        "dochashiko-manga.com",
+        "doujin-gt.com",
+        "doujin-town.com",
+        "doujingeeks.com",
+        "ecchimanga-jpn.com",
+        "echichichichi.com",
+        "ecstasy-web.com",
+        "erokawaiibooks.com",
+        "eronsfw.com",
+        "excite-doujin.com",
+        "free-doujin.com",
+        "h-library.com",
+        "hentai-road.com",
+        "hentaipunch.com",
+        "mas-dr.com",
+        "nuki-dou.com",
+        "onaninpic.com",
+        "paio-hazard.com",
+        "shikoshikoread.com",
+        "skeb-collection.com",
+        "z-hentai.net"
+      ],
+      "url-filter":"\\.php$"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
+      "resource-type":[
+        "script"
+      ],
+      "load-type":[
         "third-party"
       ],
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?cloudflare\\.com\\/ajax\\/libs\\/postscribe\\/"
@@ -381974,6 +382015,14 @@
   },
   {
     "trigger":{
+      "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?achost\\.top\\/uploads\\/ads\\/"
+    },
+    "action":{
+      "type":"block"
+    }
+  },
+  {
+    "trigger":{
       "url-filter":"^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ads\\.zippal\\.com[\\/:&?]?"
     },
     "action":{
@@ -382133,6 +382182,15 @@
     "action":{
       "type":"css-display-none",
       "selector":".asg-vast-overlay"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*"
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".notranslate[dir][style^=\"width: max-content;\"][style$=\"opacity: 1;\"]"
     }
   },
   {
@@ -382814,19 +382872,6 @@
     "action":{
       "type":"css-display-none",
       "selector":".unit"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*blogmimi.com",
-        "*legend-anime.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"div[style^=\"float:none;margin:\"]"
     }
   },
   {
@@ -384479,6 +384524,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*nowokay.hatenablog.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-content > div.hatena-asin-detail"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*nsdev.jp"
       ]
     },
@@ -385069,6 +385126,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*schizophonic9-2.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#tertiary > .side-menu:has(> .side-menu-title > .plugin-freearea)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*senilog.com"
       ]
     },
@@ -385117,54 +385186,6 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
-        "*smpl-rfrns.net"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":".for_ads"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*solarjournal.jp"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#pchdright"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*sora-ten.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#text-16 > .textwidget > p:has(> .adsbygoogle)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
-        "*schizophonic9-2.com"
-      ]
-    },
-    "action":{
-      "type":"css-display-none",
-      "selector":"#tertiary > .side-menu:has(> .side-menu-title > .plugin-freearea)"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":".*",
-      "if-domain":[
         "*shogaisha-shuro.com"
       ]
     },
@@ -385195,6 +385216,18 @@
     "action":{
       "type":"css-display-none",
       "selector":".productWrap"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*smpl-rfrns.net"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".for_ads"
     }
   },
   {
@@ -385237,12 +385270,48 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*solarjournal.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#pchdright"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*solohiker2020.com"
       ]
     },
     "action":{
       "type":"css-display-none",
       "selector":"div[id^=\"soloh-\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*sora-ten.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#text-16 > .textwidget > p:has(> .adsbygoogle)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*spotry.me"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".amazon-affiliate-link"
     }
   },
   {
@@ -385675,6 +385744,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*feat-elfi03.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"body > center:first-child:has(> script)"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*graoda.blog.fc2.com"
       ]
     },
@@ -385755,6 +385836,90 @@
     "action":{
       "type":"css-display-none",
       "selector":".rectangle_box"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*eatout-hack.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"p[style] > span[style=\"font-size: 80%;\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*l-media.tokyo"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".post > .section-in > div[align=\"center\"]"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*l-media.tokyo"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".post > .section-in > table"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news2019.biz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-37"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news2019.biz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":"#custom_html-39"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news2019.biz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".w-afterRelated > .c-widget.widget_custom_html"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*news2019.biz"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".wp-block-group > .wp-block-group__inner-container:has(> .red_ a[href*=\"amzn.to\"])"
     }
   },
   {
@@ -386904,6 +387069,18 @@
     "trigger":{
       "url-filter":".*",
       "if-domain":[
+        "*kledgeb.blogspot.com"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".cls_divMatchedContentAdsenceTitle"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
         "*kyonyu.jp"
       ]
     },
@@ -387690,6 +387867,30 @@
     "action":{
       "type":"css-display-none",
       "selector":".ad"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*karaage.hatenadiary.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-footer-html"
+    }
+  },
+  {
+    "trigger":{
+      "url-filter":".*",
+      "if-domain":[
+        "*karaage.hatenadiary.jp"
+      ]
+    },
+    "action":{
+      "type":"css-display-none",
+      "selector":".entry-header-html"
     }
   },
   {
@@ -389732,22 +389933,6 @@
     "action":{
       "type":"css-display-none",
       "selector":"adframe { position: absolute !important; left: -4000px !important; }"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"rkd3\\.dev#%#\\/\\/scriptlet('prevent\\-fetch', 'pagead2\\.googlesyndication\\.com')"
-    },
-    "action":{
-      "type":"block"
-    }
-  },
-  {
-    "trigger":{
-      "url-filter":"rkd3\\.dev#%#\\/\\/scriptlet('set\\-constant', 'navigator\\.brave', 'undefined')"
-    },
-    "action":{
-      "type":"block"
     }
   },
   {
